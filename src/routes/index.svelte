@@ -3,6 +3,8 @@
 	import MapChoroplethAPI from '$lib/components/MapChoroplethAPI.svelte';
 	import MapChoropleth from '$lib/components/MapChoropleth.svelte';
 
+	// Re-size text based on container width: https://css-tricks.com/fitting-text-to-a-container/
+
 	// DataWrapper resize function
 	// function resizeDW(e) {
 	//   'use strict';
