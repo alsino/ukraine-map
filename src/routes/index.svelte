@@ -30,5 +30,6 @@
 		margin: 0;
 		text-align: center;
 		font-family: Arial, Helvetica, sans-serif;
+		overflow: hidden;
 	}
 </style>
