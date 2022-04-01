@@ -27,6 +27,7 @@
 	let tooltipAvailable = true; // Set this to switch on/ff global tooltip
 	let tooltipVisible = false;
 	let tooltipHeight;
+	let tooltipWidth;
 
 	let countries;
 	let graticules;
@@ -343,8 +344,9 @@
 
 		<div
 			class="tooltip {tooltipVisible ? 'active' : ''}"
-			style="top: {$MOUSE.y - tooltipHeight}px; left:{$MOUSE.x}px;"
+			style="top: {$MOUSE.y - tooltipHeight}px; left:{$MOUSE.x - tooltipWidth}px;"
 			bind:clientHeight={tooltipHeight}
+			bind:clientWidth={tooltipWidth}
 		>
 			<div class="tooltip-head">{$MOUSE.tooltip.name}</div>
 			<div class="tooltip-body">
