@@ -18,7 +18,6 @@
 </script>
 
 <!-- <svelte:window on:message={resizeDW} /> -->
-
 {#if $MAP_TYPE == 'choropleth-api'}
 	<MapChoroplethAPI />
 {:else if $MAP_TYPE == 'choropleth'}
