@@ -21,7 +21,7 @@
 	// Make square dimensions i.e. 600x600 to fill all space
 	let width = 600;
 	let height = 600;
-	let paddingMap = 200;
+	let paddingMap = 150;
 
 	// let dataReady = false;
 	let tooltipAvailable = true; // Set this to switch on/ff global tooltip
