@@ -21,7 +21,7 @@
 	// Make square dimensions i.e. 600x600 to fill all space
 	let width = 600;
 	let height = 600;
-	let paddingMap = -30;
+	let paddingMap = 200;
 
 	// let dataReady = false;
 	let tooltipAvailable = true; // Set this to switch on/ff global tooltip
@@ -58,7 +58,7 @@
 				[paddingMap, paddingMap],
 				[width - paddingMap, height - paddingMap]
 			],
-			countries
+			ukraine
 		);
 	}
 
@@ -127,11 +127,17 @@
 
 				console.log('schengenCountries', schengenCountries);
 
-				ukraine = bgCountries.features.filter((c) => {
+				let test = bgCountries.features.filter((c) => {
 					return c.properties.na == 'Ukraine';
 				});
-			})
-			.catch((error) => console.error('error', error));
+
+				ukraine = {
+					type: 'FeatureCollection',
+					features: test
+				};
+
+				console.log('ukraine', ukraine);
+			});
 	}
 
 	async function fetchAPI() {
@@ -195,7 +201,7 @@
 		if (feature.value) {
 			return colorScale(feature.value);
 		} else {
-			return '#CDCDCD';
+			return '#CAD1D9';
 		}
 	}
 
@@ -327,7 +333,7 @@
       {/each} -->
 
 			<!-- ukraine -->
-			{#each ukraine as feature, index}
+			{#each ukraine.features as feature, index}
 				<path d={path(feature)} fill={accentFill} stroke={accentStroke} class={'ukraine'} />
 			{/each}
 
