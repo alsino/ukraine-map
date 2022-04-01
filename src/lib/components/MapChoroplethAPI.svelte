@@ -1,6 +1,7 @@
 <script>
 	import { MOUSE } from '$lib/stores/shared';
 	import { onMount } from 'svelte';
+	import { CENTER_ON } from '$lib/stores/shared';
 	import { csvData } from '$lib/stores/shared';
 	import { feature } from 'topojson-client';
 	import { geoPath, geoIdentity } from 'd3-geo';
@@ -21,7 +22,16 @@
 	// Make square dimensions i.e. 600x600 to fill all space
 	let width = 600;
 	let height = 600;
-	let paddingMap = 150;
+	let paddingMap;
+	let center;
+
+	$: if ($CENTER_ON === 'ukraine') {
+		paddingMap = 150;
+		center = ukraine;
+	} else if ($CENTER_ON === 'europe') {
+		paddingMap = -60;
+		center = bgCountries;
+	}
 
 	// let dataReady = false;
 	let tooltipAvailable = true; // Set this to switch on/ff global tooltip
@@ -58,7 +68,7 @@
 				[paddingMap, paddingMap],
 				[width - paddingMap, height - paddingMap]
 			],
-			ukraine
+			center
 		);
 	}
 
