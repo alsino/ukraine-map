@@ -55,7 +55,7 @@
 
 	// Yellow
 	const accentStroke = 'rgba(246, 207, 1, 1)';
-	const accentFill = 'rgba(246, 207, 1, 0.4)';
+	const accentFill = 'rgba(246, 207, 1, 1)';
 
 	// Green
 	// const accentStroke = 'rgba(81, 166, 101, 1)';
@@ -342,9 +342,33 @@
         />
       {/each} -->
 
-			<!-- ukraine -->
+			<!-- {#each ukraine.features as feature, index}
+				<path
+					d={path(feature)}
+					fill={'none'}
+					stroke={'red'}
+					class={'ukraine'}
+					style="transform-origin: center; transform: scale(1.3, 1.3)"
+				/>
+			{/each}
+
 			{#each ukraine.features as feature, index}
-				<path d={path(feature)} fill={accentFill} stroke={accentStroke} class={'ukraine'} />
+				<path
+					d={path(feature)}
+					fill={'none'}
+					stroke={'red'}
+					class={'ukraine'}
+					style="transform-origin: center; transform: scale(1.2, 1.2)"
+				/>
+			{/each} -->
+
+			<!-- boundaries -->
+			{#each countryBoundaries.features as feature, index}
+				<path
+					d={path(feature)}
+					class={'boundary boundary-' + feature.properties.name}
+					style="transform-origin: center; transform: scale(1.1, 1.1) translateX(-1.5%) translateY(-0.4%); stroke-width:1; opacity: 0.8;"
+				/>
 			{/each}
 
 			<!-- boundaries -->
@@ -352,10 +376,50 @@
 				<path
 					d={path(feature)}
 					class={'boundary boundary-' + feature.properties.name}
-					style={`filter: drop-shadow(${feature.properties.offset} 3px ${accentStroke});
-           -webkit-filter: drop-shadow(${feature.properties.offset} 3px ${accentStroke});`}
+					style="transform-origin: center; transform: scale(1.2, 1.2) translateX(-3%) translateY(-0.8%); stroke-width:1; opacity: 0.6;"
 				/>
 			{/each}
+
+			<!-- boundaries -->
+			{#each countryBoundaries.features as feature, index}
+				<path
+					d={path(feature)}
+					class={'boundary boundary-' + feature.properties.name}
+					style="transform-origin: center; transform: scale(1.3, 1.3) translateX(-4.5%) translateY(-1.2%); stroke-width:0.5; opacity: 0.4;"
+				/>
+			{/each}
+
+			{#each countryBoundaries.features as feature, index}
+				<path
+					d={path(feature)}
+					class={'boundary boundary-' + feature.properties.name}
+					style="transform-origin: center; transform: scale(1.4, 1.4) translateX(-6%) translateY(-1%); stroke-width:0.5; opacity: 0.2;"
+				/>
+			{/each}
+
+			<!-- ukraine -->
+			<!-- {#each ukraine.features as feature, index}
+				<path
+					d={path(feature)}
+					fill="rgba(246, 207, 1, 1)"
+					class={'ukraine'}
+					style="transform-origin: center; transform: scale(1.1, 1.1) translateX(-1.6%) translateY(-0.5%); stroke-width:0.5; opacity: 0.4;"
+				/>
+			{/each} -->
+
+			<!-- ukraine -->
+			{#each ukraine.features as feature, index}
+				<path d={path(feature)} class={'ukraine'} />
+			{/each}
+
+			<!-- {#each countryBoundaries.features as feature, index}
+				<path
+					d={path(feature)}
+					class={'boundary boundary-' + feature.properties.name}
+					style={`filter: drop-shadow(${feature.properties.offset} 0px ${accentStroke});
+           -webkit-filter: drop-shadow(${feature.properties.offset} 0px ${accentStroke});`}
+				/>
+			{/each} -->
 		</svg>
 
 		<div
@@ -420,18 +484,26 @@
 	}
 
 	.ukraine {
-		stroke-width: 1;
+		stroke-width: 2;
 		stroke-linejoin: round;
 		stroke-linecap: round;
+		fill: #f6e293;
+		stroke: rgba(246, 207, 1, 1);
+		/* stroke: red; */
 	}
 
 	.boundary {
-		stroke-width: 10;
-		stroke: rgba(246, 207, 1, 0.2); /* yellow */
-		/* stroke: rgba(81, 166, 101, 0.2); green */
+		stroke-width: 1;
+		stroke: rgba(246, 207, 1, 1);
 		fill: none;
+		/* fill: rgba(246, 207, 1, 1); */
+		/* stroke: #08519c; */
+		/* stroke: #fff; */
+		/* stroke: rgba(81, 166, 101, 0.2); green */
+
 		stroke-linejoin: round;
 		stroke-linecap: round;
+		transform-origin: center;
 
 		/* animation-name: borderPulse;
     animation-duration: 2s;
