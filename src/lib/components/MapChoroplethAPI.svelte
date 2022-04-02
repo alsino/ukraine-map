@@ -33,6 +33,15 @@
 		center = bgCountries;
 	}
 
+	// Send map height to parent window
+	$: {
+		if ($MAP_HEIGHT) {
+			window.parent.postMessage({ $MAP_HEIGHT }, 'http://localhost:3000/');
+			// window.parent.postMessage({ $MAP_HEIGHT }, 'https://europe-map.vercel.app/');
+			console.log('message sent');
+		}
+	}
+
 	// let dataReady = false;
 	let tooltipAvailable = true; // Set this to switch on/ff global tooltip
 	let tooltipVisible = false;
@@ -135,7 +144,7 @@
 					features: schengenFiltered
 				};
 
-				console.log('schengenCountries', schengenCountries);
+				// console.log('schengenCountries', schengenCountries);
 
 				let test = bgCountries.features.filter((c) => {
 					return c.properties.na == 'Ukraine';
@@ -146,7 +155,7 @@
 					features: test
 				};
 
-				console.log('ukraine', ukraine);
+				// console.log('ukraine', ukraine);
 			});
 	}
 
@@ -443,7 +452,6 @@
 	}
 
 	svg {
-		/* background: blue; */
 		width: 100%;
 		height: auto;
 	}
