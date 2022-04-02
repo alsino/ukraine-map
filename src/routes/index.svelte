@@ -17,7 +17,7 @@
 
 	onMount(() => {
 		console.log('app ready');
-		window.postMessage({ height: 135 }, 'https://europe-map.vercel.app/');
+		window.parent.postMessage({ height: 135 }, 'https://europe-map.vercel.app/');
 	});
 </script>
 
