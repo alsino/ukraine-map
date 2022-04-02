@@ -29,27 +29,26 @@
     </section> -->
     <section>
       Responsive Iframe test
-       <script type="text/javascript">
+      <script type="text/javascript">
 
-  
-    window.addEventListener("message", (event) => {
-        if (event.origin !== 'https://europe-map.vercel.app/')
-          return;
+        window.addEventListener("message", (event) => {
+            if (event.origin !== 'https://europe-map.vercel.app/')
+              return;
 
-        console.log("event found in listen!", event)
+            console.log("event found in listen!", event)
 
-        let message = e.data;
-        console.log(e)
+            let message = e.data;
+            console.log(e)
 
-        // if (message.height) {
-        //   let iframe = document.getElementById("euranet-map");
-        //   iframe.height = message.height + 'px';
-        // }
+            // if (message.height) {
+            //   let iframe = document.getElementById("euranet-map");
+            //   iframe.height = message.height + 'px';
+            // }
 
 
-      }, false);
+          }, false);
 
-    </script>
+      </script>
       <iframe title="[ Insert title here ]" aria-label="Map" id="euranet-map"
         src="https://europe-map.vercel.app/" scrolling="no" frameborder="0"
         style="width: 0; min-width: 100% !important; border: none;" height="624"></iframe>
