@@ -9,7 +9,7 @@
 
 <body>
   <div class="wrapper">
-    <section>
+    <!-- <section>
       <div>Iframe 200 x 200</div>
       <iframe src="https://europe-map.vercel.app/" frameborder="0" width="200" height="200" scrolling="no"></iframe>
     </section>
@@ -24,7 +24,7 @@
     <section>
       <div>Iframe iPhone 6/7/8</div>
       <iframe src="https://europe-map.vercel.app/" frameborder="0" width="375" height="667" scrolling="no"></iframe>
-    </section>
+    </section> -->
     <section>
       Responsive Iframe test
       <iframe title="[ Insert title here ]" aria-label="Map" id="euranet-map"
@@ -40,10 +40,10 @@
                 let message = e.data;
                 console.log(e)
 
-                if (message.height) {
-                  let iframe = document.getElementById("euranet-map");
-                  iframe.height = message.height + 'px';
-                }
+                // if (message.height) {
+                //   let iframe = document.getElementById("euranet-map");
+                //   iframe.height = message.height + 'px';
+                // }
 
               
             }, false);
