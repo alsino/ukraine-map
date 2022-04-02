@@ -32,22 +32,40 @@
         style="width: 0; min-width: 100% !important; border: none;" height="624"></iframe>
 
         <script type="text/javascript">
-          window.addEventListener(
-              'message',
-              function (e) {
-                if (event.origin !== 'https://europe-map.vercel.app/') {
-                  return;
-                }
+
+          window.addEventListener("message", (event) => {
+              if (event.origin !== 'https://europe-map.vercel.app/')
+                return;
 
                 let message = e.data;
-                console.log(message);
+                console.log(e)
 
-                // if (message.height) {
-                //   iframe.height = message.height + 'px';
-                // }
-              },
-              false
-            );
+                if (message.height) {
+                  let iframe = document.getElementById("euranet-map");
+                  iframe.height = message.height + 'px';
+                }
+
+              
+            }, false);
+
+
+          // window.addEventListener(
+          //     'message',
+          //     function (e) {
+          //       if (event.origin !== 'https://europe-map.vercel.app/') {
+          //         return;
+          //       }
+
+          //       let message = e.data;
+          //       console.log(e)
+
+          //       if (message.height) {
+          //         let iframe = document.getElementById("euranet-map");
+          //         iframe.height = message.height + 'px';
+          //       }
+          //     },
+          //     false
+          //   );
         </script>
 
 

@@ -37,7 +37,7 @@
 	$: {
 		if ($MAP_HEIGHT) {
 			// window.parent.postMessage({ $MAP_HEIGHT }, 'http://localhost:3000/');
-			window.parent.postMessage({ $MAP_HEIGHT }, 'https://europe-map.vercel.app/');
+			window.parent.postMessage({ height: $MAP_HEIGHT }, 'https://europe-map.vercel.app/');
 			console.log('message sent');
 		}
 	}
