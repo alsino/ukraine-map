@@ -34,13 +34,21 @@
 	}
 
 	// Send map height to parent window
-	$: {
+	// $: {
+	// 	if ($MAP_HEIGHT) {
+	// 		// window.parent.postMessage({ $MAP_HEIGHT }, 'http://localhost:3000/');
+	// 		window.parent.postMessage({ height: $MAP_HEIGHT }, 'https://europe-map.vercel.app/');
+	// 		console.log('message sent');
+	// 	}
+	// }
+
+	setInterval(() => {
 		if ($MAP_HEIGHT) {
 			// window.parent.postMessage({ $MAP_HEIGHT }, 'http://localhost:3000/');
 			window.parent.postMessage({ height: $MAP_HEIGHT }, 'https://europe-map.vercel.app/');
 			console.log('message sent');
 		}
-	}
+	}, 1000);
 
 	// let dataReady = false;
 	let tooltipAvailable = true; // Set this to switch on/ff global tooltip
