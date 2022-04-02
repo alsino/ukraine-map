@@ -11,62 +11,34 @@
 
 <body>
   <div class="wrapper">
-    <!-- <section>
-      <div>Iframe 200 x 200</div>
-      <iframe src="https://europe-map.vercel.app/" frameborder="0" width="200" height="200" scrolling="no"></iframe>
-    </section>
-    <section>
-      <div>Iframe 400 x 400</div>
-      <iframe src="https://europe-map.vercel.app/" frameborder="0" width="400" height="400" scrolling="no"></iframe>
-    </section>
-    <section>
-      <div>Iframe 600 x 600</div>
-      <iframe src="https://europe-map.vercel.app/" frameborder="0" width="600" height="600" scrolling="no"></iframe>
-    </section>
-    <section>
-      <div>Iframe iPhone 6/7/8</div>
-      <iframe src="https://europe-map.vercel.app/" frameborder="0" width="375" height="667" scrolling="no"></iframe>
-    </section> -->
+
     <section>
       Responsive Iframe test
+      <iframe title="[ Insert title here ]" aria-label="Map" id="euranet-map" src="http://localhost:3000/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="624"></iframe>
+
       <script type="text/javascript">
+        window.addEventListener("message", (e) => {
+          // if (e.origin !== 'http://localhost:3000/'){return;}
 
-        window.addEventListener("message", (event) => {
-            if (event.origin !== 'https://europe-map.vercel.app/')
-              return;
+          // if (!event.origin.match('http://localhost:3000/')) {
+          //   return;
+          // }
 
-            console.log("event found in listen!", event)
-
-            let message = e.data;
-            console.log(e)
-
-            // if (message.height) {
-            //   let iframe = document.getElementById("euranet-map");
-            //   iframe.height = message.height + 'px';
-            // }
-
-
-          }, false);
-
+          let message = e.data;
+          if (message.height) {
+            let iframe = document.getElementById("euranet-map");
+            iframe.height = message.height + 'px';
+          }
+        }, false);
       </script>
-      <iframe title="[ Insert title here ]" aria-label="Map" id="euranet-map"
-        src="https://europe-map.vercel.app/" scrolling="no" frameborder="0"
-        style="width: 0; min-width: 100% !important; border: none;" height="624"></iframe>
 
-      
-
-
-
+      <!-- Script minified -->
+      <!-- <script type="text/javascript">
+        window.addEventListener("message", e => { let t = e.data; if (t.height) { document.getElementById("euranet-map").height = t.height + "px" } }, !1);
+      </script> -->
 
     </section>
-    <!-- <section>
-      <iframe title="[ Insert title here ]" aria-label="Map" id="datawrapper-chart-R5yha"
-        src="https://datawrapper.dwcdn.net/R5yha/1/" scrolling="no" frameborder="0"
-        style="width: 0; min-width: 100% !important; border: none;" height="624"></iframe>
-      <script type="text/javascript">
-        !function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();
-      </script>
-    </section> -->
+
   </div>
 </body>
 </html>
