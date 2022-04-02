@@ -7,7 +7,7 @@
 	// Send map height to parent window
 	$: {
 		if ($APP_HEIGHT) {
-			window.parent.postMessage({ height: $APP_HEIGHT }, 'https://europe-map.vercel.app/');
+			window.parent.postMessage({ height: $APP_HEIGHT }, '*');
 			// window.parent.postMessage({ height: $APP_HEIGHT }, 'http://localhost:3000/');
 			// window.parent.postMessage({ height: $APP_HEIGHT }, 'https://europe-map.vercel.app/');
 		}
