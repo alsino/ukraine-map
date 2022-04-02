@@ -17,11 +17,7 @@
 
 	onMount(() => {
 		console.log('app ready');
-		setInterval(() => {
-			console.log('waited');
-			window.parent.postMessage('this is a test', 'http://localhost:3000/');
-			// window.parent.postMessage({ height: 135 }, 'https://europe-map.vercel.app/');
-		}, 1000);
+		window.parent.postMessage('this is a test', '*');
 		// window.parent.postMessage({ height: 135 }, 'https://europe-map.vercel.app/');
 	});
 </script>
