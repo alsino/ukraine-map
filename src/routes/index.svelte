@@ -17,11 +17,11 @@
 
 	onMount(() => {
 		console.log('app ready');
-		setTimeout(() => {
+		setInterval(() => {
 			console.log('waited');
 			window.parent.postMessage('this is a test', 'http://localhost:3000/');
 			// window.parent.postMessage({ height: 135 }, 'https://europe-map.vercel.app/');
-		}, 2000);
+		}, 1000);
 		// window.parent.postMessage({ height: 135 }, 'https://europe-map.vercel.app/');
 	});
 </script>
