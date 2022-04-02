@@ -6,6 +6,10 @@
 
 <div id="euranet-map">
 	<h1>This is a title</h1>
+	<h3>
+		This is a subtitle Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellendus
+		rem provident qui laborum
+	</h3>
 	{#if $MAP_TYPE == 'choropleth-api'}
 		<MapChoroplethAPI />
 	{:else if $MAP_TYPE == 'choropleth'}
@@ -20,7 +24,9 @@
 		font-family: Arial, Helvetica, sans-serif;
 	}
 
-	h1 {
+	h1,
+	h2,
+	h3 {
 		text-align: left;
 	}
 </style>
