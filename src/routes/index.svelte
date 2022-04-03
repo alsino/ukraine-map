@@ -8,25 +8,33 @@
 	$: {
 		if ($APP_HEIGHT) {
 			window.parent.postMessage({ height: $APP_HEIGHT }, '*');
-			// window.parent.postMessage({ height: $APP_HEIGHT }, 'http://localhost:3000/');
-			// window.parent.postMessage({ height: $APP_HEIGHT }, 'https://europe-map.vercel.app/');
 		}
 	}
+
+	$: console.log($APP_HEIGHT);
 </script>
 
 <div id="euranet-map" bind:clientHeight={$APP_HEIGHT}>
-	<h1>This is a title</h1>
-	<h3>
-		This is a subtitle Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellendus
-		rem provident qui laborum
-	</h3>
-	{#if $MAP_TYPE == 'choropleth-api'}
-		<MapChoroplethAPI />
-	{:else if $MAP_TYPE == 'choropleth'}
-		<MapChoropleth />
-	{/if}
-	<div>Last updated: 01/04/2022, 12:00 CET.</div>
-	<div>Source: United Nations High Commissioner for Refugees</div>
+	<div id="header">
+		<h1>This is a title</h1>
+		<h3>
+			This is a subtitle Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellendus
+			rem provident qui laborum
+		</h3>
+	</div>
+
+	<div id="chart">
+		{#if $MAP_TYPE == 'choropleth-api'}
+			<MapChoroplethAPI />
+		{:else if $MAP_TYPE == 'choropleth'}
+			<MapChoropleth />
+		{/if}
+	</div>
+
+	<div id="footer">
+		<div>Last updated: 01/04/2022, 12:00 CET.</div>
+		<div>Source: United Nations High Commissioner for Refugees</div>
+	</div>
 </div>
 
 <style>
