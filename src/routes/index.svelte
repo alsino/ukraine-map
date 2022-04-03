@@ -11,7 +11,6 @@
 			window.parent.postMessage({ height: $APP_HEIGHT }, '*');
 		}
 	}
-
 	// $: console.log($APP_HEIGHT);
 
 	let items = [
