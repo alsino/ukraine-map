@@ -11,7 +11,7 @@
 		}
 	}
 
-	$: console.log($APP_HEIGHT);
+	// $: console.log($APP_HEIGHT);
 </script>
 
 <div id="euranet-map" bind:clientHeight={$APP_HEIGHT}>
