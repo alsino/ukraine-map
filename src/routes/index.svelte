@@ -25,6 +25,8 @@
 	{:else if $MAP_TYPE == 'choropleth'}
 		<MapChoropleth />
 	{/if}
+	<div>Last updated: 01/04/2022, 12:00 CET.</div>
+	<div>Source: United Nations High Commissioner for Refugees</div>
 </div>
 
 <style>
@@ -32,6 +34,10 @@
 		margin: 0;
 		text-align: center;
 		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	div {
+		text-align: left;
 	}
 
 	h1,
