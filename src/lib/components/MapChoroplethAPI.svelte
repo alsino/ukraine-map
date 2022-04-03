@@ -11,11 +11,7 @@
 
 	import scaleCluster from 'd3-scale-cluster';
 
-	import { csv } from 'd3-fetch';
 	import { extent } from 'd3-array';
-
-	import { MAP_WIDTH } from '$lib/stores/shared';
-	import { MAP_HEIGHT } from '$lib/stores/shared';
 
 	import { formatThousands } from '$lib/utils/formatNumbers';
 
@@ -272,12 +268,7 @@
 </script>
 
 {#if $dataReady}
-	<div
-		id="map"
-		on:mousemove={handleMouseMove}
-		bind:clientWidth={$MAP_WIDTH}
-		bind:clientHeight={$MAP_HEIGHT}
-	>
+	<div id="map" on:mousemove={handleMouseMove}>
 		<svg preserveAspectRatio="xMinYMid meet" viewbox="0 0 {width} {height}">
 			<!-- graticules (lines) -->
 			{#each graticules.features as feature, index}

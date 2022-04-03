@@ -6,8 +6,6 @@ export const APP_HEIGHT = writable(undefined);
 export const MAP_TYPE = writable("choropleth-api"); // choropleth or flow
 export const CENTER_ON = writable("europe"); // ukraine or europe
 
-export const MAP_WIDTH = writable(undefined);
-export const MAP_HEIGHT = writable(undefined);
 export const csvData = writable(undefined);
 
 export const dataReady = writable(false);
