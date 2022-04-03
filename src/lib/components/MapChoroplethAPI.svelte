@@ -11,8 +11,6 @@
 
 	import scaleCluster from 'd3-scale-cluster';
 
-	import { extent } from 'd3-array';
-
 	import { formatThousands } from '$lib/utils/formatNumbers';
 
 	// Make square dimensions i.e. 600x600 to fill all space
