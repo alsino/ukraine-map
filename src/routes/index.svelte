@@ -31,10 +31,10 @@
 		{/if}
 	</div>
 
-	<div id="footer">
+	<!-- <div id="footer">
 		<div>Last updated: 01/04/2022, 12:00 CET.</div>
 		<div>Source: United Nations High Commissioner for Refugees</div>
-	</div>
+	</div> -->
 </div>
 
 <style>
