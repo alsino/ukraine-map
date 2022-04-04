@@ -136,6 +136,14 @@
 		}
 	}
 
+	function getFillTest(feature) {
+		if (feature.properties.isEuranetMember) {
+			return '#51A665';
+		} else {
+			return '#CAD1D9';
+		}
+	}
+
 	function getClass(feature) {
 		if (feature.value) {
 			return 'pointer';
@@ -215,7 +223,7 @@
 				<path
 					d={path(feature)}
 					stroke="#A3A3A3"
-					fill={getFillEu(feature)}
+					fill={getFillTest(feature)}
 					class={getClass(feature)}
 					on:mouseenter={() => handleMouseEnter(feature)}
 					on:mouseleave={() => handleMouseLeave(feature)}
