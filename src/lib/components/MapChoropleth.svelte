@@ -13,14 +13,10 @@
 
 	import { formatPercent } from '$lib/utils/formatNumbers';
 
-	// $: console.log($dataReady);
-
-	// Make a spatial sankey map: https://observablehq.com/@bayre/spatially-situated-sankey
-
 	// Make square dimensions i.e. 600x600 to fill all space
-	let width = 1600;
+	let width = 600;
 	let height = 600;
-	let paddingMap = 0;
+	let paddingMap = -60;
 
 	// let dataReady = false;
 	let tooltipAvailable = true; // Set this to switch on/ff global tooltip
@@ -30,6 +26,7 @@
 	let countries;
 	let graticules;
 	let bgCountries;
+	let euCountries;
 
 	let hoveredCountry;
 
@@ -56,11 +53,21 @@
 				countries = feature(data, data.objects.nutsrg);
 				graticules = feature(data, data.objects.gra);
 
-				originCountry = bgCountries.features.filter((item) => {
-					return item.properties.na === 'Ukraine';
-				});
+				// Extract EU countries
+				let euFiltered = bgCountries.features
+					.filter((item) => {
+						return item.properties.isEuMember;
+					})
+					.sort((a, b) => {
+						return a.properties.na.localeCompare(b.properties.na);
+					});
 
-				console.log(originCountry);
+				euCountries = {
+					type: 'FeatureCollection',
+					features: euFiltered
+				};
+
+				console.log(euCountries);
 			})
 			.catch((error) => console.error('error', error));
 	}
@@ -96,6 +103,10 @@
 			item.value = csvTransformed[item.properties.id];
 		});
 
+		euCountries.features.map((item) => {
+			item.value = csvTransformed[item.properties.id];
+		});
+
 		$dataReady = true;
 	}
 
@@ -105,8 +116,32 @@
 		await mergeData();
 	});
 
+	// function getFill(feature) {
+	// 	return colorScale(feature.value);
+	// }
+
 	function getFill(feature) {
-		return colorScale(feature.value);
+		if (feature.value) {
+			return colorScale(feature.value);
+		} else {
+			return '#F4F4F4';
+		}
+	}
+
+	function getFillEu(feature) {
+		if (feature.value) {
+			return colorScale(feature.value);
+		} else {
+			return '#CAD1D9';
+		}
+	}
+
+	function getClass(feature) {
+		if (feature.value) {
+			return 'pointer';
+		} else {
+			return 'noPointer';
+		}
 	}
 
 	function handleMouseMove(e) {
@@ -167,15 +202,21 @@
 
 			<!-- bgCountries -->
 			{#each bgCountries.features as feature, index}
-				<path d={path(feature)} stroke="transparent" fill="#F4F4F4" class="noPointer" />
+				<path
+					d={path(feature)}
+					stroke="#CDCDCD"
+					fill={getFill(feature)}
+					class={getClass(feature)}
+				/>
 			{/each}
 
 			<!-- EU countries -->
-			{#each countries.features as feature, index}
+			{#each euCountries.features as feature, index}
 				<path
 					d={path(feature)}
-					stroke="white"
-					fill={getFill(feature)}
+					stroke="#A3A3A3"
+					fill={getFillEu(feature)}
+					class={getClass(feature)}
 					on:mouseenter={() => handleMouseEnter(feature)}
 					on:mouseleave={() => handleMouseLeave(feature)}
 				/>

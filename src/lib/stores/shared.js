@@ -3,7 +3,7 @@ import { writable } from 'svelte/store';
 export const APP_HEIGHT = writable(undefined);
 
 // Set type of map to be rendered
-export const MAP_TYPE = writable("choropleth-api"); // choropleth or flow
+export const MAP_TYPE = writable("choropleth"); // choropleth or choropleth-api
 export const CENTER_ON = writable("europe"); // ukraine or europe
 
 export const csvData = writable(undefined);
