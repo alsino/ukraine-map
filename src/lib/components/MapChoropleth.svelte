@@ -222,8 +222,8 @@
 			{#each euCountries.features as feature, index}
 				<path
 					d={path(feature)}
-					stroke="white"
-					fill={getFillTest(feature)}
+					stroke="#A3A3A3"
+					fill={getFillEu(feature)}
 					class={getClass(feature)}
 					on:mouseenter={() => handleMouseEnter(feature)}
 					on:mouseleave={() => handleMouseLeave(feature)}
