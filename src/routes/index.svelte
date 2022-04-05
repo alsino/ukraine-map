@@ -40,10 +40,10 @@
 	</header>
 	<div id="chart">
 		<div id="chart-header">
-			<h1>This is a title</h1>
-			<h3>
-				This is a subtitle Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-				repellendus rem provident qui laborum
+			<h1 class="text-2xl font-bold">More than 4.2m refugees have fled from Ukraine</h1>
+			<h3 class="text-xl font-bold">
+				This map is updated daily with the latest data from UNHCR on refugees fleeing Ukraine into
+				neighbouring countries since 24 February 2022
 			</h3>
 		</div>
 
@@ -54,11 +54,6 @@
 				<MapChoropleth />
 			{/if}
 		</div>
-
-		<!-- <div id="chart-footer">
-		<div>Last updated: 01/04/2022, 12:00 CET.</div>
-		<div>Source: United Nations High Commissioner for Refugees</div>
-	</div> -->
 	</div>
 </div>
 
@@ -84,12 +79,6 @@
 	}
 
 	div {
-		text-align: left;
-	}
-
-	h1,
-	h2,
-	h3 {
 		text-align: left;
 	}
 </style>
