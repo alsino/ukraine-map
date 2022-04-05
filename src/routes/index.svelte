@@ -1,9 +1,18 @@
 <script>
+	import { onMount } from 'svelte';
 	import { MAP_TYPE } from '$lib/stores/shared';
 	import { APP_HEIGHT } from '$lib/stores/shared';
 	import MapChoroplethAPI from '$lib/components/MapChoroplethAPI.svelte';
 	import MapChoropleth from '$lib/components/MapChoropleth.svelte';
 	import Select from 'svelte-select';
+
+	let heading;
+	let subheading;
+	let languages = [
+		{ value: 'en', label: 'English' },
+		{ value: 'de', label: 'German' }
+	];
+	let langDefault = { value: 'en', label: 'English' };
 
 	// Send map height to parent window
 	$: {
@@ -11,21 +20,28 @@
 			window.parent.postMessage({ height: $APP_HEIGHT }, '*');
 		}
 	}
-	// $: console.log($APP_HEIGHT);
 
-	let items = [
-		{ value: 'chocolate', label: 'Chocolate' },
-		{ value: 'pizza', label: 'Pizza' },
-		{ value: 'cake', label: 'Cake' },
-		{ value: 'chips', label: 'Chips' },
-		{ value: 'ice-cream', label: 'Ice Cream' }
-	];
+	async function getLanguage(lan) {
+		const res = await fetch(`/languages/${lan}.json`)
+			.then((response) => response.json())
+			.then(function (data) {
+				heading = data.heading;
+				subheading = data.subheading;
+				console.log(data);
+			});
+	}
 
-	let value = { value: 'cake', label: 'Cake' };
+	// $: {
+	// 	fetchLanguages();
+	// }
+
+	onMount(async () => {
+		await getLanguage(langDefault.value);
+	});
 
 	function handleSelect(event) {
-		console.log('selected item', event.detail);
-		// .. do something here 🙂
+		let selectedLang = event.detail.value;
+		getLanguage(selectedLang);
 	}
 </script>
 
@@ -35,17 +51,16 @@
 			<img src="./img/logo.png" alt="" />
 		</div>
 		<div class="select">
-			<Select {items} {value} on:select={handleSelect} />
+			<Select items={languages} value={langDefault} on:select={handleSelect} />
 		</div>
 	</header>
 	<div id="chart" class="mt-8">
-		<div id="chart-header">
-			<h1 class="text-xl font-bold">More than 4.2m refugees have fled from Ukraine</h1>
-			<h3 class="text-md">
-				This map is updated daily with the latest data from UNHCR on refugees fleeing Ukraine into
-				neighbouring countries since 24 February 2022
-			</h3>
-		</div>
+		{#if heading && subheading}
+			<div id="chart-header">
+				<h1 class="text-xl font-bold">{heading}</h1>
+				<h3 class="text-md">{subheading}</h3>
+			</div>
+		{/if}
 
 		<div id="chart-body" class="mt-4">
 			{#if $MAP_TYPE == 'choropleth-api'}

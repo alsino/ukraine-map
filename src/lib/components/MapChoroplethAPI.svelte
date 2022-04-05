@@ -21,8 +21,6 @@
 	let paddingMap;
 	let center;
 
-	$: console.log($MAP_WIDTH);
-
 	$: if ($CENTER_ON === 'ukraine') {
 		paddingMap = 150;
 		center = ukraine;
@@ -180,8 +178,6 @@
 
 				lastUpdate = data.date;
 				totalRefugees = data.individuals;
-
-				console.log(lastUpdate, totalRefugees);
 			})
 			.catch((error) => console.error('error', error));
 	}
