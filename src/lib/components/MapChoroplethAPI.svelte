@@ -42,6 +42,9 @@
 
 	let hoveredCountry;
 
+	let lastUpdate;
+	let totalRefugees;
+
 	const projection = geoIdentity().reflectY(true);
 	const path = geoPath().projection(projection);
 	const colorScale = scaleCluster();
@@ -130,9 +133,14 @@
 	}
 
 	async function fetchAPI() {
-		let url =
+		let countryData =
 			'https://data2.unhcr.org/population/get/sublocation?widget_id=284342&sv_id=54&population_group=5459,5460&forcesublocation=0&fromDate=1900-01-01';
-		const res = await fetch(url)
+
+		let aggregateData =
+			'https://data2.unhcr.org/population/?widget_id=294522&sv_id=54&population_group=5460';
+
+		// Load country data
+		const resCountry = await fetch(countryData)
 			.then((response) => response.json())
 			.then((dataRaw) => {
 				let data = dataRaw.data;
@@ -146,9 +154,28 @@
 				});
 
 				csvData.set(data);
-				console.log($csvData);
 				// // Set color scale domain and range
 				colorScale.domain(extentArray).range(schemeBlues[5]);
+			})
+			.catch((error) => console.error('error', error));
+
+		// Load aggregate data
+		const resAggregate = await fetch(aggregateData)
+			.then((response) => response.json())
+			.then((dataRaw) => {
+				let data = dataRaw.data;
+
+				// Force strings to numbers
+				data.forEach(function (d) {
+					d['individuals'] = +d['individuals'];
+				});
+
+				data = data[0];
+
+				lastUpdate = data.date;
+				totalRefugees = data.individuals;
+
+				console.log(lastUpdate, totalRefugees);
 			})
 			.catch((error) => console.error('error', error));
 	}
@@ -206,11 +233,9 @@
 	function handleMouseMove(e) {
 		let divOffset = offset(e.currentTarget);
 
-		// console.log(divOffset);
-
 		let mouseX = e.pageX - divOffset.left;
 		let mouseY = e.pageY - divOffset.top;
-		console.log(mouseX, mouseY);
+		// console.log(mouseX, mouseY);
 
 		if (hoveredCountry) {
 			MOUSE.set({
@@ -250,6 +275,19 @@
 	$: handleMouseLeave = function (country) {
 		if (tooltipAvailable) {
 			tooltipVisible = false;
+		}
+	};
+
+	$: handleMouseOverUkraine = function (country) {
+		if (tooltipAvailable && totalRefugees) {
+			hoveredCountry = {
+				name: country.properties.na,
+				value: totalRefugees
+			};
+
+			if (country.properties.na) {
+				tooltipVisible = true;
+			}
 		}
 	};
 </script>
@@ -323,7 +361,7 @@
 
 			<!-- ukraine -->
 			{#each ukraine.features as feature, index}
-				<path d={path(feature)} class={'ukraine'} />
+				<path d={path(feature)} class={'ukraine'} on:mouseover={handleMouseOverUkraine(feature)} />
 			{/each}
 
 			<!-- {#each countryBoundaries.features as feature, index}
