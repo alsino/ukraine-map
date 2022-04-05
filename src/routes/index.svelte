@@ -38,7 +38,7 @@
 			<Select {items} {value} on:select={handleSelect} />
 		</div>
 	</header>
-	<div id="chart">
+	<div id="chart" class="mt-8">
 		<div id="chart-header">
 			<h1 class="text-2xl font-bold">More than 4.2m refugees have fled from Ukraine</h1>
 			<h3 class="text-xl">
