@@ -379,7 +379,7 @@
 		</svg>
 
 		<div
-			class="tooltip {tooltipVisible ? 'active' : ''}"
+			class="tooltip text-sm {tooltipVisible ? 'active' : ''}"
 			style="top: {$MOUSE.y - tooltipHeight}px; left:{tooltipPositionX}px;"
 			bind:clientHeight={tooltipHeight}
 			bind:clientWidth={tooltipWidth}
