@@ -239,7 +239,7 @@
 
 		let mouseX = e.pageX - divOffset.left;
 		let mouseY = e.pageY - divOffset.top;
-		console.log(mouseX);
+		// console.log(mouseX);
 
 		if (hoveredCountry) {
 			MOUSE.set({
@@ -396,7 +396,11 @@
 				</div>
 			</div>
 		</div>
-		<!-- </svg> -->
+
+		<div class="legend absolute  bg-white border rounded p-2">
+			<div><span class="dot bg-slate-500 rounded-full mr-2" />Schengen countries</div>
+			<div><span class="dot bg-slate-500 rounded-full mr-2" />Non-Schengen countries</div>
+		</div>
 	</div>
 {/if}
 
@@ -476,6 +480,17 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse; */
+	}
+
+	.legend {
+		bottom: 5%;
+		right: 5%;
+	}
+
+	.dot {
+		display: inline-block;
+		height: 10px;
+		width: 10px;
 	}
 
 	@keyframes borderPulse {
