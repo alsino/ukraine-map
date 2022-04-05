@@ -397,7 +397,7 @@
 			</div>
 		</div>
 
-		<div class="legend absolute  bg-white border rounded p-2">
+		<div class="legend absolute bg-white border rounded p-2 text-sm">
 			<div><span class="dot dot-schengen rounded-full mr-2" />Schengen countries</div>
 			<div>
 				<span class="dot dot-non-schengen rounded-full mr-2" />Non-Schengen countries
