@@ -41,7 +41,7 @@
 	<div id="chart">
 		<div id="chart-header">
 			<h1 class="text-2xl font-bold">More than 4.2m refugees have fled from Ukraine</h1>
-			<h3 class="text-xl font-bold">
+			<h3 class="text-xl">
 				This map is updated daily with the latest data from UNHCR on refugees fleeing Ukraine into
 				neighbouring countries since 24 February 2022
 			</h3>
