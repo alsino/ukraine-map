@@ -37,7 +37,6 @@
 	let graticules;
 	let bgCountries;
 	let ukraine;
-	let euCountries;
 	let countryBoundaries;
 	let schengenCountries;
 
@@ -101,20 +100,6 @@
 					features: nBounds
 				};
 
-				// Extract EU countries
-				let euFiltered = bgCountries.features
-					.filter((item) => {
-						return item.properties.isEuMember;
-					})
-					.sort((a, b) => {
-						return a.properties.na.localeCompare(b.properties.na);
-					});
-
-				euCountries = {
-					type: 'FeatureCollection',
-					features: euFiltered
-				};
-
 				// Extract Schengen countries
 				let schengenFiltered = bgCountries.features
 					.filter((item) => {
@@ -161,6 +146,7 @@
 				});
 
 				csvData.set(data);
+				console.log($csvData);
 				// // Set color scale domain and range
 				colorScale.domain(extentArray).range(schemeBlues[5]);
 			})
@@ -285,30 +271,6 @@
 				/>
 			{/each}
 
-			<!-- None EU countries -->
-			<!-- {#each bgCountries.features as feature, index}
-        <path
-          d={path(feature)}
-          stroke="#CDCDCD"
-          fill={'#E0E4E9'}
-          class={getClass(feature)}
-          on:mouseenter={() => handleMouseEnter(feature)}
-          on:mouseleave={() => handleMouseLeave(feature)}
-        />
-      {/each} -->
-
-			<!-- EU countries -->
-			<!-- {#each euCountries.features as feature, index}
-        <path
-          d={path(feature)}
-          stroke="#A3A3A3"
-          fill={'#C5CBD0'}
-          class={getClass(feature)}
-          on:mouseenter={() => handleMouseEnter(feature)}
-          on:mouseleave={() => handleMouseLeave(feature)}
-        />
-      {/each} -->
-
 			<!-- Schengen countries -->
 			{#each schengenCountries.features as feature, index}
 				<path
@@ -321,78 +283,38 @@
 				/>
 			{/each}
 
-			<!-- countries -->
-			<!-- {#each countries.features as feature, index}
-        <path
-          d={path(feature)}
-          stroke="#CDCDCD"
-          fill={'red'}
-          class={getClass(feature)}
-        />
-      {/each} -->
-
-			<!-- {#each ukraine.features as feature, index}
-				<path
-					d={path(feature)}
-					fill={'none'}
-					stroke={'red'}
-					class={'ukraine'}
-					style="transform-origin: center; transform: scale(1.3, 1.3)"
-				/>
-			{/each}
-
-			{#each ukraine.features as feature, index}
-				<path
-					d={path(feature)}
-					fill={'none'}
-					stroke={'red'}
-					class={'ukraine'}
-					style="transform-origin: center; transform: scale(1.2, 1.2)"
-				/>
-			{/each} -->
-
 			<!-- boundaries -->
-			{#each countryBoundaries.features as feature, index}
+			<!-- {#each countryBoundaries.features as feature, index}
 				<path
 					d={path(feature)}
 					class={'boundary boundary-' + feature.properties.name}
 					style="transform-origin: center; transform: scale(1.1, 1.1) translateX(-1.5%) translateY(-0.4%); stroke-width:1; opacity: 0.8;"
 				/>
-			{/each}
+			{/each} -->
 
 			<!-- boundaries -->
-			{#each countryBoundaries.features as feature, index}
+			<!-- {#each countryBoundaries.features as feature, index}
 				<path
 					d={path(feature)}
 					class={'boundary boundary-' + feature.properties.name}
 					style="transform-origin: center; transform: scale(1.2, 1.2) translateX(-3%) translateY(-0.8%); stroke-width:1; opacity: 0.6;"
 				/>
-			{/each}
+			{/each} -->
 
 			<!-- boundaries -->
-			{#each countryBoundaries.features as feature, index}
+			<!-- {#each countryBoundaries.features as feature, index}
 				<path
 					d={path(feature)}
 					class={'boundary boundary-' + feature.properties.name}
 					style="transform-origin: center; transform: scale(1.3, 1.3) translateX(-4.5%) translateY(-1.2%); stroke-width:0.5; opacity: 0.4;"
 				/>
-			{/each}
+			{/each} -->
 
-			{#each countryBoundaries.features as feature, index}
+			<!-- {#each countryBoundaries.features as feature, index}
 				<path
 					d={path(feature)}
 					class={'boundary boundary-' + feature.properties.name}
 					style="transform-origin: center; transform: scale(1.4, 1.4) translateX(-6%) translateY(-1%); stroke-width:0.5; opacity: 0.2;"
-				/>
-			{/each}
-
-			<!-- ukraine -->
-			<!-- {#each ukraine.features as feature, index}
-				<path
-					d={path(feature)}
-					fill="rgba(246, 207, 1, 1)"
-					class={'ukraine'}
-					style="transform-origin: center; transform: scale(1.1, 1.1) translateX(-1.6%) translateY(-0.5%); stroke-width:0.5; opacity: 0.4;"
 				/>
 			{/each} -->
 
