@@ -6,6 +6,7 @@
 	import { feature } from 'topojson-client';
 	import { geoPath, geoIdentity } from 'd3-geo';
 	import { dataReady } from '$lib/stores/shared';
+	import { MAP_WIDTH } from '$lib/stores/shared';
 	import { scaleQuantile, scaleQuantize, scaleSequential, scaleSequentialQuantile } from 'd3-scale';
 	import { schemeBlues, schemeReds, interpolateBlues, interpolateReds } from 'd3-scale-chromatic';
 
@@ -19,6 +20,8 @@
 	let paddingMap;
 	let center;
 
+	$: console.log($MAP_WIDTH);
+
 	$: if ($CENTER_ON === 'ukraine') {
 		paddingMap = 150;
 		center = ukraine;
@@ -26,6 +29,8 @@
 		paddingMap = -60;
 		center = bgCountries;
 	}
+
+	$: tooltipPositionX = $MOUSE.x < $MAP_WIDTH / 2 ? $MOUSE.x : $MOUSE.x - tooltipWidth;
 
 	// let dataReady = false;
 	let tooltipAvailable = true; // Set this to switch on/ff global tooltip
@@ -193,10 +198,8 @@
 		bgCountries.features.map((item) => {
 			item.value = csvTransformed[item.properties.na];
 		});
-
 		// console.log(csvTransformed);
 		// console.log(bgCountries);
-
 		$dataReady = true;
 	}
 
@@ -235,7 +238,7 @@
 
 		let mouseX = e.pageX - divOffset.left;
 		let mouseY = e.pageY - divOffset.top;
-		// console.log(mouseX, mouseY);
+		console.log(mouseX);
 
 		if (hoveredCountry) {
 			MOUSE.set({
@@ -247,8 +250,6 @@
 				}
 			});
 		}
-
-		// console.log($MOUSE);
 
 		// Calculate the position of the map div in the page to get mouse position
 		function offset(el) {
@@ -293,7 +294,7 @@
 </script>
 
 {#if $dataReady}
-	<div id="map" on:mousemove={handleMouseMove}>
+	<div id="map" on:mousemove={handleMouseMove} bind:clientHeight={$MAP_WIDTH}>
 		<svg preserveAspectRatio="xMinYMid meet" viewbox="0 0 {width} {height}">
 			<!-- graticules (lines) -->
 			{#each graticules.features as feature, index}
@@ -376,7 +377,7 @@
 
 		<div
 			class="tooltip {tooltipVisible ? 'active' : ''}"
-			style="top: {$MOUSE.y - tooltipHeight}px; left:{$MOUSE.x}px;"
+			style="top: {$MOUSE.y - tooltipHeight}px; left:{tooltipPositionX}px;"
 			bind:clientHeight={tooltipHeight}
 			bind:clientWidth={tooltipWidth}
 		>

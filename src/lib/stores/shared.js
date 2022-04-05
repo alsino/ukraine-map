@@ -2,6 +2,8 @@ import { writable } from 'svelte/store';
 
 export const APP_HEIGHT = writable(undefined);
 
+export const MAP_WIDTH = writable(undefined);
+
 // Set type of map to be rendered
 export const MAP_TYPE = writable("choropleth-api"); // choropleth or choropleth-api
 export const CENTER_ON = writable("europe"); // ukraine or europe
