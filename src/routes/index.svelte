@@ -10,7 +10,8 @@
 	let subheading;
 	let languages = [
 		{ value: 'en', label: 'English' },
-		{ value: 'de', label: 'German' }
+		{ value: 'de', label: 'German' },
+		{ value: 'hu', label: 'Hungarian' }
 	];
 	let langDefault = { value: 'en', label: 'English' };
 
@@ -21,13 +22,13 @@
 		}
 	}
 
-	async function getLanguage(lan) {
-		const res = await fetch(`/languages/${lan}.json`)
+	async function getLanguage(lang) {
+		const res = await fetch(`/languages/${lang}.json`)
 			.then((response) => response.json())
 			.then(function (data) {
 				heading = data.heading;
 				subheading = data.subheading;
-				console.log(data);
+				// console.log(data);
 			});
 	}
 
