@@ -14,11 +14,8 @@
 		{ value: 'hu', label: 'Hungarian' }
 	];
 	let langDefault = { value: 'en', label: 'English' };
-
-	let legend = [
-		{ label: 'Schengen countries', color: '#cad1d9' },
-		{ label: 'Non-Schengen countries', color: '#f4f4f4' }
-	];
+	let legendLabel1;
+	let legendLabel2;
 
 	// Send map height to parent window
 	$: {
@@ -27,19 +24,25 @@
 		}
 	}
 
+	onMount(async () => {
+		await getLanguage(langDefault.value);
+	});
+
 	async function getLanguage(lang) {
 		const res = await fetch(`/languages/${lang}.json`)
 			.then((response) => response.json())
 			.then(function (data) {
 				heading = data.heading;
 				subheading = data.subheading;
-				// console.log(data);
+				legendLabel1 = data.legend1;
+				legendLabel2 = data.legend2;
 			});
 	}
 
-	onMount(async () => {
-		await getLanguage(langDefault.value);
-	});
+	$: legend = [
+		{ label: legendLabel1, color: '#cad1d9' },
+		{ label: legendLabel2, color: '#f4f4f4' }
+	];
 
 	function handleSelect(event) {
 		let selectedLang = event.detail.value;
