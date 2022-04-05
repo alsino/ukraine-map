@@ -204,10 +204,13 @@
 	}
 
 	function handleMouseMove(e) {
-		var divOffset = offset(e.currentTarget);
+		let divOffset = offset(e.currentTarget);
+
+		// console.log(divOffset);
+
 		let mouseX = e.pageX - divOffset.left;
 		let mouseY = e.pageY - divOffset.top;
-		// console.log(mouseX, mouseY);
+		console.log(mouseX, mouseY);
 
 		if (hoveredCountry) {
 			MOUSE.set({
@@ -224,7 +227,7 @@
 
 		// Calculate the position of the map div in the page to get mouse position
 		function offset(el) {
-			var rect = el.getBoundingClientRect(),
+			let rect = el.getBoundingClientRect(),
 				scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
 				scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 			return { top: rect.top + scrollTop, left: rect.left + scrollLeft };
@@ -335,7 +338,7 @@
 
 		<div
 			class="tooltip {tooltipVisible ? 'active' : ''}"
-			style="top: {$MOUSE.y - tooltipHeight}px; left:{$MOUSE.x - tooltipWidth}px;"
+			style="top: {$MOUSE.y - tooltipHeight}px; left:{$MOUSE.x}px;"
 			bind:clientHeight={tooltipHeight}
 			bind:clientWidth={tooltipWidth}
 		>
@@ -350,7 +353,7 @@
 
 <style>
 	#map {
-		/* background-color: green; */
+		position: relative;
 	}
 
 	svg {
