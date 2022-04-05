@@ -13,6 +13,7 @@
 	import scaleCluster from 'd3-scale-cluster';
 
 	import { formatThousands } from '$lib/utils/formatNumbers';
+	import { formatPercent } from '$lib/utils/formatNumbers';
 
 	// Make square dimensions i.e. 600x600 to fill all space
 	let width = 600;
@@ -246,7 +247,8 @@
 				y: mouseY,
 				tooltip: {
 					name: hoveredCountry.name,
-					value: hoveredCountry.value
+					value: hoveredCountry.value,
+					valuePercent: hoveredCountry.valuePercent
 				}
 			});
 		}
@@ -264,7 +266,8 @@
 		if (tooltipAvailable) {
 			hoveredCountry = {
 				name: country.properties.na,
-				value: country.value
+				value: country.value,
+				valuePercent: country.value / totalRefugees
 			};
 
 			if (country.properties.na || country.value) {
@@ -381,9 +384,16 @@
 			bind:clientHeight={tooltipHeight}
 			bind:clientWidth={tooltipWidth}
 		>
-			<div class="tooltip-head">{$MOUSE.tooltip.name}</div>
-			<div class="tooltip-body">
-				{formatThousands($MOUSE.tooltip.value)} refugees
+			<div class="tooltip-head font-bold">{$MOUSE.tooltip.name}</div>
+			<div class="tooltip-body space-y-1">
+				<div class="absolute-values">
+					<span class="font-bold">{formatThousands($MOUSE.tooltip.value)}</span>
+					<span>refugees</span>
+				</div>
+				<div class="relative-values">
+					<span>Share of all refugees</span>
+					<span class="font-bold">{formatPercent($MOUSE.tooltip.valuePercent)}</span>
+				</div>
 			</div>
 		</div>
 		<!-- </svg> -->
@@ -427,8 +437,12 @@
 	}
 
 	.tooltip-head {
-		font-weight: 600;
 		padding-bottom: 0.5rem;
+		border-bottom: 1px solid #e2e2e2;
+	}
+
+	.tooltip-body {
+		padding-top: 0.5rem;
 	}
 
 	.active {

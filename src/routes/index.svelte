@@ -67,6 +67,7 @@
 		margin: 0;
 		text-align: center;
 		font-family: Arial, Helvetica, sans-serif;
+		color: #2b3163;
 	}
 
 	header {
