@@ -398,8 +398,10 @@
 		</div>
 
 		<div class="legend absolute  bg-white border rounded p-2">
-			<div><span class="dot bg-slate-500 rounded-full mr-2" />Schengen countries</div>
-			<div><span class="dot bg-slate-500 rounded-full mr-2" />Non-Schengen countries</div>
+			<div><span class="dot dot-schengen rounded-full mr-2" />Schengen countries</div>
+			<div>
+				<span class="dot dot-non-schengen rounded-full mr-2" />Non-Schengen countries
+			</div>
 		</div>
 	</div>
 {/if}
@@ -491,6 +493,16 @@
 		display: inline-block;
 		height: 10px;
 		width: 10px;
+	}
+
+	.dot-schengen {
+		background-color: #cad1d9;
+		outline: 1px solid #cdcdcd;
+	}
+
+	.dot-non-schengen {
+		background-color: #f4f4f4;
+		outline: 1px solid #cdcdcd;
 	}
 
 	@keyframes borderPulse {
