@@ -483,8 +483,8 @@
 	}
 
 	.legend {
-		bottom: 5%;
-		right: 5%;
+		bottom: 3%;
+		right: 3%;
 	}
 
 	.dot {
