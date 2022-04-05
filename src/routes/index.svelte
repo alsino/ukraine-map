@@ -47,7 +47,7 @@
 			</h3>
 		</div>
 
-		<div id="chart-body">
+		<div id="chart-body" class="mt-4">
 			{#if $MAP_TYPE == 'choropleth-api'}
 				<MapChoroplethAPI />
 			{:else if $MAP_TYPE == 'choropleth'}
