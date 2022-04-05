@@ -14,12 +14,15 @@
 
 	import { formatThousands } from '$lib/utils/formatNumbers';
 	import { formatPercent } from '$lib/utils/formatNumbers';
+	import { each } from 'svelte/internal';
 
 	// Make square dimensions i.e. 600x600 to fill all space
 	let width = 600;
 	let height = 600;
 	let paddingMap;
 	let center;
+
+	export let legend;
 
 	$: if ($CENTER_ON === 'ukraine') {
 		paddingMap = 150;
@@ -394,10 +397,14 @@
 		</div>
 
 		<div class="legend absolute bg-white border rounded p-2 text-sm">
-			<div><span class="dot dot-schengen rounded-full mr-2" />Schengen countries</div>
-			<div>
-				<span class="dot dot-non-schengen rounded-full mr-2" />Non-Schengen countries
-			</div>
+			{#each legend as item}
+				<div>
+					<span
+						class="dot inline-block rounded-full mr-2"
+						style="background-color: {item.color}"
+					/>{item.label}
+				</div>
+			{/each}
 		</div>
 	</div>
 {/if}
@@ -485,18 +492,8 @@
 	}
 
 	.dot {
-		display: inline-block;
 		height: 10px;
 		width: 10px;
-	}
-
-	.dot-schengen {
-		background-color: #cad1d9;
-		outline: 1px solid #cdcdcd;
-	}
-
-	.dot-non-schengen {
-		background-color: #f4f4f4;
 		outline: 1px solid #cdcdcd;
 	}
 

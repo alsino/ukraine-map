@@ -15,6 +15,11 @@
 	];
 	let langDefault = { value: 'en', label: 'English' };
 
+	let legend = [
+		{ label: 'Schengen countries', color: '#cad1d9' },
+		{ label: 'Non-Schengen countries', color: '#f4f4f4' }
+	];
+
 	// Send map height to parent window
 	$: {
 		if ($APP_HEIGHT) {
@@ -31,10 +36,6 @@
 				// console.log(data);
 			});
 	}
-
-	// $: {
-	// 	fetchLanguages();
-	// }
 
 	onMount(async () => {
 		await getLanguage(langDefault.value);
@@ -65,7 +66,7 @@
 
 		<div id="chart-body" class="mt-4">
 			{#if $MAP_TYPE == 'choropleth-api'}
-				<MapChoroplethAPI />
+				<MapChoroplethAPI {legend} />
 			{:else if $MAP_TYPE == 'choropleth'}
 				<MapChoropleth />
 			{/if}
