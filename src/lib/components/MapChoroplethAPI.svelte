@@ -379,7 +379,7 @@
 		</svg>
 
 		<div
-			class="tooltip text-sm {tooltipVisible ? 'active' : ''}"
+			class="tooltip text-sm p-2 {tooltipVisible ? 'active' : ''}"
 			style="top: {$MOUSE.y - tooltipHeight}px; left:{tooltipPositionX}px;"
 			bind:clientHeight={tooltipHeight}
 			bind:clientWidth={tooltipWidth}
@@ -436,7 +436,6 @@
 		pointer-events: none;
 		display: none;
 		background: white;
-		padding: 1rem;
 		border-radius: 3px;
 		z-index: 0;
 		box-shadow: 0 10px 20px 0 rgba(185, 185, 185, 0.25);
