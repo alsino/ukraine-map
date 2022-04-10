@@ -8,12 +8,7 @@
 
 	let heading;
 	let subheading;
-	let languages = [
-		{ value: 'en', label: 'English' },
-		{ value: 'de', label: 'German' },
-		{ value: 'hu', label: 'Hungarian' },
-		{ value: 'ru', label: 'Russian' }
-	];
+	let languages;
 	let langDefault = { value: 'en', label: 'English' };
 	let legendLabel1;
 	let legendLabel2;
@@ -26,8 +21,18 @@
 	}
 
 	onMount(async () => {
+		await getAllLanguages();
 		await getLanguage(langDefault.value);
 	});
+
+	async function getAllLanguages() {
+		const res = await fetch(`/languages/languages.json`)
+			.then((response) => response.json())
+			.then(function (data) {
+				languages = data.languages;
+				// console.log(languages);
+			});
+	}
 
 	async function getLanguage(lang) {
 		const res = await fetch(`/languages/${lang}.json`)

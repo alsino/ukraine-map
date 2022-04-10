@@ -1,0 +1,9 @@
+{
+	"languages": [
+		{ "value": "en", "label": "English" },
+		{ "value": "de", "label": "German" },
+		{ "value": "hu", "label": "Hungarian" },
+		{ "value": "ru", "label": "Russian" },
+		{ "value": "it", "label": "Italian" }
+	]
+}
