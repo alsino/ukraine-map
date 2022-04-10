@@ -1,6 +1,7 @@
 # ToDos
 
-- Translate Content
 - Color Legend
+- Tooltip text translate
 - Tooltip Ukraine info different
-- Source and Note
+- New EuraNet logo
+- Translate text in dropdown
