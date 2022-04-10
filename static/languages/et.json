@@ -4,6 +4,7 @@
     "legend1": "Schengeni riigid",
     "legend2": "Mitte-Schengeni riigid",
     "textUpdate": "Viimati värskendatud",
-    "textSource": "Allikas: ÜRO pagulaste ülemvolinik",
+    "textSourceDescription": "Allikas",
+    "textSource": "ÜRO pagulaste ülemvolinik",
     "textDataAccess": "Juurdepääs töötlemata andmetele"
 }

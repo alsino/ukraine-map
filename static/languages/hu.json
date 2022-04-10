@@ -4,6 +4,7 @@
     "legend1": "schengeni országok",
     "legend2": "Nem schengeni országok",
     "textUpdate": "Utolsó frissítés",
-    "textSource": "Forrás: az ENSZ Menekültügyi Főbiztossága",
+    "textSourceDescription": "Forrás",
+    "textSource": "ENSZ Menekültügyi Főbiztossága",
     "textDataAccess": "Nyers adatok elérése"
 }

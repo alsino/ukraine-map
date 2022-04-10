@@ -4,6 +4,7 @@
     "legend1": "Šengeno šalys",
     "legend2": "Ne Šengeno šalys",
     "textUpdate": "Paskutinį kartą atnaujinta",
-    "textSource": "Šaltinis: Jungtinių Tautų vyriausiasis pabėgėlių komisaras",
+    "textSourceDescription": "Šaltinis",
+    "textSource": "Jungtinių Tautų vyriausiasis pabėgėlių komisaras",
     "textDataAccess": "Pasiekite neapdorotus duomenis"
 }

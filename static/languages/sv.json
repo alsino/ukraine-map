@@ -4,6 +4,7 @@
     "legend1": "Schengenländerna",
     "legend2": "Icke-Schengenländer",
     "textUpdate": "Senast uppdaterad",
-    "textSource": "Källa: FN:s högkommissarie för flyktingar",
+    "textSourceDescription": "Källa",
+    "textSource": "FN: s flyktingkommissariat",
     "textDataAccess": "Få tillgång till rådata"
 }

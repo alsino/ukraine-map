@@ -4,6 +4,7 @@
     "legend1": "tíortha Schengen",
     "legend2": "Tíortha neamh-Schengen",
     "textUpdate": "Nuashonraithe is déanaí",
-    "textSource": "Foinse: Ard-Choimisinéir na Náisiún Aontaithe le haghaidh Dídeanaithe",
+    "textSourceDescription": "Foinse",
+    "textSource": "Ard-Choimisinéir na Náisiún Aontaithe le haghaidh Dídeanaithe",
     "textDataAccess": "Faigh rochtain ar shonraí amh"
 }

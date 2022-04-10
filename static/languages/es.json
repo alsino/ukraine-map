@@ -4,6 +4,7 @@
     "legend1": "Países Schengen",
     "legend2": "Países no Schengen",
     "textUpdate": "Última actualización",
-    "textSource": "Fuente: Alto Comisionado de las Naciones Unidas para los Refugiados",
+    "textSourceDescription": "Fuente",
+    "textSource": "Alto Comisionado de las Naciones Unidas para los Refugiados",
     "textDataAccess": "Acceder a datos sin procesar"
 }

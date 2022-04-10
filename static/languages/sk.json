@@ -4,6 +4,7 @@
     "legend1": "krajiny schengenského priestoru",
     "legend2": "Krajiny mimo Schengenu",
     "textUpdate": "Naposledy aktualizovaný",
-    "textSource": "Zdroj: Vysoký komisár OSN pre utečencov",
+    "textSourceDescription": "Zdroj",
+    "textSource": "Vysoký komisár OSN pre utečencov",
     "textDataAccess": "Prístup k nespracovaným údajom"
 }

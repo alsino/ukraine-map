@@ -4,6 +4,7 @@
     "legend1": "země schengenského prostoru",
     "legend2": "Země mimo Schengen",
     "textUpdate": "Naposledy aktualizováno",
-    "textSource": "Zdroj: Vysoký komisař OSN pro uprchlíky",
+    "textSourceDescription": "Zdroj",
+    "textSource": "Úřad Vysokého komisaře OSN pro uprchlíky",
     "textDataAccess": "Přístup k nezpracovaným datům"
 }

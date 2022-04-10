@@ -4,6 +4,7 @@
     "legend1": "Schengenlanden",
     "legend2": "Niet-Schengenlanden",
     "textUpdate": "Laatst bijgewerkt",
-    "textSource": "Bron: Hoge Commissaris van de Verenigde Naties voor vluchtelingen",
+    "textSourceDescription": "Bron",
+    "textSource": "Hoge Commissaris van de Verenigde Naties voor vluchtelingen",
     "textDataAccess": "Toegang tot onbewerkte gegevens"
 }

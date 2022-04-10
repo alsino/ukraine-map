@@ -13,6 +13,7 @@
 	let legendLabel1;
 	let legendLabel2;
 	let textUpdate;
+	let textSourceDescription;
 	let textSource;
 	let textDataAccess;
 
@@ -50,6 +51,7 @@
 				legendLabel1 = data.legend1;
 				legendLabel2 = data.legend2;
 				textUpdate = data.textUpdate;
+				textSourceDescription = data.textSourceDescription;
 				textSource = data.textSource;
 				textDataAccess = data.textDataAccess;
 			});
@@ -115,9 +117,9 @@
 			{/if}
 		</div>
 	</div>
-	{#if textUpdate && textSource && textDataAccess && lastUpdate}
+	{#if textUpdate && textSourceDescription && textSource && textDataAccess && lastUpdate}
 		<div class="text-sm"><span class="font-bold">{textUpdate}:</span> {lastUpdate}</div>
-		<div class="text-sm">{textSource}</div>
+		<div class="text-sm"><span class="font-bold">{textSourceDescription}:</span> {textSource}</div>
 		<div class="text-sm underline">
 			<a target="_blank" href="https://data2.unhcr.org/en/situations/ukraine">{textDataAccess}</a>
 		</div>

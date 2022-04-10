@@ -4,6 +4,7 @@
     "legend1": "schengenske zemlje",
     "legend2": "Zemlje koje nisu članice Schengena",
     "textUpdate": "Posljednje ažurirano",
-    "textSource": "Izvor: Visoki povjerenik Ujedinjenih naroda za izbjeglice",
+    "textSourceDescription": "Izvor",
+    "textSource": "Visoki povjerenik Ujedinjenih naroda za izbjeglice",
     "textDataAccess": "Pristup sirovim podacima"
 }

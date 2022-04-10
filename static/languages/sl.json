@@ -4,6 +4,7 @@
     "legend1": "schengenske države",
     "legend2": "Države, ki niso schengenske",
     "textUpdate": "Zadnja posodobitev",
-    "textSource": "Vir: Visoki komisar Združenih narodov za begunce",
+    "textSourceDescription": "Vir",
+    "textSource": "Visoki komisar Združenih narodov za begunce",
     "textDataAccess": "Dostopajte do neobdelanih podatkov"
 }

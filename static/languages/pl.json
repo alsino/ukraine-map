@@ -4,6 +4,7 @@
     "legend1": "Kraje Schengen",
     "legend2": "Kraje spoza strefy Schengen",
     "textUpdate": "Ostatnio zaktualizowany",
-    "textSource": "Źródło: Wysoki Komisarz Narodów Zjednoczonych ds. Uchodźców",
+    "textSourceDescription": "Źródło",
+    "textSource": "Wysoki Komisarz Narodów Zjednoczonych ds. Uchodźców",
     "textDataAccess": "Dostęp do surowych danych"
 }

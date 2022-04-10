@@ -4,6 +4,7 @@
     "legend1": "Šengenas valstis",
     "legend2": "Valstis, kas nav Šengenas zonas valstis",
     "textUpdate": "Pēdējoreiz atjaunots",
-    "textSource": "Avots: Apvienoto Nāciju Organizācijas Augstais komisārs bēgļu jautājumos",
+    "textSourceDescription": "Avots",
+    "textSource": "Apvienoto Nāciju Organizācijas Augstais komisārs bēgļu jautājumos",
     "textDataAccess": "Piekļūstiet neapstrādātiem datiem"
 }

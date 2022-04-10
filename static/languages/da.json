@@ -4,6 +4,7 @@
     "legend1": "Schengen-lande",
     "legend2": "Ikke-Schengen-lande",
     "textUpdate": "Sidst opdateret",
-    "textSource": "Kilde: FN's højkommissær for flygtninge",
+    "textSourceDescription": "Kilde",
+    "textSource": "FN's højkommissær for flygtninge",
     "textDataAccess": "Få adgang til rådata"
 }

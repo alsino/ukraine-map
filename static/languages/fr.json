@@ -4,6 +4,7 @@
     "legend1": "Pays Schengen",
     "legend2": "Pays hors Schengen",
     "textUpdate": "Dernière mise à jour",
-    "textSource": "Source : Haut-Commissariat des Nations Unies pour les réfugiés",
+    "textSourceDescription": "La source",
+    "textSource": "Haut Commissariat des Nations Unies pour les réfugiés",
     "textDataAccess": "Accéder aux données brutes"
 }

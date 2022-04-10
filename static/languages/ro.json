@@ -4,6 +4,7 @@
     "legend1": "Țările Schengen",
     "legend2": "Țările non-Schengen",
     "textUpdate": "Ultima actualizare",
-    "textSource": "Sursa: Înaltul Comisar al Națiunilor Unite pentru Refugiați",
+    "textSourceDescription": "Sursă",
+    "textSource": "Înaltul Comisar al Națiunilor Unite pentru Refugiați",
     "textDataAccess": "Accesați datele brute"
 }

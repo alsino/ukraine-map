@@ -4,6 +4,7 @@
     "legend1": "Schengen-Staaten",
     "legend2": "Nicht-Schengen-Länder",
     "textUpdate": "Letzte Aktualisierung",
-    "textSource": "Quelle: Hoher Flüchtlingskommissar der Vereinten Nationen",
+    "textSourceDescription": "Quelle",
+    "textSource": "Hoher Flüchtlingskommissar der Vereinten Nationen",
     "textDataAccess": "Greifen Sie auf Rohdaten zu"
 }
