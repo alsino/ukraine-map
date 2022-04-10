@@ -16,6 +16,9 @@
 	let textSource;
 	let textDataAccess;
 
+	let lastUpdate;
+	let totalRefugees;
+
 	// Send map height to parent window
 	$: {
 		if ($APP_HEIGHT) {
@@ -26,6 +29,7 @@
 	onMount(async () => {
 		await getAllLanguages();
 		await getLanguage(langDefault.value);
+		await getAggregateAPI();
 	});
 
 	async function getAllLanguages() {
@@ -60,6 +64,30 @@
 		let selectedLang = event.detail.value;
 		getLanguage(selectedLang);
 	}
+
+	async function getAggregateAPI() {
+		let aggregateData =
+			'https://data2.unhcr.org/population/?widget_id=294522&sv_id=54&population_group=5460';
+
+		// Load aggregate data
+		const resAggregate = await fetch(aggregateData)
+			.then((response) => response.json())
+			.then((dataRaw) => {
+				let data = dataRaw.data;
+				console.log(data);
+
+				// Force strings to numbers
+				data.forEach(function (d) {
+					d['individuals'] = +d['individuals'];
+				});
+
+				data = data[0];
+
+				lastUpdate = data.date;
+				totalRefugees = data.individuals;
+			})
+			.catch((error) => console.error('error', error));
+	}
 </script>
 
 <div id="euranet-map" bind:clientHeight={$APP_HEIGHT}>
@@ -87,9 +115,9 @@
 			{/if}
 		</div>
 	</div>
-	{#if textUpdate && textSource && textDataAccess}
-		<div class="text-sm">{textUpdate}: 01/04/2022, 12:00 CET.</div>
-		<div class="text-sm">{textSource}.</div>
+	{#if textUpdate && textSource && textDataAccess && lastUpdate}
+		<div class="text-sm"><span class="font-bold">{textUpdate}:</span> {lastUpdate}</div>
+		<div class="text-sm">{textSource}</div>
 		<div class="text-sm">{textDataAccess}</div>
 	{/if}
 </div>

@@ -167,6 +167,7 @@
 			.then((response) => response.json())
 			.then((dataRaw) => {
 				let data = dataRaw.data;
+				// console.log(data);
 
 				// Force strings to numbers
 				data.forEach(function (d) {
