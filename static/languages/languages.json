@@ -5,6 +5,7 @@
 		{ "value": "hu", "label": "Hungarian" },
 		{ "value": "ru", "label": "Russian" },
 		{ "value": "it", "label": "Italian" },
-		{ "value": "pl", "label": "Polish" }
+		{ "value": "pl", "label": "Polish" },
+		{ "value": "fr", "label": "French" }
 	]
 }
