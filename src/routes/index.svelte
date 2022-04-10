@@ -87,9 +87,11 @@
 			{/if}
 		</div>
 	</div>
-	<div>{textUpdate}: 01/04/2022, 12:00 CET.</div>
-	<div>{textSource}.</div>
-	<div>{textDataAccess}</div>
+	{#if textUpdate && textSource && textDataAccess}
+		<div class="text-sm">{textUpdate}: 01/04/2022, 12:00 CET.</div>
+		<div class="text-sm">{textSource}.</div>
+		<div class="text-sm">{textDataAccess}</div>
+	{/if}
 </div>
 
 <style>
