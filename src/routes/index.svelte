@@ -118,7 +118,9 @@
 	{#if textUpdate && textSource && textDataAccess && lastUpdate}
 		<div class="text-sm"><span class="font-bold">{textUpdate}:</span> {lastUpdate}</div>
 		<div class="text-sm">{textSource}</div>
-		<div class="text-sm">{textDataAccess}</div>
+		<div class="text-sm underline">
+			<a target="_blank" href="https://data2.unhcr.org/en/situations/ukraine">{textDataAccess}</a>
+		</div>
 	{/if}
 </div>
 
