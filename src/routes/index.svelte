@@ -11,7 +11,8 @@
 	let languages = [
 		{ value: 'en', label: 'English' },
 		{ value: 'de', label: 'German' },
-		{ value: 'hu', label: 'Hungarian' }
+		{ value: 'hu', label: 'Hungarian' },
+		{ value: 'ru', label: 'Russian' }
 	];
 	let langDefault = { value: 'en', label: 'English' };
 	let legendLabel1;
