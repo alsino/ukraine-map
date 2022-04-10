@@ -60,10 +60,6 @@
 	const accentStroke = 'rgba(246, 207, 1, 1)';
 	const accentFill = 'rgba(246, 207, 1, 1)';
 
-	// Green
-	// const accentStroke = 'rgba(81, 166, 101, 1)';
-	// const accentFill = 'rgba(81, 166, 101, 0.4)';
-
 	$: if ($dataReady) {
 		console.log('Country data for map loaded');
 		projection.fitExtent(

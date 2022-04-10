@@ -5,7 +5,6 @@ import * as fs from 'fs';
 dotenv.config()
 
 // All language codes: https://cloud.google.com/translate/docs/languages
-
 console.log(chalk.green('Starting translation process...'));
 
 // Import data
@@ -48,7 +47,7 @@ languages.languages.forEach((item) => {
 })
 
 
-// Write translation result to JSON file
+// Write translation result to JSON files
 function writeJSONToFile(jsonObj, target, label) {
   // convert JSON object to string
   const data = JSON.stringify(jsonObj, null, 4);
