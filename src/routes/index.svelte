@@ -81,8 +81,9 @@
 			{/if}
 		</div>
 	</div>
-	<div>test 1</div>
-	<div>test 2</div>
+	<div>Last updated: 01/04/2022, 12:00 CET.</div>
+	<div>Source: United Nations High Commissioner for Refugees</div>
+	<div>Access raw data</div>
 </div>
 
 <style>
