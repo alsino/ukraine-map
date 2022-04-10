@@ -4,6 +4,7 @@
 		{ "value": "de", "label": "German" },
 		{ "value": "hu", "label": "Hungarian" },
 		{ "value": "ru", "label": "Russian" },
-		{ "value": "it", "label": "Italian" }
+		{ "value": "it", "label": "Italian" },
+		{ "value": "pl", "label": "Polish" }
 	]
 }

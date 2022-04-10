@@ -17,9 +17,8 @@ const { Translate } = require('@google-cloud/translate').v2;
 // Instantiates a client
 const client = new Translate({ key: process.env.API_KEY });
 
-// const target = 'ru';
 
-
+// Translate all contents of en.json file
 async function translateJSON(target) {  
   var desktopTranslated = {};
 
@@ -36,17 +35,13 @@ async function translateJSON(target) {
   writeJSONToFile(desktopTranslated, target);
 }
 
-
+// Translate for all available languages
 languages.languages.forEach((item) => {
-  // console.log(item.value)
   translateJSON(item.value)
 })
 
-// console.log(languages)
 
-// translateJSON();
-
-
+// Write translation result to JSON file
 function writeJSONToFile(jsonObj, target) {
   // convert JSON object to string
   const data = JSON.stringify(jsonObj, null, 4);
