@@ -2,5 +2,8 @@
     "heading": "More than 4.2m refugees have fled from Ukraine",
     "subheading": "This map is updated daily with the latest data from UNHCR on refugees fleeing Ukraine into neighbouring countries since 24 February 2022",
     "legend1": "Schengen countries",
-    "legend2": "Non-Schengen countries"
+    "legend2": "Non-Schengen countries",
+    "textUpdate": "Last updated",
+    "textSource": "Source: United Nations High Commissioner for Refugees",
+    "textDataAccess": "Access raw data"
 }

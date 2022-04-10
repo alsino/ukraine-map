@@ -2,5 +2,8 @@
     "heading": "Mais de 4,2 milhões de refugiados fugiram da Ucrânia",
     "subheading": "Este mapa é atualizado diariamente com os dados mais recentes do ACNUR sobre refugiados que fogem da Ucrânia para países vizinhos desde 24 de fevereiro de 2022",
     "legend1": "Países Schengen",
-    "legend2": "Países não Schengen"
+    "legend2": "Países não Schengen",
+    "textUpdate": "Ultima atualização",
+    "textSource": "Fonte: Alto Comissariado das Nações Unidas para os Refugiados",
+    "textDataAccess": "Acessar dados brutos"
 }

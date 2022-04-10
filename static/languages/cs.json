@@ -2,5 +2,8 @@
     "heading": "Z Ukrajiny uprchlo více než 4,2 milionu uprchlíků",
     "subheading": "Tato mapa je denně aktualizována nejnovějšími údaji UNHCR o uprchlících prchajících z Ukrajiny do sousedních zemí od 24. února 2022",
     "legend1": "země schengenského prostoru",
-    "legend2": "Země mimo Schengen"
+    "legend2": "Země mimo Schengen",
+    "textUpdate": "Naposledy aktualizováno",
+    "textSource": "Zdroj: Vysoký komisař OSN pro uprchlíky",
+    "textDataAccess": "Přístup k nezpracovaným datům"
 }

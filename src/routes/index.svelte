@@ -12,6 +12,9 @@
 	let langDefault = { value: 'en', label: 'English' };
 	let legendLabel1;
 	let legendLabel2;
+	let textUpdate;
+	let textSource;
+	let textDataAccess;
 
 	// Send map height to parent window
 	$: {
@@ -42,6 +45,9 @@
 				subheading = data.subheading;
 				legendLabel1 = data.legend1;
 				legendLabel2 = data.legend2;
+				textUpdate = data.textUpdate;
+				textSource = data.textSource;
+				textDataAccess = data.textDataAccess;
 			});
 	}
 
@@ -81,9 +87,9 @@
 			{/if}
 		</div>
 	</div>
-	<div>Last updated: 01/04/2022, 12:00 CET.</div>
-	<div>Source: United Nations High Commissioner for Refugees</div>
-	<div>Access raw data</div>
+	<div>{textUpdate}: 01/04/2022, 12:00 CET.</div>
+	<div>{textSource}.</div>
+	<div>{textDataAccess}</div>
 </div>
 
 <style>

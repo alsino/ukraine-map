@@ -2,5 +2,8 @@
     "heading": "Vairāk nekā 4,2 miljoni bēgļu devušies bēgļu gaitās no Ukrainas",
     "subheading": "Šī karte tiek atjaunināta katru dienu ar jaunākajiem UNHCR datiem par bēgļiem, kas bēg no Ukrainas uz kaimiņvalstīm kopš 2022. gada 24. februāra.",
     "legend1": "Šengenas valstis",
-    "legend2": "Valstis, kas nav Šengenas zonas valstis"
+    "legend2": "Valstis, kas nav Šengenas zonas valstis",
+    "textUpdate": "Pēdējoreiz atjaunots",
+    "textSource": "Avots: Apvienoto Nāciju Organizācijas Augstais komisārs bēgļu jautājumos",
+    "textDataAccess": "Piekļūstiet neapstrādātiem datiem"
 }
