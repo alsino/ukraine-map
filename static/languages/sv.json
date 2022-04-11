@@ -6,5 +6,103 @@
     "textUpdate": "Senast uppdaterad",
     "textSourceDescription": "Källa",
     "textSource": "FN: s flyktingkommissariat",
-    "textDataAccess": "Få åtkomst till data"
+    "textDataAccess": "Få åtkomst till data",
+    "languages": [
+        {
+            "value": "bg",
+            "label": "Bulgariska"
+        },
+        {
+            "value": "hr",
+            "label": "Kroatisk"
+        },
+        {
+            "value": "cs",
+            "label": "Tjeckiska"
+        },
+        {
+            "value": "da",
+            "label": "Danska"
+        },
+        {
+            "value": "nl",
+            "label": "Holländska"
+        },
+        {
+            "value": "en",
+            "label": "Engelsk"
+        },
+        {
+            "value": "et",
+            "label": "Estniska"
+        },
+        {
+            "value": "fi",
+            "label": "Finska"
+        },
+        {
+            "value": "fr",
+            "label": "Franska"
+        },
+        {
+            "value": "de",
+            "label": "Tysk"
+        },
+        {
+            "value": "el",
+            "label": "Grekisk"
+        },
+        {
+            "value": "hu",
+            "label": "Ungerska"
+        },
+        {
+            "value": "ga",
+            "label": "Irländska"
+        },
+        {
+            "value": "it",
+            "label": "Italienska"
+        },
+        {
+            "value": "lv",
+            "label": "Lettiska"
+        },
+        {
+            "value": "lt",
+            "label": "Litauiska"
+        },
+        {
+            "value": "mt",
+            "label": "Maltesiska"
+        },
+        {
+            "value": "pl",
+            "label": "Putsa"
+        },
+        {
+            "value": "pt",
+            "label": "Portugisiska"
+        },
+        {
+            "value": "ro",
+            "label": "Rumänska"
+        },
+        {
+            "value": "sk",
+            "label": "Slovakiska"
+        },
+        {
+            "value": "sl",
+            "label": "Slovenska"
+        },
+        {
+            "value": "es",
+            "label": "Spanska"
+        },
+        {
+            "value": "sv",
+            "label": "Svenska"
+        }
+    ]
 }

@@ -6,5 +6,103 @@
     "textUpdate": "Última actualización",
     "textSourceDescription": "Fuente",
     "textSource": "Alto Comisionado de las Naciones Unidas para los Refugiados",
-    "textDataAccess": "Accede a los datos"
+    "textDataAccess": "Accede a los datos",
+    "languages": [
+        {
+            "value": "bg",
+            "label": "Búlgaro"
+        },
+        {
+            "value": "hr",
+            "label": "Croata"
+        },
+        {
+            "value": "cs",
+            "label": "Checo"
+        },
+        {
+            "value": "da",
+            "label": "Danés"
+        },
+        {
+            "value": "nl",
+            "label": "Holandés"
+        },
+        {
+            "value": "en",
+            "label": "Inglés"
+        },
+        {
+            "value": "et",
+            "label": "Estonio"
+        },
+        {
+            "value": "fi",
+            "label": "Finlandés"
+        },
+        {
+            "value": "fr",
+            "label": "Francés"
+        },
+        {
+            "value": "de",
+            "label": "Alemán"
+        },
+        {
+            "value": "el",
+            "label": "Griego"
+        },
+        {
+            "value": "hu",
+            "label": "Húngaro"
+        },
+        {
+            "value": "ga",
+            "label": "Irlandesa"
+        },
+        {
+            "value": "it",
+            "label": "Italiano"
+        },
+        {
+            "value": "lv",
+            "label": "Letón"
+        },
+        {
+            "value": "lt",
+            "label": "Lituano"
+        },
+        {
+            "value": "mt",
+            "label": "Maltés"
+        },
+        {
+            "value": "pl",
+            "label": "Polaco"
+        },
+        {
+            "value": "pt",
+            "label": "Portugués"
+        },
+        {
+            "value": "ro",
+            "label": "Rumano"
+        },
+        {
+            "value": "sk",
+            "label": "Eslovaco"
+        },
+        {
+            "value": "sl",
+            "label": "Esloveno"
+        },
+        {
+            "value": "es",
+            "label": "Español"
+        },
+        {
+            "value": "sv",
+            "label": "Sueco"
+        }
+    ]
 }

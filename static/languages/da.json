@@ -6,5 +6,103 @@
     "textUpdate": "Sidst opdateret",
     "textSourceDescription": "Kilde",
     "textSource": "FN's højkommissær for flygtninge",
-    "textDataAccess": "Få adgang til dataene"
+    "textDataAccess": "Få adgang til dataene",
+    "languages": [
+        {
+            "value": "bg",
+            "label": "Bulgarsk"
+        },
+        {
+            "value": "hr",
+            "label": "Kroatisk"
+        },
+        {
+            "value": "cs",
+            "label": "Tjekkisk"
+        },
+        {
+            "value": "da",
+            "label": "Dansk"
+        },
+        {
+            "value": "nl",
+            "label": "Hollandske"
+        },
+        {
+            "value": "en",
+            "label": "Engelsk"
+        },
+        {
+            "value": "et",
+            "label": "Estisk"
+        },
+        {
+            "value": "fi",
+            "label": "Finsk"
+        },
+        {
+            "value": "fr",
+            "label": "Fransk"
+        },
+        {
+            "value": "de",
+            "label": "Tysk"
+        },
+        {
+            "value": "el",
+            "label": "Græsk"
+        },
+        {
+            "value": "hu",
+            "label": "Ungarsk"
+        },
+        {
+            "value": "ga",
+            "label": "Irsk"
+        },
+        {
+            "value": "it",
+            "label": "Italiensk"
+        },
+        {
+            "value": "lv",
+            "label": "Lettisk"
+        },
+        {
+            "value": "lt",
+            "label": "Litauisk"
+        },
+        {
+            "value": "mt",
+            "label": "Maltesisk"
+        },
+        {
+            "value": "pl",
+            "label": "Polere"
+        },
+        {
+            "value": "pt",
+            "label": "Portugisisk"
+        },
+        {
+            "value": "ro",
+            "label": "Rumænsk"
+        },
+        {
+            "value": "sk",
+            "label": "Slovakisk"
+        },
+        {
+            "value": "sl",
+            "label": "Slovensk"
+        },
+        {
+            "value": "es",
+            "label": "Spansk"
+        },
+        {
+            "value": "sv",
+            "label": "Svensk"
+        }
+    ]
 }

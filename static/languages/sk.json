@@ -6,5 +6,103 @@
     "textUpdate": "Naposledy aktualizovaný",
     "textSourceDescription": "Zdroj",
     "textSource": "Vysoký komisár OSN pre utečencov",
-    "textDataAccess": "Prístup k údajom"
+    "textDataAccess": "Prístup k údajom",
+    "languages": [
+        {
+            "value": "bg",
+            "label": "Bulharčina"
+        },
+        {
+            "value": "hr",
+            "label": "Chorvátsky"
+        },
+        {
+            "value": "cs",
+            "label": "Český"
+        },
+        {
+            "value": "da",
+            "label": "Dánčina"
+        },
+        {
+            "value": "nl",
+            "label": "Holandský"
+        },
+        {
+            "value": "en",
+            "label": "Angličtina"
+        },
+        {
+            "value": "et",
+            "label": "Estónsky"
+        },
+        {
+            "value": "fi",
+            "label": "Fínsky"
+        },
+        {
+            "value": "fr",
+            "label": "Francúzsky"
+        },
+        {
+            "value": "de",
+            "label": "Nemecký"
+        },
+        {
+            "value": "el",
+            "label": "Grécky"
+        },
+        {
+            "value": "hu",
+            "label": "Maďarský"
+        },
+        {
+            "value": "ga",
+            "label": "Írsky"
+        },
+        {
+            "value": "it",
+            "label": "Taliansky"
+        },
+        {
+            "value": "lv",
+            "label": "Lotyšský"
+        },
+        {
+            "value": "lt",
+            "label": "Litovský"
+        },
+        {
+            "value": "mt",
+            "label": "Maltčina"
+        },
+        {
+            "value": "pl",
+            "label": "Poľský"
+        },
+        {
+            "value": "pt",
+            "label": "Portugalčina"
+        },
+        {
+            "value": "ro",
+            "label": "Rumunský"
+        },
+        {
+            "value": "sk",
+            "label": "Slovenský"
+        },
+        {
+            "value": "sl",
+            "label": "Slovensky"
+        },
+        {
+            "value": "es",
+            "label": "Španielčina"
+        },
+        {
+            "value": "sv",
+            "label": "Švédsky"
+        }
+    ]
 }

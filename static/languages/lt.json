@@ -6,5 +6,103 @@
     "textUpdate": "Paskutinį kartą atnaujinta",
     "textSourceDescription": "Šaltinis",
     "textSource": "Jungtinių Tautų vyriausiasis pabėgėlių komisaras",
-    "textDataAccess": "Pasiekite duomenis"
+    "textDataAccess": "Pasiekite duomenis",
+    "languages": [
+        {
+            "value": "bg",
+            "label": "Bulgarų"
+        },
+        {
+            "value": "hr",
+            "label": "Kroatų"
+        },
+        {
+            "value": "cs",
+            "label": "Čekų"
+        },
+        {
+            "value": "da",
+            "label": "Danų"
+        },
+        {
+            "value": "nl",
+            "label": "Olandų"
+        },
+        {
+            "value": "en",
+            "label": "Anglų"
+        },
+        {
+            "value": "et",
+            "label": "Estų"
+        },
+        {
+            "value": "fi",
+            "label": "Suomių"
+        },
+        {
+            "value": "fr",
+            "label": "Prancūzų kalba"
+        },
+        {
+            "value": "de",
+            "label": "Vokiečių kalba"
+        },
+        {
+            "value": "el",
+            "label": "Graikų"
+        },
+        {
+            "value": "hu",
+            "label": "Vengrų"
+        },
+        {
+            "value": "ga",
+            "label": "Airių"
+        },
+        {
+            "value": "it",
+            "label": "Italų"
+        },
+        {
+            "value": "lv",
+            "label": "Latvių"
+        },
+        {
+            "value": "lt",
+            "label": "Lietuvių"
+        },
+        {
+            "value": "mt",
+            "label": "Maltiečių"
+        },
+        {
+            "value": "pl",
+            "label": "Lenkas"
+        },
+        {
+            "value": "pt",
+            "label": "Portugalų"
+        },
+        {
+            "value": "ro",
+            "label": "Rumunų"
+        },
+        {
+            "value": "sk",
+            "label": "Slovakų"
+        },
+        {
+            "value": "sl",
+            "label": "Slovėnų"
+        },
+        {
+            "value": "es",
+            "label": "Ispanų"
+        },
+        {
+            "value": "sv",
+            "label": "Švedijos"
+        }
+    ]
 }

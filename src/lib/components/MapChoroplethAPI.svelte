@@ -46,6 +46,7 @@
 	let ukraine;
 	let countryBoundaries;
 	let schengenCountries;
+	let countriesAll;
 
 	let hoveredCountry;
 
@@ -120,7 +121,23 @@
 					features: schengenFiltered
 				};
 
+				countriesAll = {
+					type: 'FeatureCollection',
+					features: [...schengenCountries.features, ...bgCountries.features]
+				};
+
+				// console.log('bgCountries', bgCountries);
 				// console.log('schengenCountries', schengenCountries);
+				// console.log('countriesAll', countriesAll);
+
+				let list = schengenCountries.features.map((item) => {
+					return {
+						id: item.properties.id,
+						na: item.properties.na
+					};
+				});
+
+				console.log(list);
 
 				let test = bgCountries.features.filter((c) => {
 					return c.properties.na == 'Ukraine';
@@ -210,15 +227,11 @@
 		if (feature.value) {
 			return colorScale(feature.value);
 		} else {
-			return '#F4F4F4';
-		}
-	}
-
-	function getFillSchengen(feature) {
-		if (feature.value) {
-			return colorScale(feature.value);
-		} else {
-			return '#CAD1D9';
+			if (feature.properties.isSchengen) {
+				return '#CAD1D9';
+			} else {
+				return '#F4F4F4';
+			}
 		}
 	}
 
@@ -300,24 +313,12 @@
 				<path d={path(feature)} stroke="#cfcfcf" fill="transparent" class="noPointer" />
 			{/each}
 
-			<!-- bgCountries -->
-			{#each bgCountries.features as feature, index}
-				<path
-					d={path(feature)}
-					stroke="#CDCDCD"
-					fill={getFill(feature)}
-					class={getClass(feature)}
-					on:mouseenter={() => handleMouseEnter(feature)}
-					on:mouseleave={() => handleMouseLeave(feature)}
-				/>
-			{/each}
-
-			<!-- Schengen countries -->
-			{#each schengenCountries.features as feature, index}
+			<!-- countriesAll -->
+			{#each countriesAll.features as feature, index}
 				<path
 					d={path(feature)}
 					stroke="white"
-					fill={getFillSchengen(feature)}
+					fill={getFill(feature)}
 					class={getClass(feature)}
 					on:mouseenter={() => handleMouseEnter(feature)}
 					on:mouseleave={() => handleMouseLeave(feature)}

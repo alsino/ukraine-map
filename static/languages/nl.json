@@ -6,5 +6,103 @@
     "textUpdate": "Laatst bijgewerkt",
     "textSourceDescription": "Bron",
     "textSource": "Hoge Commissaris van de Verenigde Naties voor vluchtelingen",
-    "textDataAccess": "Toegang tot de gegevens"
+    "textDataAccess": "Toegang tot de gegevens",
+    "languages": [
+        {
+            "value": "bg",
+            "label": "Bulgaars"
+        },
+        {
+            "value": "hr",
+            "label": "Kroatisch"
+        },
+        {
+            "value": "cs",
+            "label": "Tsjechisch"
+        },
+        {
+            "value": "da",
+            "label": "Deens"
+        },
+        {
+            "value": "nl",
+            "label": "Nederlands"
+        },
+        {
+            "value": "en",
+            "label": "Engels"
+        },
+        {
+            "value": "et",
+            "label": "Ests"
+        },
+        {
+            "value": "fi",
+            "label": "Fins"
+        },
+        {
+            "value": "fr",
+            "label": "Frans"
+        },
+        {
+            "value": "de",
+            "label": "Duits"
+        },
+        {
+            "value": "el",
+            "label": "Grieks"
+        },
+        {
+            "value": "hu",
+            "label": "Hongaars"
+        },
+        {
+            "value": "ga",
+            "label": "Iers"
+        },
+        {
+            "value": "it",
+            "label": "Italiaans"
+        },
+        {
+            "value": "lv",
+            "label": "Lets"
+        },
+        {
+            "value": "lt",
+            "label": "Litouws"
+        },
+        {
+            "value": "mt",
+            "label": "Maltees"
+        },
+        {
+            "value": "pl",
+            "label": "Pools"
+        },
+        {
+            "value": "pt",
+            "label": "Portugees"
+        },
+        {
+            "value": "ro",
+            "label": "Roemeense"
+        },
+        {
+            "value": "sk",
+            "label": "Slowaaks"
+        },
+        {
+            "value": "sl",
+            "label": "Sloveens"
+        },
+        {
+            "value": "es",
+            "label": "Spaans"
+        },
+        {
+            "value": "sv",
+            "label": "Zweeds"
+        }
+    ]
 }

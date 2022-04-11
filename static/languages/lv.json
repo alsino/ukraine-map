@@ -6,5 +6,103 @@
     "textUpdate": "Pēdējoreiz atjaunots",
     "textSourceDescription": "Avots",
     "textSource": "Apvienoto Nāciju Organizācijas Augstais komisārs bēgļu jautājumos",
-    "textDataAccess": "Piekļūstiet datiem"
+    "textDataAccess": "Piekļūstiet datiem",
+    "languages": [
+        {
+            "value": "bg",
+            "label": "Bulgāru valoda"
+        },
+        {
+            "value": "hr",
+            "label": "Horvātu"
+        },
+        {
+            "value": "cs",
+            "label": "Čehu"
+        },
+        {
+            "value": "da",
+            "label": "Dāņu"
+        },
+        {
+            "value": "nl",
+            "label": "Holandiešu valoda"
+        },
+        {
+            "value": "en",
+            "label": "Angļu"
+        },
+        {
+            "value": "et",
+            "label": "Igauņu"
+        },
+        {
+            "value": "fi",
+            "label": "Somu"
+        },
+        {
+            "value": "fr",
+            "label": "Franču valoda"
+        },
+        {
+            "value": "de",
+            "label": "Vāciski"
+        },
+        {
+            "value": "el",
+            "label": "Grieķu valoda"
+        },
+        {
+            "value": "hu",
+            "label": "Ungāru"
+        },
+        {
+            "value": "ga",
+            "label": "Īru"
+        },
+        {
+            "value": "it",
+            "label": "Itāļu valoda"
+        },
+        {
+            "value": "lv",
+            "label": "Latviski"
+        },
+        {
+            "value": "lt",
+            "label": "Lietuviešu"
+        },
+        {
+            "value": "mt",
+            "label": "Maltiešu"
+        },
+        {
+            "value": "pl",
+            "label": "Poļu"
+        },
+        {
+            "value": "pt",
+            "label": "Portugāļu"
+        },
+        {
+            "value": "ro",
+            "label": "Rumāņu valoda"
+        },
+        {
+            "value": "sk",
+            "label": "Slovāku"
+        },
+        {
+            "value": "sl",
+            "label": "Slovēņu"
+        },
+        {
+            "value": "es",
+            "label": "Spāņu valoda"
+        },
+        {
+            "value": "sv",
+            "label": "Zviedru"
+        }
+    ]
 }

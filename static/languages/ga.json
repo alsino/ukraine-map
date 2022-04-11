@@ -6,5 +6,103 @@
     "textUpdate": "Nuashonraithe is déanaí",
     "textSourceDescription": "Foinse",
     "textSource": "Ard-Choimisinéir na Náisiún Aontaithe le haghaidh Dídeanaithe",
-    "textDataAccess": "Faigh rochtain ar na sonraí"
+    "textDataAccess": "Faigh rochtain ar na sonraí",
+    "languages": [
+        {
+            "value": "bg",
+            "label": "Bulgáiris"
+        },
+        {
+            "value": "hr",
+            "label": "Cróitis"
+        },
+        {
+            "value": "cs",
+            "label": "Seiceach"
+        },
+        {
+            "value": "da",
+            "label": "Danmhairgis"
+        },
+        {
+            "value": "nl",
+            "label": "Ollainnis"
+        },
+        {
+            "value": "en",
+            "label": "Béarla"
+        },
+        {
+            "value": "et",
+            "label": "Eastóinis"
+        },
+        {
+            "value": "fi",
+            "label": "Fionlainnis"
+        },
+        {
+            "value": "fr",
+            "label": "Fraincis"
+        },
+        {
+            "value": "de",
+            "label": "Gearmáinis"
+        },
+        {
+            "value": "el",
+            "label": "Gréigis"
+        },
+        {
+            "value": "hu",
+            "label": "Ungáiris"
+        },
+        {
+            "value": "ga",
+            "label": "Gaeilge"
+        },
+        {
+            "value": "it",
+            "label": "Iodálach"
+        },
+        {
+            "value": "lv",
+            "label": "Laitvis"
+        },
+        {
+            "value": "lt",
+            "label": "Liotuáinis"
+        },
+        {
+            "value": "mt",
+            "label": "Máltais"
+        },
+        {
+            "value": "pl",
+            "label": "Polainnis"
+        },
+        {
+            "value": "pt",
+            "label": "Portaingéilis"
+        },
+        {
+            "value": "ro",
+            "label": "Rómáinis"
+        },
+        {
+            "value": "sk",
+            "label": "Slóvaicis"
+        },
+        {
+            "value": "sl",
+            "label": "Slóivéinis"
+        },
+        {
+            "value": "es",
+            "label": "Spainnis"
+        },
+        {
+            "value": "sv",
+            "label": "Sualainnis"
+        }
+    ]
 }

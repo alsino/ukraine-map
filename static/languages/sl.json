@@ -6,5 +6,103 @@
     "textUpdate": "Zadnja posodobitev",
     "textSourceDescription": "Vir",
     "textSource": "Visoki komisar Združenih narodov za begunce",
-    "textDataAccess": "Dostop do podatkov"
+    "textDataAccess": "Dostop do podatkov",
+    "languages": [
+        {
+            "value": "bg",
+            "label": "Bolgarščina"
+        },
+        {
+            "value": "hr",
+            "label": "Hrvaški"
+        },
+        {
+            "value": "cs",
+            "label": "Češki"
+        },
+        {
+            "value": "da",
+            "label": "Danski"
+        },
+        {
+            "value": "nl",
+            "label": "Nizozemski"
+        },
+        {
+            "value": "en",
+            "label": "Angleščina"
+        },
+        {
+            "value": "et",
+            "label": "Estonščina"
+        },
+        {
+            "value": "fi",
+            "label": "Finščina"
+        },
+        {
+            "value": "fr",
+            "label": "Francoski"
+        },
+        {
+            "value": "de",
+            "label": "Nemški"
+        },
+        {
+            "value": "el",
+            "label": "Grški"
+        },
+        {
+            "value": "hu",
+            "label": "Madžarski"
+        },
+        {
+            "value": "ga",
+            "label": "Irski"
+        },
+        {
+            "value": "it",
+            "label": "Italijanski"
+        },
+        {
+            "value": "lv",
+            "label": "Latvijščina"
+        },
+        {
+            "value": "lt",
+            "label": "Litovščina"
+        },
+        {
+            "value": "mt",
+            "label": "Maltežan"
+        },
+        {
+            "value": "pl",
+            "label": "Poljski"
+        },
+        {
+            "value": "pt",
+            "label": "Portugalski"
+        },
+        {
+            "value": "ro",
+            "label": "Romunski"
+        },
+        {
+            "value": "sk",
+            "label": "Slovaški"
+        },
+        {
+            "value": "sl",
+            "label": "Slovenščina"
+        },
+        {
+            "value": "es",
+            "label": "Španski"
+        },
+        {
+            "value": "sv",
+            "label": "Švedski"
+        }
+    ]
 }

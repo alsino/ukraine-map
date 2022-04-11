@@ -16,7 +16,7 @@ const languages = require("./static/languages/languages.json");
 const { Translate } = require('@google-cloud/translate').v2;
 
 // Instantiates a client
-const client = new Translate({ key: process.env.API_KEY });
+const googleClient = new Translate({ key: process.env.API_KEY });
 
 console.log(chalk.yellow(`Getting translations from Google API for the following ${languages.languages.length} languages:`));
 languages.languages.forEach((lang,i) => {
@@ -26,20 +26,61 @@ languages.languages.forEach((lang,i) => {
 
 // Translate all contents of en.json file
 async function translateJSON(target, label) {  
-  var desktopTranslated = {};
+  let desktopTranslated = {};
 
-   for (var key in sourceJSON) {
-    let [translations] = await client.translate(sourceJSON[key], target);
-    translations = Array.isArray(translations) ? translations : [translations];
+  for (const key in sourceJSON) {
 
-     translations.forEach((translation, i) => {
-      desktopTranslated[key] = translation.replace(/"/g, "'");
-    });
+    let translations;
+
+    // console.log(Array.isArray(sourceJSON[key]))
+
+    // For all keys except for languages and countries
+    if (Array.isArray(sourceJSON[key])) {
+
+    // For keys languages and countries
+    // Get translations
+    let objectArray = sourceJSON[key];
+      
+    // console.log(objectArray)
+      
+     translations = await Promise.all(
+       objectArray.map(async (item) => {
+         let [trans] = await googleClient.translate(item.label, target);
+         return {
+           value: item.value,
+           label: capitalizeFirstLetter(trans)
+          }
+        })
+     )
+      // console.log(translations)
+      
+      // Write translations to object
+      let arr = [];
+      desktopTranslated[key] = arr;
+      translations.forEach((translation, i) => {
+        arr.push(translation);
+      });
+
+    } else {
+
+      // Get translations 
+      [translations] = await googleClient.translate(sourceJSON[key], target);
+      translations = Array.isArray(translations) ? translations : [translations];
+      //  console.log(translations)
+
+      // Write translations to object
+      translations.forEach((translation, i) => {
+        desktopTranslated[key] = translation.replace(/"/g, "'");
+      });
+
+    }
+    // console.log(translations)
    }
   
   // console.log(target, desktopTranslated);
   writeJSONToFile(desktopTranslated, target, label);
 }
+
 
 // Translate for all available languages
 languages.languages.forEach((item) => {
@@ -63,4 +104,8 @@ function writeJSONToFile(jsonObj, target, label) {
 
 
 
+
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
 

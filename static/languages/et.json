@@ -6,5 +6,103 @@
     "textUpdate": "Viimati värskendatud",
     "textSourceDescription": "Allikas",
     "textSource": "ÜRO pagulaste ülemvolinik",
-    "textDataAccess": "Juurdepääs andmetele"
+    "textDataAccess": "Juurdepääs andmetele",
+    "languages": [
+        {
+            "value": "bg",
+            "label": "Bulgaaria keel"
+        },
+        {
+            "value": "hr",
+            "label": "Horvaatia"
+        },
+        {
+            "value": "cs",
+            "label": "Tšehhi"
+        },
+        {
+            "value": "da",
+            "label": "Taani keel"
+        },
+        {
+            "value": "nl",
+            "label": "Hollandi keel"
+        },
+        {
+            "value": "en",
+            "label": "Inglise"
+        },
+        {
+            "value": "et",
+            "label": "Eesti keel"
+        },
+        {
+            "value": "fi",
+            "label": "Soome keel"
+        },
+        {
+            "value": "fr",
+            "label": "Prantsuse keel"
+        },
+        {
+            "value": "de",
+            "label": "Saksa keel"
+        },
+        {
+            "value": "el",
+            "label": "Kreeka keel"
+        },
+        {
+            "value": "hu",
+            "label": "Ungari"
+        },
+        {
+            "value": "ga",
+            "label": "Iirlane"
+        },
+        {
+            "value": "it",
+            "label": "Itaalia keel"
+        },
+        {
+            "value": "lv",
+            "label": "Lätlane"
+        },
+        {
+            "value": "lt",
+            "label": "Leedu"
+        },
+        {
+            "value": "mt",
+            "label": "Malta keel"
+        },
+        {
+            "value": "pl",
+            "label": "Poola keel"
+        },
+        {
+            "value": "pt",
+            "label": "Portugali keel"
+        },
+        {
+            "value": "ro",
+            "label": "Rumeenlane"
+        },
+        {
+            "value": "sk",
+            "label": "Slovaki"
+        },
+        {
+            "value": "sl",
+            "label": "Sloveenia"
+        },
+        {
+            "value": "es",
+            "label": "Hispaania keel"
+        },
+        {
+            "value": "sv",
+            "label": "Rootsi keel"
+        }
+    ]
 }

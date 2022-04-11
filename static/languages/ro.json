@@ -6,5 +6,103 @@
     "textUpdate": "Ultima actualizare",
     "textSourceDescription": "Sursă",
     "textSource": "Înaltul Comisar al Națiunilor Unite pentru Refugiați",
-    "textDataAccess": "Accesați datele"
+    "textDataAccess": "Accesați datele",
+    "languages": [
+        {
+            "value": "bg",
+            "label": "Bulgară"
+        },
+        {
+            "value": "hr",
+            "label": "Croat"
+        },
+        {
+            "value": "cs",
+            "label": "Ceh"
+        },
+        {
+            "value": "da",
+            "label": "Danez"
+        },
+        {
+            "value": "nl",
+            "label": "Olandeză"
+        },
+        {
+            "value": "en",
+            "label": "Engleză"
+        },
+        {
+            "value": "et",
+            "label": "Estonă"
+        },
+        {
+            "value": "fi",
+            "label": "Finlandeză"
+        },
+        {
+            "value": "fr",
+            "label": "Limba franceza"
+        },
+        {
+            "value": "de",
+            "label": "Limba germana"
+        },
+        {
+            "value": "el",
+            "label": "Greacă"
+        },
+        {
+            "value": "hu",
+            "label": "Maghiară"
+        },
+        {
+            "value": "ga",
+            "label": "Irlandez"
+        },
+        {
+            "value": "it",
+            "label": "Italiană"
+        },
+        {
+            "value": "lv",
+            "label": "Letonă"
+        },
+        {
+            "value": "lt",
+            "label": "Lituanian"
+        },
+        {
+            "value": "mt",
+            "label": "Malteză"
+        },
+        {
+            "value": "pl",
+            "label": "Lustrui"
+        },
+        {
+            "value": "pt",
+            "label": "Portugheză"
+        },
+        {
+            "value": "ro",
+            "label": "Română"
+        },
+        {
+            "value": "sk",
+            "label": "Slovacă"
+        },
+        {
+            "value": "sl",
+            "label": "Slovenă"
+        },
+        {
+            "value": "es",
+            "label": "Spaniolă"
+        },
+        {
+            "value": "sv",
+            "label": "Suedez"
+        }
+    ]
 }

@@ -6,5 +6,103 @@
     "textUpdate": "Dernière mise à jour",
     "textSourceDescription": "La source",
     "textSource": "Haut Commissariat des Nations Unies pour les réfugiés",
-    "textDataAccess": "Accéder aux données"
+    "textDataAccess": "Accéder aux données",
+    "languages": [
+        {
+            "value": "bg",
+            "label": "Bulgare"
+        },
+        {
+            "value": "hr",
+            "label": "Croate"
+        },
+        {
+            "value": "cs",
+            "label": "Tchèque"
+        },
+        {
+            "value": "da",
+            "label": "Danois"
+        },
+        {
+            "value": "nl",
+            "label": "Néerlandais"
+        },
+        {
+            "value": "en",
+            "label": "Anglais"
+        },
+        {
+            "value": "et",
+            "label": "Estonien"
+        },
+        {
+            "value": "fi",
+            "label": "Finlandais"
+        },
+        {
+            "value": "fr",
+            "label": "Français"
+        },
+        {
+            "value": "de",
+            "label": "Allemand"
+        },
+        {
+            "value": "el",
+            "label": "Grec"
+        },
+        {
+            "value": "hu",
+            "label": "Hongrois"
+        },
+        {
+            "value": "ga",
+            "label": "Irlandais"
+        },
+        {
+            "value": "it",
+            "label": "Italien"
+        },
+        {
+            "value": "lv",
+            "label": "Letton"
+        },
+        {
+            "value": "lt",
+            "label": "Lituanien"
+        },
+        {
+            "value": "mt",
+            "label": "Maltais"
+        },
+        {
+            "value": "pl",
+            "label": "Polonais"
+        },
+        {
+            "value": "pt",
+            "label": "Portugais"
+        },
+        {
+            "value": "ro",
+            "label": "Roumain"
+        },
+        {
+            "value": "sk",
+            "label": "Slovaque"
+        },
+        {
+            "value": "sl",
+            "label": "Slovène"
+        },
+        {
+            "value": "es",
+            "label": "Espagnol"
+        },
+        {
+            "value": "sv",
+            "label": "Suédois"
+        }
+    ]
 }

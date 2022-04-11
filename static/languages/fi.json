@@ -6,5 +6,103 @@
     "textUpdate": "Viimeksi päivitetty",
     "textSourceDescription": "Lähde",
     "textSource": "Yhdistyneiden Kansakuntien pakolaisasiain päävaltuutettu",
-    "textDataAccess": "Käytä tietoja"
+    "textDataAccess": "Käytä tietoja",
+    "languages": [
+        {
+            "value": "bg",
+            "label": "Bulgarialainen"
+        },
+        {
+            "value": "hr",
+            "label": "Kroatia"
+        },
+        {
+            "value": "cs",
+            "label": "Tšekki"
+        },
+        {
+            "value": "da",
+            "label": "Tanskan kieli"
+        },
+        {
+            "value": "nl",
+            "label": "Hollannin kieli"
+        },
+        {
+            "value": "en",
+            "label": "Englanti"
+        },
+        {
+            "value": "et",
+            "label": "Virolainen"
+        },
+        {
+            "value": "fi",
+            "label": "Suomalainen"
+        },
+        {
+            "value": "fr",
+            "label": "Ranskan kieli"
+        },
+        {
+            "value": "de",
+            "label": "Saksan kieli"
+        },
+        {
+            "value": "el",
+            "label": "Kreikkalainen"
+        },
+        {
+            "value": "hu",
+            "label": "Unkarin kieli"
+        },
+        {
+            "value": "ga",
+            "label": "Irlantilainen"
+        },
+        {
+            "value": "it",
+            "label": "Italialainen"
+        },
+        {
+            "value": "lv",
+            "label": "Latvialainen"
+        },
+        {
+            "value": "lt",
+            "label": "Liettualainen"
+        },
+        {
+            "value": "mt",
+            "label": "Maltalainen"
+        },
+        {
+            "value": "pl",
+            "label": "Kiillottaa"
+        },
+        {
+            "value": "pt",
+            "label": "Portugalin kieli"
+        },
+        {
+            "value": "ro",
+            "label": "Romanialainen"
+        },
+        {
+            "value": "sk",
+            "label": "Slovakian"
+        },
+        {
+            "value": "sl",
+            "label": "Slovenialainen"
+        },
+        {
+            "value": "es",
+            "label": "Espanja"
+        },
+        {
+            "value": "sv",
+            "label": "Ruotsin kieli"
+        }
+    ]
 }

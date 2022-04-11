@@ -6,5 +6,103 @@
     "textUpdate": "Aġġornata l-aħħar",
     "textSourceDescription": "Sors",
     "textSource": "Kummissarju Għoli tan-Nazzjonijiet Uniti għar-Refuġjati",
-    "textDataAccess": "Aċċessa għad-data"
+    "textDataAccess": "Aċċessa għad-data",
+    "languages": [
+        {
+            "value": "bg",
+            "label": "Bulgaru"
+        },
+        {
+            "value": "hr",
+            "label": "Kroat"
+        },
+        {
+            "value": "cs",
+            "label": "Ċek"
+        },
+        {
+            "value": "da",
+            "label": "Daniż"
+        },
+        {
+            "value": "nl",
+            "label": "Olandiż"
+        },
+        {
+            "value": "en",
+            "label": "Ingliż"
+        },
+        {
+            "value": "et",
+            "label": "Estonjan"
+        },
+        {
+            "value": "fi",
+            "label": "Finlandiż"
+        },
+        {
+            "value": "fr",
+            "label": "Franċiż"
+        },
+        {
+            "value": "de",
+            "label": "Ġermaniż"
+        },
+        {
+            "value": "el",
+            "label": "Grieg"
+        },
+        {
+            "value": "hu",
+            "label": "Ungeriż"
+        },
+        {
+            "value": "ga",
+            "label": "Irlandiż"
+        },
+        {
+            "value": "it",
+            "label": "Taljan"
+        },
+        {
+            "value": "lv",
+            "label": "Latvjan"
+        },
+        {
+            "value": "lt",
+            "label": "Litwan"
+        },
+        {
+            "value": "mt",
+            "label": "Malti"
+        },
+        {
+            "value": "pl",
+            "label": "Pollakk"
+        },
+        {
+            "value": "pt",
+            "label": "Portugiż"
+        },
+        {
+            "value": "ro",
+            "label": "Rumen"
+        },
+        {
+            "value": "sk",
+            "label": "Slovakk"
+        },
+        {
+            "value": "sl",
+            "label": "Sloven"
+        },
+        {
+            "value": "es",
+            "label": "Spanjol"
+        },
+        {
+            "value": "sv",
+            "label": "Svediż"
+        }
+    ]
 }

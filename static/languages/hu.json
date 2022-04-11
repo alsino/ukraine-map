@@ -6,5 +6,103 @@
     "textUpdate": "Utolsó frissítés",
     "textSourceDescription": "Forrás",
     "textSource": "ENSZ Menekültügyi Főbiztossága",
-    "textDataAccess": "Hozzáférés az adatokhoz"
+    "textDataAccess": "Hozzáférés az adatokhoz",
+    "languages": [
+        {
+            "value": "bg",
+            "label": "Bolgár"
+        },
+        {
+            "value": "hr",
+            "label": "Horvát"
+        },
+        {
+            "value": "cs",
+            "label": "Cseh"
+        },
+        {
+            "value": "da",
+            "label": "Dán"
+        },
+        {
+            "value": "nl",
+            "label": "Holland"
+        },
+        {
+            "value": "en",
+            "label": "Angol"
+        },
+        {
+            "value": "et",
+            "label": "Észt"
+        },
+        {
+            "value": "fi",
+            "label": "Finn"
+        },
+        {
+            "value": "fr",
+            "label": "Francia"
+        },
+        {
+            "value": "de",
+            "label": "Német"
+        },
+        {
+            "value": "el",
+            "label": "Görög"
+        },
+        {
+            "value": "hu",
+            "label": "Magyar"
+        },
+        {
+            "value": "ga",
+            "label": "Ír"
+        },
+        {
+            "value": "it",
+            "label": "Olasz"
+        },
+        {
+            "value": "lv",
+            "label": "Lett"
+        },
+        {
+            "value": "lt",
+            "label": "Litván"
+        },
+        {
+            "value": "mt",
+            "label": "Máltai"
+        },
+        {
+            "value": "pl",
+            "label": "Fényesít"
+        },
+        {
+            "value": "pt",
+            "label": "Portugál"
+        },
+        {
+            "value": "ro",
+            "label": "Román"
+        },
+        {
+            "value": "sk",
+            "label": "Szlovák"
+        },
+        {
+            "value": "sl",
+            "label": "Szlovén"
+        },
+        {
+            "value": "es",
+            "label": "Spanyol"
+        },
+        {
+            "value": "sv",
+            "label": "Svéd"
+        }
+    ]
 }

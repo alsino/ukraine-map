@@ -6,5 +6,103 @@
     "textUpdate": "Letzte Aktualisierung",
     "textSourceDescription": "Quelle",
     "textSource": "Hoher Flüchtlingskommissar der Vereinten Nationen",
-    "textDataAccess": "Greifen Sie auf die Daten zu"
+    "textDataAccess": "Greifen Sie auf die Daten zu",
+    "languages": [
+        {
+            "value": "bg",
+            "label": "Bulgarisch"
+        },
+        {
+            "value": "hr",
+            "label": "Kroatisch"
+        },
+        {
+            "value": "cs",
+            "label": "Tschechisch"
+        },
+        {
+            "value": "da",
+            "label": "Dänisch"
+        },
+        {
+            "value": "nl",
+            "label": "Niederländisch"
+        },
+        {
+            "value": "en",
+            "label": "Englisch"
+        },
+        {
+            "value": "et",
+            "label": "Estnisch"
+        },
+        {
+            "value": "fi",
+            "label": "Finnisch"
+        },
+        {
+            "value": "fr",
+            "label": "Französisch"
+        },
+        {
+            "value": "de",
+            "label": "Deutsch"
+        },
+        {
+            "value": "el",
+            "label": "Griechisch"
+        },
+        {
+            "value": "hu",
+            "label": "Ungarisch"
+        },
+        {
+            "value": "ga",
+            "label": "Irisch"
+        },
+        {
+            "value": "it",
+            "label": "Italienisch"
+        },
+        {
+            "value": "lv",
+            "label": "Lettisch"
+        },
+        {
+            "value": "lt",
+            "label": "Litauisch"
+        },
+        {
+            "value": "mt",
+            "label": "Maltesisch"
+        },
+        {
+            "value": "pl",
+            "label": "Polieren"
+        },
+        {
+            "value": "pt",
+            "label": "Portugiesisch"
+        },
+        {
+            "value": "ro",
+            "label": "Rumänisch"
+        },
+        {
+            "value": "sk",
+            "label": "Slowakisch"
+        },
+        {
+            "value": "sl",
+            "label": "Slowenisch"
+        },
+        {
+            "value": "es",
+            "label": "Spanisch"
+        },
+        {
+            "value": "sv",
+            "label": "Schwedisch"
+        }
+    ]
 }

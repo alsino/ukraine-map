@@ -6,5 +6,103 @@
     "textUpdate": "Ostatnio zaktualizowany",
     "textSourceDescription": "Źródło",
     "textSource": "Wysoki Komisarz Narodów Zjednoczonych ds. Uchodźców",
-    "textDataAccess": "Uzyskaj dostęp do danych"
+    "textDataAccess": "Uzyskaj dostęp do danych",
+    "languages": [
+        {
+            "value": "bg",
+            "label": "Bułgarski"
+        },
+        {
+            "value": "hr",
+            "label": "Chorwacki"
+        },
+        {
+            "value": "cs",
+            "label": "Czech"
+        },
+        {
+            "value": "da",
+            "label": "Duński"
+        },
+        {
+            "value": "nl",
+            "label": "Holenderski"
+        },
+        {
+            "value": "en",
+            "label": "Język angielski"
+        },
+        {
+            "value": "et",
+            "label": "Estoński"
+        },
+        {
+            "value": "fi",
+            "label": "Fiński"
+        },
+        {
+            "value": "fr",
+            "label": "Francuski"
+        },
+        {
+            "value": "de",
+            "label": "Niemiecki"
+        },
+        {
+            "value": "el",
+            "label": "Grecki"
+        },
+        {
+            "value": "hu",
+            "label": "Język węgierski"
+        },
+        {
+            "value": "ga",
+            "label": "Irlandzki"
+        },
+        {
+            "value": "it",
+            "label": "Włoski"
+        },
+        {
+            "value": "lv",
+            "label": "Łotewski"
+        },
+        {
+            "value": "lt",
+            "label": "Litewski"
+        },
+        {
+            "value": "mt",
+            "label": "Maltański"
+        },
+        {
+            "value": "pl",
+            "label": "Polski"
+        },
+        {
+            "value": "pt",
+            "label": "Portugalski"
+        },
+        {
+            "value": "ro",
+            "label": "Rumuński"
+        },
+        {
+            "value": "sk",
+            "label": "Słowacki"
+        },
+        {
+            "value": "sl",
+            "label": "Słoweński"
+        },
+        {
+            "value": "es",
+            "label": "Hiszpański"
+        },
+        {
+            "value": "sv",
+            "label": "Szwedzki"
+        }
+    ]
 }

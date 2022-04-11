@@ -6,5 +6,103 @@
     "textUpdate": "Последна актуализация",
     "textSourceDescription": "Източник",
     "textSource": "Върховният комисар на ООН за бежанците",
-    "textDataAccess": "Достъп до данните"
+    "textDataAccess": "Достъп до данните",
+    "languages": [
+        {
+            "value": "bg",
+            "label": "Български"
+        },
+        {
+            "value": "hr",
+            "label": "Хърватски"
+        },
+        {
+            "value": "cs",
+            "label": "Чешки"
+        },
+        {
+            "value": "da",
+            "label": "Датски"
+        },
+        {
+            "value": "nl",
+            "label": "Холандски"
+        },
+        {
+            "value": "en",
+            "label": "Английски"
+        },
+        {
+            "value": "et",
+            "label": "Естонски"
+        },
+        {
+            "value": "fi",
+            "label": "Финландски"
+        },
+        {
+            "value": "fr",
+            "label": "Френски"
+        },
+        {
+            "value": "de",
+            "label": "Немски"
+        },
+        {
+            "value": "el",
+            "label": "Гръцки"
+        },
+        {
+            "value": "hu",
+            "label": "Унгарски"
+        },
+        {
+            "value": "ga",
+            "label": "Ирландски"
+        },
+        {
+            "value": "it",
+            "label": "Италиански"
+        },
+        {
+            "value": "lv",
+            "label": "Латвийски"
+        },
+        {
+            "value": "lt",
+            "label": "Литовски"
+        },
+        {
+            "value": "mt",
+            "label": "Малтийски"
+        },
+        {
+            "value": "pl",
+            "label": "Полски"
+        },
+        {
+            "value": "pt",
+            "label": "Португалски"
+        },
+        {
+            "value": "ro",
+            "label": "Румънски"
+        },
+        {
+            "value": "sk",
+            "label": "Словашки"
+        },
+        {
+            "value": "sl",
+            "label": "Словенски"
+        },
+        {
+            "value": "es",
+            "label": "Испански"
+        },
+        {
+            "value": "sv",
+            "label": "Шведски"
+        }
+    ]
 }
