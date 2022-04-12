@@ -130,14 +130,14 @@
 				// console.log('schengenCountries', schengenCountries);
 				// console.log('countriesAll', countriesAll);
 
-				let list = schengenCountries.features.map((item) => {
-					return {
-						id: item.properties.id,
-						na: item.properties.na
-					};
-				});
+				// let list = schengenCountries.features.map((item) => {
+				// 	return {
+				// 		id: item.properties.id,
+				// 		na: item.properties.na
+				// 	};
+				// });
 
-				console.log(list);
+				// console.log(list);
 
 				let test = bgCountries.features.filter((c) => {
 					return c.properties.na == 'Ukraine';

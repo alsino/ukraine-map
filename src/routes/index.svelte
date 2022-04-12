@@ -2,14 +2,14 @@
 	import { onMount } from 'svelte';
 	import { MAP_TYPE } from '$lib/stores/shared';
 	import { APP_HEIGHT } from '$lib/stores/shared';
+	import { selectedLanguage } from '$lib/stores/shared';
+	import { languagesAll } from '$lib/stores/languages';
 	import MapChoroplethAPI from '$lib/components/MapChoroplethAPI.svelte';
 	import MapChoropleth from '$lib/components/MapChoropleth.svelte';
 	import Select from 'svelte-select';
 
 	let heading;
 	let subheading;
-	let languages;
-	let langDefault = { value: 'en', label: 'English' };
 	let legendLabel1;
 	let legendLabel2;
 	let textUpdate;
@@ -27,20 +27,22 @@
 		}
 	}
 
+	$: dropdownLanguages = languagesAll[$selectedLanguage.value];
+	$: console.log(dropdownLanguages);
+
 	onMount(async () => {
-		await getAllLanguages();
-		await getLanguage(langDefault.value);
+		// await getAllLanguages();
+		await getLanguage($selectedLanguage.value);
 		await getAggregateAPI();
 	});
 
-	async function getAllLanguages() {
-		const res = await fetch(`/languages/languages.json`)
-			.then((response) => response.json())
-			.then(function (data) {
-				languages = data.languages;
-				// console.log(languages);
-			});
-	}
+	// async function getAllLanguages() {
+	// 	const res = await fetch(`/languages/languages.json`)
+	// 		.then((response) => response.json())
+	// 		.then(function (data) {
+	// 			languages = data.languages;
+	// 		});
+	// }
 
 	async function getLanguage(lang) {
 		const res = await fetch(`/languages/${lang}.json`)
@@ -63,8 +65,9 @@
 	];
 
 	function handleSelect(event) {
-		let selectedLang = event.detail.value;
-		getLanguage(selectedLang);
+		$selectedLanguage = { value: event.detail.value, label: event.detail.label };
+		// $selectedLanguage = event.detail.value;
+		getLanguage($selectedLanguage.value);
 	}
 
 	async function getAggregateAPI() {
@@ -98,7 +101,7 @@
 			<img src="./img/logo.png" alt="" />
 		</div>
 		<div class="select">
-			<Select items={languages} value={langDefault} on:select={handleSelect} />
+			<Select items={dropdownLanguages} value={$selectedLanguage} on:select={handleSelect} />
 		</div>
 	</header>
 	<div id="chart" class="mt-8">
