@@ -7,6 +7,9 @@
 	import { geoPath, geoIdentity } from 'd3-geo';
 	import { dataReady } from '$lib/stores/shared';
 	import { MAP_WIDTH } from '$lib/stores/shared';
+	import { selectedLanguage } from '$lib/stores/shared';
+	import { countryNameTranslations } from '$lib/stores/countries';
+
 	import { scaleQuantile, scaleQuantize, scaleSequential, scaleSequentialQuantile } from 'd3-scale';
 	import { schemeBlues, schemeReds, interpolateBlues, interpolateReds } from 'd3-scale-chromatic';
 
@@ -21,6 +24,11 @@
 	let height = 600;
 	let paddingMap;
 	let center;
+
+	// $: console.log('countryNameTranslations', countryNameTranslations);
+	$: countryNames = countryNameTranslations[$selectedLanguage.value];
+
+	$: console.log(countryNames);
 
 	export let legend;
 
@@ -251,6 +259,7 @@
 		// console.log(mouseX);
 
 		if (hoveredCountry) {
+			// console.log(hoveredCountry);
 			MOUSE.set({
 				x: mouseX,
 				y: mouseY,
@@ -273,8 +282,15 @@
 
 	$: handleMouseEnter = function (country) {
 		if (tooltipAvailable) {
+			// let countryName = countryNames[country.properties.id.toLowerCase()];
+
+			let countryName = countryNames.filter((c) => {
+				return c.id == country.properties.id;
+			})[0].na;
+
+			console.log(countryName);
 			hoveredCountry = {
-				name: country.properties.na,
+				name: countryName,
 				value: country.value,
 				valuePercent: country.value / totalRefugees
 			};

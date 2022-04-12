@@ -7,102 +7,110 @@
     "textSourceDescription": "Forrás",
     "textSource": "ENSZ Menekültügyi Főbiztossága",
     "textDataAccess": "Hozzáférés az adatokhoz",
-    "languages": [
+    "countries": [
         {
-            "value": "bg",
-            "label": "Bolgár"
+            "id": "AT",
+            "na": "Ausztria"
         },
         {
-            "value": "hr",
-            "label": "Horvát"
+            "id": "BE",
+            "na": "Belgium"
         },
         {
-            "value": "cs",
-            "label": "Cseh"
+            "id": "CZ",
+            "na": "Csehország"
         },
         {
-            "value": "da",
-            "label": "Dán"
+            "id": "DK",
+            "na": "Dánia"
         },
         {
-            "value": "nl",
-            "label": "Holland"
+            "id": "EE",
+            "na": "Észtország"
         },
         {
-            "value": "en",
-            "label": "Angol"
+            "id": "FI",
+            "na": "Finnország"
         },
         {
-            "value": "et",
-            "label": "Észt"
+            "id": "FR",
+            "na": "Franciaország"
         },
         {
-            "value": "fi",
-            "label": "Finn"
+            "id": "DE",
+            "na": "Németország"
         },
         {
-            "value": "fr",
-            "label": "Francia"
+            "id": "EL",
+            "na": "Görögország"
         },
         {
-            "value": "de",
-            "label": "Német"
+            "id": "HU",
+            "na": "Magyarország"
         },
         {
-            "value": "el",
-            "label": "Görög"
+            "id": "IS",
+            "na": "Izland"
         },
         {
-            "value": "hu",
-            "label": "Magyar"
+            "id": "IT",
+            "na": "Olaszország"
         },
         {
-            "value": "ga",
-            "label": "Ír"
+            "id": "LV",
+            "na": "Lettország"
         },
         {
-            "value": "it",
-            "label": "Olasz"
+            "id": "LI",
+            "na": "Liechtenstein"
         },
         {
-            "value": "lv",
-            "label": "Lett"
+            "id": "LT",
+            "na": "Litvánia"
         },
         {
-            "value": "lt",
-            "label": "Litván"
+            "id": "LU",
+            "na": "Luxemburg"
         },
         {
-            "value": "mt",
-            "label": "Máltai"
+            "id": "MT",
+            "na": "Málta"
         },
         {
-            "value": "pl",
-            "label": "Fényesít"
+            "id": "NL",
+            "na": "Hollandia"
         },
         {
-            "value": "pt",
-            "label": "Portugál"
+            "id": "NO",
+            "na": "Norvégia"
         },
         {
-            "value": "ro",
-            "label": "Román"
+            "id": "PL",
+            "na": "Lengyelország"
         },
         {
-            "value": "sk",
-            "label": "Szlovák"
+            "id": "PT",
+            "na": "Portugália"
         },
         {
-            "value": "sl",
-            "label": "Szlovén"
+            "id": "SK",
+            "na": "Szlovákia"
         },
         {
-            "value": "es",
-            "label": "Spanyol"
+            "id": "SI",
+            "na": "Szlovénia"
         },
         {
-            "value": "sv",
-            "label": "Svéd"
+            "id": "ES",
+            "na": "Spanyolország"
+        },
+        {
+            "id": "SE",
+            "na": "Svédország"
+        },
+        {
+            "id": "CH",
+            "na": "Svájc"
         }
     ]
 }

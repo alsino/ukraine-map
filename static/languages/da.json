@@ -7,102 +7,110 @@
     "textSourceDescription": "Kilde",
     "textSource": "FN's højkommissær for flygtninge",
     "textDataAccess": "Få adgang til dataene",
-    "languages": [
+    "countries": [
         {
-            "value": "bg",
-            "label": "Bulgarsk"
+            "id": "AT",
+            "na": "Østrig"
         },
         {
-            "value": "hr",
-            "label": "Kroatisk"
+            "id": "BE",
+            "na": "Belgien"
         },
         {
-            "value": "cs",
-            "label": "Tjekkisk"
+            "id": "CZ",
+            "na": "Tjekkiet"
         },
         {
-            "value": "da",
-            "label": "Dansk"
+            "id": "DK",
+            "na": "Danmark"
         },
         {
-            "value": "nl",
-            "label": "Hollandske"
+            "id": "EE",
+            "na": "Estland"
         },
         {
-            "value": "en",
-            "label": "Engelsk"
+            "id": "FI",
+            "na": "Finland"
         },
         {
-            "value": "et",
-            "label": "Estisk"
+            "id": "FR",
+            "na": "Frankrig"
         },
         {
-            "value": "fi",
-            "label": "Finsk"
+            "id": "DE",
+            "na": "Tyskland"
         },
         {
-            "value": "fr",
-            "label": "Fransk"
+            "id": "EL",
+            "na": "Grækenland"
         },
         {
-            "value": "de",
-            "label": "Tysk"
+            "id": "HU",
+            "na": "Ungarn"
         },
         {
-            "value": "el",
-            "label": "Græsk"
+            "id": "IS",
+            "na": "Island"
         },
         {
-            "value": "hu",
-            "label": "Ungarsk"
+            "id": "IT",
+            "na": "Italien"
         },
         {
-            "value": "ga",
-            "label": "Irsk"
+            "id": "LV",
+            "na": "Letland"
         },
         {
-            "value": "it",
-            "label": "Italiensk"
+            "id": "LI",
+            "na": "Liechtenstein"
         },
         {
-            "value": "lv",
-            "label": "Lettisk"
+            "id": "LT",
+            "na": "Litauen"
         },
         {
-            "value": "lt",
-            "label": "Litauisk"
+            "id": "LU",
+            "na": "Luxembourg"
         },
         {
-            "value": "mt",
-            "label": "Maltesisk"
+            "id": "MT",
+            "na": "Malta"
         },
         {
-            "value": "pl",
-            "label": "Polere"
+            "id": "NL",
+            "na": "Holland"
         },
         {
-            "value": "pt",
-            "label": "Portugisisk"
+            "id": "NO",
+            "na": "Norge"
         },
         {
-            "value": "ro",
-            "label": "Rumænsk"
+            "id": "PL",
+            "na": "Polen"
         },
         {
-            "value": "sk",
-            "label": "Slovakisk"
+            "id": "PT",
+            "na": "Portugal"
         },
         {
-            "value": "sl",
-            "label": "Slovensk"
+            "id": "SK",
+            "na": "Slovakiet"
         },
         {
-            "value": "es",
-            "label": "Spansk"
+            "id": "SI",
+            "na": "Slovenien"
         },
         {
-            "value": "sv",
-            "label": "Svensk"
+            "id": "ES",
+            "na": "Spanien"
+        },
+        {
+            "id": "SE",
+            "na": "Sverige"
+        },
+        {
+            "id": "CH",
+            "na": "Schweiz"
         }
     ]
 }

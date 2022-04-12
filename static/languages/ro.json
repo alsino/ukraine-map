@@ -7,102 +7,110 @@
     "textSourceDescription": "Sursă",
     "textSource": "Înaltul Comisar al Națiunilor Unite pentru Refugiați",
     "textDataAccess": "Accesați datele",
-    "languages": [
+    "countries": [
         {
-            "value": "bg",
-            "label": "Bulgară"
+            "id": "AT",
+            "na": "Austria"
         },
         {
-            "value": "hr",
-            "label": "Croat"
+            "id": "BE",
+            "na": "Belgia"
         },
         {
-            "value": "cs",
-            "label": "Ceh"
+            "id": "CZ",
+            "na": "Cehia"
         },
         {
-            "value": "da",
-            "label": "Danez"
+            "id": "DK",
+            "na": "Danemarca"
         },
         {
-            "value": "nl",
-            "label": "Olandeză"
+            "id": "EE",
+            "na": "Estonia"
         },
         {
-            "value": "en",
-            "label": "Engleză"
+            "id": "FI",
+            "na": "Finlanda"
         },
         {
-            "value": "et",
-            "label": "Estonă"
+            "id": "FR",
+            "na": "Franţa"
         },
         {
-            "value": "fi",
-            "label": "Finlandeză"
+            "id": "DE",
+            "na": "Germania"
         },
         {
-            "value": "fr",
-            "label": "Limba franceza"
+            "id": "EL",
+            "na": "Grecia"
         },
         {
-            "value": "de",
-            "label": "Limba germana"
+            "id": "HU",
+            "na": "Ungaria"
         },
         {
-            "value": "el",
-            "label": "Greacă"
+            "id": "IS",
+            "na": "Islanda"
         },
         {
-            "value": "hu",
-            "label": "Maghiară"
+            "id": "IT",
+            "na": "Italia"
         },
         {
-            "value": "ga",
-            "label": "Irlandez"
+            "id": "LV",
+            "na": "Letonia"
         },
         {
-            "value": "it",
-            "label": "Italiană"
+            "id": "LI",
+            "na": "Liechtenstein"
         },
         {
-            "value": "lv",
-            "label": "Letonă"
+            "id": "LT",
+            "na": "Lituania"
         },
         {
-            "value": "lt",
-            "label": "Lituanian"
+            "id": "LU",
+            "na": "Luxemburg"
         },
         {
-            "value": "mt",
-            "label": "Malteză"
+            "id": "MT",
+            "na": "Malta"
         },
         {
-            "value": "pl",
-            "label": "Lustrui"
+            "id": "NL",
+            "na": "Olanda"
         },
         {
-            "value": "pt",
-            "label": "Portugheză"
+            "id": "NO",
+            "na": "Norvegia"
         },
         {
-            "value": "ro",
-            "label": "Română"
+            "id": "PL",
+            "na": "Polonia"
         },
         {
-            "value": "sk",
-            "label": "Slovacă"
+            "id": "PT",
+            "na": "Portugalia"
         },
         {
-            "value": "sl",
-            "label": "Slovenă"
+            "id": "SK",
+            "na": "Slovacia"
         },
         {
-            "value": "es",
-            "label": "Spaniolă"
+            "id": "SI",
+            "na": "Slovenia"
         },
         {
-            "value": "sv",
-            "label": "Suedez"
+            "id": "ES",
+            "na": "Spania"
+        },
+        {
+            "id": "SE",
+            "na": "Suedia"
+        },
+        {
+            "id": "CH",
+            "na": "Elveţia"
         }
     ]
 }

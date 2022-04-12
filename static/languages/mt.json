@@ -7,102 +7,110 @@
     "textSourceDescription": "Sors",
     "textSource": "Kummissarju Għoli tan-Nazzjonijiet Uniti għar-Refuġjati",
     "textDataAccess": "Aċċessa għad-data",
-    "languages": [
+    "countries": [
         {
-            "value": "bg",
-            "label": "Bulgaru"
+            "id": "AT",
+            "na": "L-Awstrija"
         },
         {
-            "value": "hr",
-            "label": "Kroat"
+            "id": "BE",
+            "na": "Il-Belġju"
         },
         {
-            "value": "cs",
-            "label": "Ċek"
+            "id": "CZ",
+            "na": "Ċekja"
         },
         {
-            "value": "da",
-            "label": "Daniż"
+            "id": "DK",
+            "na": "Id-Danimarka"
         },
         {
-            "value": "nl",
-            "label": "Olandiż"
+            "id": "EE",
+            "na": "Estonja"
         },
         {
-            "value": "en",
-            "label": "Ingliż"
+            "id": "FI",
+            "na": "Finlandja"
         },
         {
-            "value": "et",
-            "label": "Estonjan"
+            "id": "FR",
+            "na": "Franza"
         },
         {
-            "value": "fi",
-            "label": "Finlandiż"
+            "id": "DE",
+            "na": "Il-Ġermanja"
         },
         {
-            "value": "fr",
-            "label": "Franċiż"
+            "id": "EL",
+            "na": "Il-Greċja"
         },
         {
-            "value": "de",
-            "label": "Ġermaniż"
+            "id": "HU",
+            "na": "Ungerija"
         },
         {
-            "value": "el",
-            "label": "Grieg"
+            "id": "IS",
+            "na": "L-Islanda"
         },
         {
-            "value": "hu",
-            "label": "Ungeriż"
+            "id": "IT",
+            "na": "L-Italja"
         },
         {
-            "value": "ga",
-            "label": "Irlandiż"
+            "id": "LV",
+            "na": "Il-Latvja"
         },
         {
-            "value": "it",
-            "label": "Taljan"
+            "id": "LI",
+            "na": "Liechtenstein"
         },
         {
-            "value": "lv",
-            "label": "Latvjan"
+            "id": "LT",
+            "na": "Il-Litwanja"
         },
         {
-            "value": "lt",
-            "label": "Litwan"
+            "id": "LU",
+            "na": "Lussemburgu"
         },
         {
-            "value": "mt",
-            "label": "Malti"
+            "id": "MT",
+            "na": "Malta"
         },
         {
-            "value": "pl",
-            "label": "Pollakk"
+            "id": "NL",
+            "na": "L-Olanda"
         },
         {
-            "value": "pt",
-            "label": "Portugiż"
+            "id": "NO",
+            "na": "Norveġja"
         },
         {
-            "value": "ro",
-            "label": "Rumen"
+            "id": "PL",
+            "na": "Polonja"
         },
         {
-            "value": "sk",
-            "label": "Slovakk"
+            "id": "PT",
+            "na": "Portugall"
         },
         {
-            "value": "sl",
-            "label": "Sloven"
+            "id": "SK",
+            "na": "Is-Slovakkja"
         },
         {
-            "value": "es",
-            "label": "Spanjol"
+            "id": "SI",
+            "na": "Is-Slovenja"
         },
         {
-            "value": "sv",
-            "label": "Svediż"
+            "id": "ES",
+            "na": "Spanja"
+        },
+        {
+            "id": "SE",
+            "na": "L-Isvezja"
+        },
+        {
+            "id": "CH",
+            "na": "L-Isvizzera"
         }
     ]
 }

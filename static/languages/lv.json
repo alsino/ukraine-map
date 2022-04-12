@@ -7,102 +7,110 @@
     "textSourceDescription": "Avots",
     "textSource": "Apvienoto Nāciju Organizācijas Augstais komisārs bēgļu jautājumos",
     "textDataAccess": "Piekļūstiet datiem",
-    "languages": [
+    "countries": [
         {
-            "value": "bg",
-            "label": "Bulgāru valoda"
+            "id": "AT",
+            "na": "Austrija"
         },
         {
-            "value": "hr",
-            "label": "Horvātu"
+            "id": "BE",
+            "na": "Beļģija"
         },
         {
-            "value": "cs",
-            "label": "Čehu"
+            "id": "CZ",
+            "na": "Čehija"
         },
         {
-            "value": "da",
-            "label": "Dāņu"
+            "id": "DK",
+            "na": "Dānija"
         },
         {
-            "value": "nl",
-            "label": "Holandiešu valoda"
+            "id": "EE",
+            "na": "Igaunija"
         },
         {
-            "value": "en",
-            "label": "Angļu"
+            "id": "FI",
+            "na": "Somija"
         },
         {
-            "value": "et",
-            "label": "Igauņu"
+            "id": "FR",
+            "na": "Francija"
         },
         {
-            "value": "fi",
-            "label": "Somu"
+            "id": "DE",
+            "na": "Vācija"
         },
         {
-            "value": "fr",
-            "label": "Franču valoda"
+            "id": "EL",
+            "na": "Grieķija"
         },
         {
-            "value": "de",
-            "label": "Vāciski"
+            "id": "HU",
+            "na": "Ungārija"
         },
         {
-            "value": "el",
-            "label": "Grieķu valoda"
+            "id": "IS",
+            "na": "Islande"
         },
         {
-            "value": "hu",
-            "label": "Ungāru"
+            "id": "IT",
+            "na": "Itālija"
         },
         {
-            "value": "ga",
-            "label": "Īru"
+            "id": "LV",
+            "na": "Latvija"
         },
         {
-            "value": "it",
-            "label": "Itāļu valoda"
+            "id": "LI",
+            "na": "Lihtenšteina"
         },
         {
-            "value": "lv",
-            "label": "Latviski"
+            "id": "LT",
+            "na": "Lietuva"
         },
         {
-            "value": "lt",
-            "label": "Lietuviešu"
+            "id": "LU",
+            "na": "Luksemburga"
         },
         {
-            "value": "mt",
-            "label": "Maltiešu"
+            "id": "MT",
+            "na": "Malta"
         },
         {
-            "value": "pl",
-            "label": "Poļu"
+            "id": "NL",
+            "na": "Nīderlande"
         },
         {
-            "value": "pt",
-            "label": "Portugāļu"
+            "id": "NO",
+            "na": "Norvēģija"
         },
         {
-            "value": "ro",
-            "label": "Rumāņu valoda"
+            "id": "PL",
+            "na": "Polija"
         },
         {
-            "value": "sk",
-            "label": "Slovāku"
+            "id": "PT",
+            "na": "Portugāle"
         },
         {
-            "value": "sl",
-            "label": "Slovēņu"
+            "id": "SK",
+            "na": "Slovākija"
         },
         {
-            "value": "es",
-            "label": "Spāņu valoda"
+            "id": "SI",
+            "na": "Slovēnija"
         },
         {
-            "value": "sv",
-            "label": "Zviedru"
+            "id": "ES",
+            "na": "Spānija"
+        },
+        {
+            "id": "SE",
+            "na": "Zviedrija"
+        },
+        {
+            "id": "CH",
+            "na": "Šveice"
         }
     ]
 }

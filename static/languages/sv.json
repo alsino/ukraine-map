@@ -7,102 +7,110 @@
     "textSourceDescription": "Källa",
     "textSource": "FN: s flyktingkommissariat",
     "textDataAccess": "Få åtkomst till data",
-    "languages": [
+    "countries": [
         {
-            "value": "bg",
-            "label": "Bulgariska"
+            "id": "AT",
+            "na": "Österrike"
         },
         {
-            "value": "hr",
-            "label": "Kroatisk"
+            "id": "BE",
+            "na": "Belgien"
         },
         {
-            "value": "cs",
-            "label": "Tjeckiska"
+            "id": "CZ",
+            "na": "Tjeckien"
         },
         {
-            "value": "da",
-            "label": "Danska"
+            "id": "DK",
+            "na": "Danmark"
         },
         {
-            "value": "nl",
-            "label": "Holländska"
+            "id": "EE",
+            "na": "Estland"
         },
         {
-            "value": "en",
-            "label": "Engelsk"
+            "id": "FI",
+            "na": "Finland"
         },
         {
-            "value": "et",
-            "label": "Estniska"
+            "id": "FR",
+            "na": "Frankrike"
         },
         {
-            "value": "fi",
-            "label": "Finska"
+            "id": "DE",
+            "na": "Tyskland"
         },
         {
-            "value": "fr",
-            "label": "Franska"
+            "id": "EL",
+            "na": "Grekland"
         },
         {
-            "value": "de",
-            "label": "Tysk"
+            "id": "HU",
+            "na": "Ungern"
         },
         {
-            "value": "el",
-            "label": "Grekisk"
+            "id": "IS",
+            "na": "Island"
         },
         {
-            "value": "hu",
-            "label": "Ungerska"
+            "id": "IT",
+            "na": "Italien"
         },
         {
-            "value": "ga",
-            "label": "Irländska"
+            "id": "LV",
+            "na": "Lettland"
         },
         {
-            "value": "it",
-            "label": "Italienska"
+            "id": "LI",
+            "na": "Liechtenstein"
         },
         {
-            "value": "lv",
-            "label": "Lettiska"
+            "id": "LT",
+            "na": "Litauen"
         },
         {
-            "value": "lt",
-            "label": "Litauiska"
+            "id": "LU",
+            "na": "Luxemburg"
         },
         {
-            "value": "mt",
-            "label": "Maltesiska"
+            "id": "MT",
+            "na": "Malta"
         },
         {
-            "value": "pl",
-            "label": "Putsa"
+            "id": "NL",
+            "na": "Nederländerna"
         },
         {
-            "value": "pt",
-            "label": "Portugisiska"
+            "id": "NO",
+            "na": "Norge"
         },
         {
-            "value": "ro",
-            "label": "Rumänska"
+            "id": "PL",
+            "na": "Polen"
         },
         {
-            "value": "sk",
-            "label": "Slovakiska"
+            "id": "PT",
+            "na": "Portugal"
         },
         {
-            "value": "sl",
-            "label": "Slovenska"
+            "id": "SK",
+            "na": "Slovakien"
         },
         {
-            "value": "es",
-            "label": "Spanska"
+            "id": "SI",
+            "na": "Slovenien"
         },
         {
-            "value": "sv",
-            "label": "Svenska"
+            "id": "ES",
+            "na": "Spanien"
+        },
+        {
+            "id": "SE",
+            "na": "Sverige"
+        },
+        {
+            "id": "CH",
+            "na": "Schweiz"
         }
     ]
 }

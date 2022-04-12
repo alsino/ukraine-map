@@ -7,102 +7,110 @@
     "textSourceDescription": "Quelle",
     "textSource": "Hoher Flüchtlingskommissar der Vereinten Nationen",
     "textDataAccess": "Greifen Sie auf die Daten zu",
-    "languages": [
+    "countries": [
         {
-            "value": "bg",
-            "label": "Bulgarisch"
+            "id": "AT",
+            "na": "Österreich"
         },
         {
-            "value": "hr",
-            "label": "Kroatisch"
+            "id": "BE",
+            "na": "Belgien"
         },
         {
-            "value": "cs",
-            "label": "Tschechisch"
+            "id": "CZ",
+            "na": "Tschechien"
         },
         {
-            "value": "da",
-            "label": "Dänisch"
+            "id": "DK",
+            "na": "Dänemark"
         },
         {
-            "value": "nl",
-            "label": "Niederländisch"
+            "id": "EE",
+            "na": "Estland"
         },
         {
-            "value": "en",
-            "label": "Englisch"
+            "id": "FI",
+            "na": "Finnland"
         },
         {
-            "value": "et",
-            "label": "Estnisch"
+            "id": "FR",
+            "na": "Frankreich"
         },
         {
-            "value": "fi",
-            "label": "Finnisch"
+            "id": "DE",
+            "na": "Deutschland"
         },
         {
-            "value": "fr",
-            "label": "Französisch"
+            "id": "EL",
+            "na": "Griechenland"
         },
         {
-            "value": "de",
-            "label": "Deutsch"
+            "id": "HU",
+            "na": "Ungarn"
         },
         {
-            "value": "el",
-            "label": "Griechisch"
+            "id": "IS",
+            "na": "Island"
         },
         {
-            "value": "hu",
-            "label": "Ungarisch"
+            "id": "IT",
+            "na": "Italien"
         },
         {
-            "value": "ga",
-            "label": "Irisch"
+            "id": "LV",
+            "na": "Lettland"
         },
         {
-            "value": "it",
-            "label": "Italienisch"
+            "id": "LI",
+            "na": "Liechtenstein"
         },
         {
-            "value": "lv",
-            "label": "Lettisch"
+            "id": "LT",
+            "na": "Litauen"
         },
         {
-            "value": "lt",
-            "label": "Litauisch"
+            "id": "LU",
+            "na": "Luxemburg"
         },
         {
-            "value": "mt",
-            "label": "Maltesisch"
+            "id": "MT",
+            "na": "Malta"
         },
         {
-            "value": "pl",
-            "label": "Polieren"
+            "id": "NL",
+            "na": "Niederlande"
         },
         {
-            "value": "pt",
-            "label": "Portugiesisch"
+            "id": "NO",
+            "na": "Norwegen"
         },
         {
-            "value": "ro",
-            "label": "Rumänisch"
+            "id": "PL",
+            "na": "Polen"
         },
         {
-            "value": "sk",
-            "label": "Slowakisch"
+            "id": "PT",
+            "na": "Portugal"
         },
         {
-            "value": "sl",
-            "label": "Slowenisch"
+            "id": "SK",
+            "na": "Slowakei"
         },
         {
-            "value": "es",
-            "label": "Spanisch"
+            "id": "SI",
+            "na": "Slowenien"
         },
         {
-            "value": "sv",
-            "label": "Schwedisch"
+            "id": "ES",
+            "na": "Spanien"
+        },
+        {
+            "id": "SE",
+            "na": "Schweden"
+        },
+        {
+            "id": "CH",
+            "na": "Schweiz"
         }
     ]
 }

@@ -3,7 +3,7 @@
 	import { MAP_TYPE } from '$lib/stores/shared';
 	import { APP_HEIGHT } from '$lib/stores/shared';
 	import { selectedLanguage } from '$lib/stores/shared';
-	import { languagesAll } from '$lib/stores/languages';
+	import { languageNameTranslations } from '$lib/stores/languages';
 	import MapChoroplethAPI from '$lib/components/MapChoroplethAPI.svelte';
 	import MapChoropleth from '$lib/components/MapChoropleth.svelte';
 	import Select from 'svelte-select';
@@ -27,22 +27,12 @@
 		}
 	}
 
-	$: dropdownLanguages = languagesAll[$selectedLanguage.value];
-	$: console.log(dropdownLanguages);
+	$: dropdownLanguages = languageNameTranslations[$selectedLanguage.value];
 
 	onMount(async () => {
-		// await getAllLanguages();
 		await getLanguage($selectedLanguage.value);
 		await getAggregateAPI();
 	});
-
-	// async function getAllLanguages() {
-	// 	const res = await fetch(`/languages/languages.json`)
-	// 		.then((response) => response.json())
-	// 		.then(function (data) {
-	// 			languages = data.languages;
-	// 		});
-	// }
 
 	async function getLanguage(lang) {
 		const res = await fetch(`/languages/${lang}.json`)

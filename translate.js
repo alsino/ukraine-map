@@ -32,10 +32,9 @@ async function translateJSON(target, label) {
 
     let translations;
 
-    // console.log(Array.isArray(sourceJSON[key]))
 
     // For all keys except for languages and countries
-    if (Array.isArray(sourceJSON[key])) {
+    if (key == "countries") {
 
     // For keys languages and countries
     // Get translations
@@ -45,10 +44,10 @@ async function translateJSON(target, label) {
       
      translations = await Promise.all(
        objectArray.map(async (item) => {
-         let [trans] = await googleClient.translate(item.label, target);
+         let [trans] = await googleClient.translate(item.na, target);
          return {
-           value: item.value,
-           label: capitalizeFirstLetter(trans)
+           id: item.id,
+           na: capitalizeFirstLetter(trans)
           }
         })
      )

@@ -7,102 +7,110 @@
     "textSourceDescription": "Źródło",
     "textSource": "Wysoki Komisarz Narodów Zjednoczonych ds. Uchodźców",
     "textDataAccess": "Uzyskaj dostęp do danych",
-    "languages": [
+    "countries": [
         {
-            "value": "bg",
-            "label": "Bułgarski"
+            "id": "AT",
+            "na": "Austria"
         },
         {
-            "value": "hr",
-            "label": "Chorwacki"
+            "id": "BE",
+            "na": "Belgia"
         },
         {
-            "value": "cs",
-            "label": "Czech"
+            "id": "CZ",
+            "na": "Czechy"
         },
         {
-            "value": "da",
-            "label": "Duński"
+            "id": "DK",
+            "na": "Dania"
         },
         {
-            "value": "nl",
-            "label": "Holenderski"
+            "id": "EE",
+            "na": "Estonia"
         },
         {
-            "value": "en",
-            "label": "Język angielski"
+            "id": "FI",
+            "na": "Finlandia"
         },
         {
-            "value": "et",
-            "label": "Estoński"
+            "id": "FR",
+            "na": "Francja"
         },
         {
-            "value": "fi",
-            "label": "Fiński"
+            "id": "DE",
+            "na": "Niemcy"
         },
         {
-            "value": "fr",
-            "label": "Francuski"
+            "id": "EL",
+            "na": "Grecja"
         },
         {
-            "value": "de",
-            "label": "Niemiecki"
+            "id": "HU",
+            "na": "Węgry"
         },
         {
-            "value": "el",
-            "label": "Grecki"
+            "id": "IS",
+            "na": "Islandia"
         },
         {
-            "value": "hu",
-            "label": "Język węgierski"
+            "id": "IT",
+            "na": "Włochy"
         },
         {
-            "value": "ga",
-            "label": "Irlandzki"
+            "id": "LV",
+            "na": "Łotwa"
         },
         {
-            "value": "it",
-            "label": "Włoski"
+            "id": "LI",
+            "na": "Liechtenstein"
         },
         {
-            "value": "lv",
-            "label": "Łotewski"
+            "id": "LT",
+            "na": "Litwa"
         },
         {
-            "value": "lt",
-            "label": "Litewski"
+            "id": "LU",
+            "na": "Luksemburg"
         },
         {
-            "value": "mt",
-            "label": "Maltański"
+            "id": "MT",
+            "na": "Malta"
         },
         {
-            "value": "pl",
-            "label": "Polski"
+            "id": "NL",
+            "na": "Holandia"
         },
         {
-            "value": "pt",
-            "label": "Portugalski"
+            "id": "NO",
+            "na": "Norwegia"
         },
         {
-            "value": "ro",
-            "label": "Rumuński"
+            "id": "PL",
+            "na": "Polska"
         },
         {
-            "value": "sk",
-            "label": "Słowacki"
+            "id": "PT",
+            "na": "Portugalia"
         },
         {
-            "value": "sl",
-            "label": "Słoweński"
+            "id": "SK",
+            "na": "Słowacja"
         },
         {
-            "value": "es",
-            "label": "Hiszpański"
+            "id": "SI",
+            "na": "Słowenia"
         },
         {
-            "value": "sv",
-            "label": "Szwedzki"
+            "id": "ES",
+            "na": "Hiszpania"
+        },
+        {
+            "id": "SE",
+            "na": "Szwecja"
+        },
+        {
+            "id": "CH",
+            "na": "Szwajcaria"
         }
     ]
 }

@@ -7,102 +7,110 @@
     "textSourceDescription": "Bron",
     "textSource": "Hoge Commissaris van de Verenigde Naties voor vluchtelingen",
     "textDataAccess": "Toegang tot de gegevens",
-    "languages": [
+    "countries": [
         {
-            "value": "bg",
-            "label": "Bulgaars"
+            "id": "AT",
+            "na": "Oostenrijk"
         },
         {
-            "value": "hr",
-            "label": "Kroatisch"
+            "id": "BE",
+            "na": "België"
         },
         {
-            "value": "cs",
-            "label": "Tsjechisch"
+            "id": "CZ",
+            "na": "Tsjechië"
         },
         {
-            "value": "da",
-            "label": "Deens"
+            "id": "DK",
+            "na": "Denemarken"
         },
         {
-            "value": "nl",
-            "label": "Nederlands"
+            "id": "EE",
+            "na": "Estland"
         },
         {
-            "value": "en",
-            "label": "Engels"
+            "id": "FI",
+            "na": "Finland"
         },
         {
-            "value": "et",
-            "label": "Ests"
+            "id": "FR",
+            "na": "Frankrijk"
         },
         {
-            "value": "fi",
-            "label": "Fins"
+            "id": "DE",
+            "na": "Duitsland"
         },
         {
-            "value": "fr",
-            "label": "Frans"
+            "id": "EL",
+            "na": "Griekenland"
         },
         {
-            "value": "de",
-            "label": "Duits"
+            "id": "HU",
+            "na": "Hongarije"
         },
         {
-            "value": "el",
-            "label": "Grieks"
+            "id": "IS",
+            "na": "IJsland"
         },
         {
-            "value": "hu",
-            "label": "Hongaars"
+            "id": "IT",
+            "na": "Italië"
         },
         {
-            "value": "ga",
-            "label": "Iers"
+            "id": "LV",
+            "na": "Letland"
         },
         {
-            "value": "it",
-            "label": "Italiaans"
+            "id": "LI",
+            "na": "Liechtenstein"
         },
         {
-            "value": "lv",
-            "label": "Lets"
+            "id": "LT",
+            "na": "Litouwen"
         },
         {
-            "value": "lt",
-            "label": "Litouws"
+            "id": "LU",
+            "na": "Luxemburg"
         },
         {
-            "value": "mt",
-            "label": "Maltees"
+            "id": "MT",
+            "na": "Malta"
         },
         {
-            "value": "pl",
-            "label": "Pools"
+            "id": "NL",
+            "na": "Nederland"
         },
         {
-            "value": "pt",
-            "label": "Portugees"
+            "id": "NO",
+            "na": "Noorwegen"
         },
         {
-            "value": "ro",
-            "label": "Roemeense"
+            "id": "PL",
+            "na": "Polen"
         },
         {
-            "value": "sk",
-            "label": "Slowaaks"
+            "id": "PT",
+            "na": "Portugal"
         },
         {
-            "value": "sl",
-            "label": "Sloveens"
+            "id": "SK",
+            "na": "Slowakije"
         },
         {
-            "value": "es",
-            "label": "Spaans"
+            "id": "SI",
+            "na": "Slovenië"
         },
         {
-            "value": "sv",
-            "label": "Zweeds"
+            "id": "ES",
+            "na": "Spanje"
+        },
+        {
+            "id": "SE",
+            "na": "Zweden"
+        },
+        {
+            "id": "CH",
+            "na": "Zwitserland"
         }
     ]
 }

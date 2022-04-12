@@ -7,102 +7,110 @@
     "textSourceDescription": "Source",
     "textSource": "United Nations High Commissioner for Refugees",
     "textDataAccess": "Access the data",
-    "languages": [
+    "countries": [
         {
-            "value": "bg",
-            "label": "Bulgarian"
+            "id": "AT",
+            "na": "Austria"
         },
         {
-            "value": "hr",
-            "label": "Croatian"
+            "id": "BE",
+            "na": "Belgium"
         },
         {
-            "value": "cs",
-            "label": "Czech"
+            "id": "CZ",
+            "na": "Czechia"
         },
         {
-            "value": "da",
-            "label": "Danish"
+            "id": "DK",
+            "na": "Denmark"
         },
         {
-            "value": "nl",
-            "label": "Dutch"
+            "id": "EE",
+            "na": "Estonia"
         },
         {
-            "value": "en",
-            "label": "English"
+            "id": "FI",
+            "na": "Finland"
         },
         {
-            "value": "et",
-            "label": "Estonian"
+            "id": "FR",
+            "na": "France"
         },
         {
-            "value": "fi",
-            "label": "Finnish"
+            "id": "DE",
+            "na": "Germany"
         },
         {
-            "value": "fr",
-            "label": "French"
+            "id": "EL",
+            "na": "Greece"
         },
         {
-            "value": "de",
-            "label": "German"
+            "id": "HU",
+            "na": "Hungary"
         },
         {
-            "value": "el",
-            "label": "Greek"
+            "id": "IS",
+            "na": "Iceland"
         },
         {
-            "value": "hu",
-            "label": "Hungarian"
+            "id": "IT",
+            "na": "Italy"
         },
         {
-            "value": "ga",
-            "label": "Irish"
+            "id": "LV",
+            "na": "Latvia"
         },
         {
-            "value": "it",
-            "label": "Italian"
+            "id": "LI",
+            "na": "Liechtenstein"
         },
         {
-            "value": "lv",
-            "label": "Latvian"
+            "id": "LT",
+            "na": "Lithuania"
         },
         {
-            "value": "lt",
-            "label": "Lithuanian"
+            "id": "LU",
+            "na": "Luxembourg"
         },
         {
-            "value": "mt",
-            "label": "Maltese"
+            "id": "MT",
+            "na": "Malta"
         },
         {
-            "value": "pl",
-            "label": "Polish"
+            "id": "NL",
+            "na": "Netherlands"
         },
         {
-            "value": "pt",
-            "label": "Portuguese"
+            "id": "NO",
+            "na": "Norway"
         },
         {
-            "value": "ro",
-            "label": "Romanian"
+            "id": "PL",
+            "na": "Poland"
         },
         {
-            "value": "sk",
-            "label": "Slovak"
+            "id": "PT",
+            "na": "Portugal"
         },
         {
-            "value": "sl",
-            "label": "Slovenian"
+            "id": "SK",
+            "na": "Slovakia"
         },
         {
-            "value": "es",
-            "label": "Spanish"
+            "id": "SI",
+            "na": "Slovenia"
         },
         {
-            "value": "sv",
-            "label": "Swedish"
+            "id": "ES",
+            "na": "Spain"
+        },
+        {
+            "id": "SE",
+            "na": "Sweden"
+        },
+        {
+            "id": "CH",
+            "na": "Switzerland"
         }
     ]
 }

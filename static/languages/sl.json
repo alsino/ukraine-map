@@ -7,102 +7,110 @@
     "textSourceDescription": "Vir",
     "textSource": "Visoki komisar Združenih narodov za begunce",
     "textDataAccess": "Dostop do podatkov",
-    "languages": [
+    "countries": [
         {
-            "value": "bg",
-            "label": "Bolgarščina"
+            "id": "AT",
+            "na": "Avstrija"
         },
         {
-            "value": "hr",
-            "label": "Hrvaški"
+            "id": "BE",
+            "na": "Belgija"
         },
         {
-            "value": "cs",
-            "label": "Češki"
+            "id": "CZ",
+            "na": "Češka"
         },
         {
-            "value": "da",
-            "label": "Danski"
+            "id": "DK",
+            "na": "Danska"
         },
         {
-            "value": "nl",
-            "label": "Nizozemski"
+            "id": "EE",
+            "na": "Estonija"
         },
         {
-            "value": "en",
-            "label": "Angleščina"
+            "id": "FI",
+            "na": "Finska"
         },
         {
-            "value": "et",
-            "label": "Estonščina"
+            "id": "FR",
+            "na": "Francija"
         },
         {
-            "value": "fi",
-            "label": "Finščina"
+            "id": "DE",
+            "na": "Nemčija"
         },
         {
-            "value": "fr",
-            "label": "Francoski"
+            "id": "EL",
+            "na": "Grčija"
         },
         {
-            "value": "de",
-            "label": "Nemški"
+            "id": "HU",
+            "na": "Madžarska"
         },
         {
-            "value": "el",
-            "label": "Grški"
+            "id": "IS",
+            "na": "Islandija"
         },
         {
-            "value": "hu",
-            "label": "Madžarski"
+            "id": "IT",
+            "na": "Italija"
         },
         {
-            "value": "ga",
-            "label": "Irski"
+            "id": "LV",
+            "na": "Latvija"
         },
         {
-            "value": "it",
-            "label": "Italijanski"
+            "id": "LI",
+            "na": "Liechtenstein"
         },
         {
-            "value": "lv",
-            "label": "Latvijščina"
+            "id": "LT",
+            "na": "Litva"
         },
         {
-            "value": "lt",
-            "label": "Litovščina"
+            "id": "LU",
+            "na": "Luksemburg"
         },
         {
-            "value": "mt",
-            "label": "Maltežan"
+            "id": "MT",
+            "na": "Malta"
         },
         {
-            "value": "pl",
-            "label": "Poljski"
+            "id": "NL",
+            "na": "Nizozemska"
         },
         {
-            "value": "pt",
-            "label": "Portugalski"
+            "id": "NO",
+            "na": "Norveška"
         },
         {
-            "value": "ro",
-            "label": "Romunski"
+            "id": "PL",
+            "na": "Poljska"
         },
         {
-            "value": "sk",
-            "label": "Slovaški"
+            "id": "PT",
+            "na": "Portugalska"
         },
         {
-            "value": "sl",
-            "label": "Slovenščina"
+            "id": "SK",
+            "na": "Slovaška"
         },
         {
-            "value": "es",
-            "label": "Španski"
+            "id": "SI",
+            "na": "Slovenija"
         },
         {
-            "value": "sv",
-            "label": "Švedski"
+            "id": "ES",
+            "na": "Španija"
+        },
+        {
+            "id": "SE",
+            "na": "Švedska"
+        },
+        {
+            "id": "CH",
+            "na": "Švica"
         }
     ]
 }

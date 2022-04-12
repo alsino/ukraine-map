@@ -7,102 +7,110 @@
     "textSourceDescription": "Foinse",
     "textSource": "Ard-Choimisinéir na Náisiún Aontaithe le haghaidh Dídeanaithe",
     "textDataAccess": "Faigh rochtain ar na sonraí",
-    "languages": [
+    "countries": [
         {
-            "value": "bg",
-            "label": "Bulgáiris"
+            "id": "AT",
+            "na": "Ostair"
         },
         {
-            "value": "hr",
-            "label": "Cróitis"
+            "id": "BE",
+            "na": "An Bheilg"
         },
         {
-            "value": "cs",
-            "label": "Seiceach"
+            "id": "CZ",
+            "na": "An tSeicis"
         },
         {
-            "value": "da",
-            "label": "Danmhairgis"
+            "id": "DK",
+            "na": "An Danmhairg"
         },
         {
-            "value": "nl",
-            "label": "Ollainnis"
+            "id": "EE",
+            "na": "An Eastóin"
         },
         {
-            "value": "en",
-            "label": "Béarla"
+            "id": "FI",
+            "na": "An Fhionlainn"
         },
         {
-            "value": "et",
-            "label": "Eastóinis"
+            "id": "FR",
+            "na": "Fhrainc"
         },
         {
-            "value": "fi",
-            "label": "Fionlainnis"
+            "id": "DE",
+            "na": "An Ghearmáin"
         },
         {
-            "value": "fr",
-            "label": "Fraincis"
+            "id": "EL",
+            "na": "An Ghréig"
         },
         {
-            "value": "de",
-            "label": "Gearmáinis"
+            "id": "HU",
+            "na": "An Ungáir"
         },
         {
-            "value": "el",
-            "label": "Gréigis"
+            "id": "IS",
+            "na": "Íoslainn"
         },
         {
-            "value": "hu",
-            "label": "Ungáiris"
+            "id": "IT",
+            "na": "An Iodáil"
         },
         {
-            "value": "ga",
-            "label": "Gaeilge"
+            "id": "LV",
+            "na": "An Laitvia"
         },
         {
-            "value": "it",
-            "label": "Iodálach"
+            "id": "LI",
+            "na": "Lichtinstéin"
         },
         {
-            "value": "lv",
-            "label": "Laitvis"
+            "id": "LT",
+            "na": "An Liotuáin"
         },
         {
-            "value": "lt",
-            "label": "Liotuáinis"
+            "id": "LU",
+            "na": "Lucsamburg"
         },
         {
-            "value": "mt",
-            "label": "Máltais"
+            "id": "MT",
+            "na": "Málta"
         },
         {
-            "value": "pl",
-            "label": "Polainnis"
+            "id": "NL",
+            "na": "Ísiltír"
         },
         {
-            "value": "pt",
-            "label": "Portaingéilis"
+            "id": "NO",
+            "na": "An Iorua"
         },
         {
-            "value": "ro",
-            "label": "Rómáinis"
+            "id": "PL",
+            "na": "An Pholainn"
         },
         {
-            "value": "sk",
-            "label": "Slóvaicis"
+            "id": "PT",
+            "na": "An Phortaingéil"
         },
         {
-            "value": "sl",
-            "label": "Slóivéinis"
+            "id": "SK",
+            "na": "An tSlóvaic"
         },
         {
-            "value": "es",
-            "label": "Spainnis"
+            "id": "SI",
+            "na": "An tSlóivéin"
         },
         {
-            "value": "sv",
-            "label": "Sualainnis"
+            "id": "ES",
+            "na": "An Spáinn"
+        },
+        {
+            "id": "SE",
+            "na": "An tSualainn"
+        },
+        {
+            "id": "CH",
+            "na": "Eilvéis"
         }
     ]
 }

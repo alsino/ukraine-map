@@ -1,4 +1,4 @@
-export const languagesAll = {
+export const languageNameTranslations = {
 	"bg": [
 		{
 			"value": "bg",

@@ -7,102 +7,110 @@
     "textSourceDescription": "Lähde",
     "textSource": "Yhdistyneiden Kansakuntien pakolaisasiain päävaltuutettu",
     "textDataAccess": "Käytä tietoja",
-    "languages": [
+    "countries": [
         {
-            "value": "bg",
-            "label": "Bulgarialainen"
+            "id": "AT",
+            "na": "Itävalta"
         },
         {
-            "value": "hr",
-            "label": "Kroatia"
+            "id": "BE",
+            "na": "Belgia"
         },
         {
-            "value": "cs",
-            "label": "Tšekki"
+            "id": "CZ",
+            "na": "Tšekki"
         },
         {
-            "value": "da",
-            "label": "Tanskan kieli"
+            "id": "DK",
+            "na": "Tanska"
         },
         {
-            "value": "nl",
-            "label": "Hollannin kieli"
+            "id": "EE",
+            "na": "Viro"
         },
         {
-            "value": "en",
-            "label": "Englanti"
+            "id": "FI",
+            "na": "Suomi"
         },
         {
-            "value": "et",
-            "label": "Virolainen"
+            "id": "FR",
+            "na": "Ranska"
         },
         {
-            "value": "fi",
-            "label": "Suomalainen"
+            "id": "DE",
+            "na": "Saksa"
         },
         {
-            "value": "fr",
-            "label": "Ranskan kieli"
+            "id": "EL",
+            "na": "Kreikka"
         },
         {
-            "value": "de",
-            "label": "Saksan kieli"
+            "id": "HU",
+            "na": "Unkari"
         },
         {
-            "value": "el",
-            "label": "Kreikkalainen"
+            "id": "IS",
+            "na": "Islanti"
         },
         {
-            "value": "hu",
-            "label": "Unkarin kieli"
+            "id": "IT",
+            "na": "Italia"
         },
         {
-            "value": "ga",
-            "label": "Irlantilainen"
+            "id": "LV",
+            "na": "Latvia"
         },
         {
-            "value": "it",
-            "label": "Italialainen"
+            "id": "LI",
+            "na": "Liechtenstein"
         },
         {
-            "value": "lv",
-            "label": "Latvialainen"
+            "id": "LT",
+            "na": "Liettua"
         },
         {
-            "value": "lt",
-            "label": "Liettualainen"
+            "id": "LU",
+            "na": "Luxemburg"
         },
         {
-            "value": "mt",
-            "label": "Maltalainen"
+            "id": "MT",
+            "na": "Malta"
         },
         {
-            "value": "pl",
-            "label": "Kiillottaa"
+            "id": "NL",
+            "na": "Alankomaat"
         },
         {
-            "value": "pt",
-            "label": "Portugalin kieli"
+            "id": "NO",
+            "na": "Norja"
         },
         {
-            "value": "ro",
-            "label": "Romanialainen"
+            "id": "PL",
+            "na": "Puola"
         },
         {
-            "value": "sk",
-            "label": "Slovakian"
+            "id": "PT",
+            "na": "Portugali"
         },
         {
-            "value": "sl",
-            "label": "Slovenialainen"
+            "id": "SK",
+            "na": "Slovakia"
         },
         {
-            "value": "es",
-            "label": "Espanja"
+            "id": "SI",
+            "na": "Slovenia"
         },
         {
-            "value": "sv",
-            "label": "Ruotsin kieli"
+            "id": "ES",
+            "na": "Espanja"
+        },
+        {
+            "id": "SE",
+            "na": "Ruotsi"
+        },
+        {
+            "id": "CH",
+            "na": "Sveitsi"
         }
     ]
 }

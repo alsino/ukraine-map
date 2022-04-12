@@ -7,102 +7,110 @@
     "textSourceDescription": "Šaltinis",
     "textSource": "Jungtinių Tautų vyriausiasis pabėgėlių komisaras",
     "textDataAccess": "Pasiekite duomenis",
-    "languages": [
+    "countries": [
         {
-            "value": "bg",
-            "label": "Bulgarų"
+            "id": "AT",
+            "na": "Austrija"
         },
         {
-            "value": "hr",
-            "label": "Kroatų"
+            "id": "BE",
+            "na": "Belgija"
         },
         {
-            "value": "cs",
-            "label": "Čekų"
+            "id": "CZ",
+            "na": "Čekija"
         },
         {
-            "value": "da",
-            "label": "Danų"
+            "id": "DK",
+            "na": "Danija"
         },
         {
-            "value": "nl",
-            "label": "Olandų"
+            "id": "EE",
+            "na": "Estija"
         },
         {
-            "value": "en",
-            "label": "Anglų"
+            "id": "FI",
+            "na": "Suomija"
         },
         {
-            "value": "et",
-            "label": "Estų"
+            "id": "FR",
+            "na": "Prancūzija"
         },
         {
-            "value": "fi",
-            "label": "Suomių"
+            "id": "DE",
+            "na": "Vokietija"
         },
         {
-            "value": "fr",
-            "label": "Prancūzų kalba"
+            "id": "EL",
+            "na": "Graikija"
         },
         {
-            "value": "de",
-            "label": "Vokiečių kalba"
+            "id": "HU",
+            "na": "Vengrija"
         },
         {
-            "value": "el",
-            "label": "Graikų"
+            "id": "IS",
+            "na": "Islandija"
         },
         {
-            "value": "hu",
-            "label": "Vengrų"
+            "id": "IT",
+            "na": "Italija"
         },
         {
-            "value": "ga",
-            "label": "Airių"
+            "id": "LV",
+            "na": "Latvija"
         },
         {
-            "value": "it",
-            "label": "Italų"
+            "id": "LI",
+            "na": "Lichtenšteinas"
         },
         {
-            "value": "lv",
-            "label": "Latvių"
+            "id": "LT",
+            "na": "Lietuva"
         },
         {
-            "value": "lt",
-            "label": "Lietuvių"
+            "id": "LU",
+            "na": "Liuksemburgas"
         },
         {
-            "value": "mt",
-            "label": "Maltiečių"
+            "id": "MT",
+            "na": "Malta"
         },
         {
-            "value": "pl",
-            "label": "Lenkas"
+            "id": "NL",
+            "na": "Nyderlandai"
         },
         {
-            "value": "pt",
-            "label": "Portugalų"
+            "id": "NO",
+            "na": "Norvegija"
         },
         {
-            "value": "ro",
-            "label": "Rumunų"
+            "id": "PL",
+            "na": "Lenkija"
         },
         {
-            "value": "sk",
-            "label": "Slovakų"
+            "id": "PT",
+            "na": "Portugalija"
         },
         {
-            "value": "sl",
-            "label": "Slovėnų"
+            "id": "SK",
+            "na": "Slovakija"
         },
         {
-            "value": "es",
-            "label": "Ispanų"
+            "id": "SI",
+            "na": "Slovėnija"
         },
         {
-            "value": "sv",
-            "label": "Švedijos"
+            "id": "ES",
+            "na": "Ispanija"
+        },
+        {
+            "id": "SE",
+            "na": "Švedija"
+        },
+        {
+            "id": "CH",
+            "na": "Šveicarija"
         }
     ]
 }

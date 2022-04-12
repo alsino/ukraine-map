@@ -7,102 +7,110 @@
     "textSourceDescription": "Allikas",
     "textSource": "ÜRO pagulaste ülemvolinik",
     "textDataAccess": "Juurdepääs andmetele",
-    "languages": [
+    "countries": [
         {
-            "value": "bg",
-            "label": "Bulgaaria keel"
+            "id": "AT",
+            "na": "Austria"
         },
         {
-            "value": "hr",
-            "label": "Horvaatia"
+            "id": "BE",
+            "na": "Belgia"
         },
         {
-            "value": "cs",
-            "label": "Tšehhi"
+            "id": "CZ",
+            "na": "Tšehhi"
         },
         {
-            "value": "da",
-            "label": "Taani keel"
+            "id": "DK",
+            "na": "Taani"
         },
         {
-            "value": "nl",
-            "label": "Hollandi keel"
+            "id": "EE",
+            "na": "Eesti"
         },
         {
-            "value": "en",
-            "label": "Inglise"
+            "id": "FI",
+            "na": "Soome"
         },
         {
-            "value": "et",
-            "label": "Eesti keel"
+            "id": "FR",
+            "na": "Prantsusmaa"
         },
         {
-            "value": "fi",
-            "label": "Soome keel"
+            "id": "DE",
+            "na": "Saksamaa"
         },
         {
-            "value": "fr",
-            "label": "Prantsuse keel"
+            "id": "EL",
+            "na": "Kreeka"
         },
         {
-            "value": "de",
-            "label": "Saksa keel"
+            "id": "HU",
+            "na": "Ungari"
         },
         {
-            "value": "el",
-            "label": "Kreeka keel"
+            "id": "IS",
+            "na": "Island"
         },
         {
-            "value": "hu",
-            "label": "Ungari"
+            "id": "IT",
+            "na": "Itaalia"
         },
         {
-            "value": "ga",
-            "label": "Iirlane"
+            "id": "LV",
+            "na": "Läti"
         },
         {
-            "value": "it",
-            "label": "Itaalia keel"
+            "id": "LI",
+            "na": "Liechtenstein"
         },
         {
-            "value": "lv",
-            "label": "Lätlane"
+            "id": "LT",
+            "na": "Leedu"
         },
         {
-            "value": "lt",
-            "label": "Leedu"
+            "id": "LU",
+            "na": "Luksemburg"
         },
         {
-            "value": "mt",
-            "label": "Malta keel"
+            "id": "MT",
+            "na": "Malta"
         },
         {
-            "value": "pl",
-            "label": "Poola keel"
+            "id": "NL",
+            "na": "Holland"
         },
         {
-            "value": "pt",
-            "label": "Portugali keel"
+            "id": "NO",
+            "na": "Norra"
         },
         {
-            "value": "ro",
-            "label": "Rumeenlane"
+            "id": "PL",
+            "na": "Poola"
         },
         {
-            "value": "sk",
-            "label": "Slovaki"
+            "id": "PT",
+            "na": "Portugal"
         },
         {
-            "value": "sl",
-            "label": "Sloveenia"
+            "id": "SK",
+            "na": "Slovakkia"
         },
         {
-            "value": "es",
-            "label": "Hispaania keel"
+            "id": "SI",
+            "na": "Sloveenia"
         },
         {
-            "value": "sv",
-            "label": "Rootsi keel"
+            "id": "ES",
+            "na": "Hispaania"
+        },
+        {
+            "id": "SE",
+            "na": "Rootsi"
+        },
+        {
+            "id": "CH",
+            "na": "Šveits"
         }
     ]
 }
