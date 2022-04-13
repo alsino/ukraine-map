@@ -3,6 +3,8 @@
     "subheading": "Deze kaart wordt dagelijks bijgewerkt met de laatste gegevens van UNHCR over vluchtelingen die Oekraïne ontvluchten naar buurlanden sinds 24 februari 2022",
     "legend1": "Schengenlanden",
     "legend2": "Niet-Schengenlanden",
+    "tooltip1": "vluchtelingen",
+    "tooltip2": "Aandeel van alle vluchtelingen",
     "textUpdate": "Laatst bijgewerkt",
     "textSourceDescription": "Bron",
     "textSource": "Hoge Commissaris van de Verenigde Naties voor vluchtelingen",

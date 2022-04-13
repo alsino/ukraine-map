@@ -10,6 +10,8 @@
 
 	let heading;
 	let subheading;
+	let tooltipLabel1;
+	let tooltipLabel2;
 	let legendLabel1;
 	let legendLabel2;
 	let textUpdate;
@@ -27,10 +29,6 @@
 		}
 	}
 
-	$: console.log($selectedLanguage.value);
-
-	// $: console.log(languageNameTranslations[$selectedLanguage.value]);
-
 	$: dropdownLanguages = languageNameTranslations[$selectedLanguage.value];
 
 	onMount(async () => {
@@ -46,6 +44,8 @@
 				subheading = data.subheading;
 				legendLabel1 = data.legend1;
 				legendLabel2 = data.legend2;
+				tooltipLabel1 = data.tooltip1;
+				tooltipLabel2 = data.tooltip2;
 				textUpdate = data.textUpdate;
 				textSourceDescription = data.textSourceDescription;
 				textSource = data.textSource;
@@ -57,6 +57,10 @@
 		{ label: legendLabel1, color: '#cad1d9' },
 		{ label: legendLabel2, color: '#f4f4f4' }
 	];
+
+	$: tooltip = { label1: tooltipLabel1, label2: tooltipLabel2 };
+
+	$: console.log(tooltip);
 
 	function handleSelect(event) {
 		$selectedLanguage = { value: event.detail.value, label: event.detail.label };
@@ -108,7 +112,7 @@
 
 		<div id="chart-body" class="mt-4">
 			{#if $MAP_TYPE == 'choropleth-api'}
-				<MapChoroplethAPI {legend} />
+				<MapChoroplethAPI {legend} {tooltip} />
 			{:else if $MAP_TYPE == 'choropleth'}
 				<MapChoropleth />
 			{/if}

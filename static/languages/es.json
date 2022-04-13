@@ -3,6 +3,8 @@
     "subheading": "Este mapa se actualiza diariamente con los últimos datos de ACNUR sobre refugiados que huyen de Ucrania a países vecinos desde el 24 de febrero de 2022.",
     "legend1": "Países Schengen",
     "legend2": "Países no Schengen",
+    "tooltip1": "refugiados",
+    "tooltip2": "Porcentaje de todos los refugiados",
     "textUpdate": "Última actualización",
     "textSourceDescription": "Fuente",
     "textSource": "Alto Comisionado de las Naciones Unidas para los Refugiados",

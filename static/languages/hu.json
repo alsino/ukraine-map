@@ -3,6 +3,8 @@
     "subheading": "Ez a térkép naponta frissül az UNHCR legfrissebb adataival az Ukrajnából a szomszédos országokba menekült menekültekről 2022. február 24. óta.",
     "legend1": "schengeni országok",
     "legend2": "Nem schengeni országok",
+    "tooltip1": "menekültek",
+    "tooltip2": "Az összes menekült részesedése",
     "textUpdate": "Utolsó frissítés",
     "textSourceDescription": "Forrás",
     "textSource": "ENSZ Menekültügyi Főbiztossága",

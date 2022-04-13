@@ -3,6 +3,8 @@
     "subheading": "Diese Karte wird täglich mit den neuesten Daten des UNHCR zu Flüchtlingen aktualisiert, die seit dem 24. Februar 2022 aus der Ukraine in die Nachbarländer fliehen",
     "legend1": "Schengen-Staaten",
     "legend2": "Nicht-Schengen-Länder",
+    "tooltip1": "Flüchtlinge",
+    "tooltip2": "Anteil an allen Flüchtlingen",
     "textUpdate": "Letzte Aktualisierung",
     "textSourceDescription": "Quelle",
     "textSource": "Hoher Flüchtlingskommissar der Vereinten Nationen",

@@ -3,6 +3,8 @@
     "subheading": "Această hartă este actualizată zilnic cu cele mai recente date de la ICNUR privind refugiații care fug din Ucraina în țările vecine începând cu 24 februarie 2022",
     "legend1": "Țările Schengen",
     "legend2": "Țările non-Schengen",
+    "tooltip1": "refugiati",
+    "tooltip2": "Ponderea tuturor refugiaților",
     "textUpdate": "Ultima actualizare",
     "textSourceDescription": "Sursă",
     "textSource": "Înaltul Comisar al Națiunilor Unite pentru Refugiați",

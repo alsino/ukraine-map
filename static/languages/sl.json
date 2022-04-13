@@ -3,6 +3,8 @@
     "subheading": "Ta zemljevid se dnevno posodablja z najnovejšimi podatki UNHCR o beguncih, ki bežijo iz Ukrajine v sosednje države od 24. februarja 2022.",
     "legend1": "schengenske države",
     "legend2": "Države, ki niso schengenske",
+    "tooltip1": "begunci",
+    "tooltip2": "Delež vseh beguncev",
     "textUpdate": "Zadnja posodobitev",
     "textSourceDescription": "Vir",
     "textSource": "Visoki komisar Združenih narodov za begunce",

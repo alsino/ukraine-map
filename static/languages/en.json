@@ -3,6 +3,8 @@
     "subheading": "This map is updated daily with the latest data from UNHCR on refugees fleeing Ukraine into neighbouring countries since 24 February 2022",
     "legend1": "Schengen countries",
     "legend2": "Non-Schengen countries",
+    "tooltip1": "refugees",
+    "tooltip2": "Share of all refugees",
     "textUpdate": "Last updated",
     "textSourceDescription": "Source",
     "textSource": "United Nations High Commissioner for Refugees",

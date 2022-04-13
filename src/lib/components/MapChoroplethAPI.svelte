@@ -25,12 +25,10 @@
 	let paddingMap;
 	let center;
 
-	// $: console.log('countryNameTranslations', countryNameTranslations);
 	$: countryNames = countryNameTranslations[$selectedLanguage.value];
 
-	$: console.log(countryNames);
-
 	export let legend;
+	export let tooltip;
 
 	$: if ($CENTER_ON === 'ukraine') {
 		paddingMap = 150;
@@ -48,9 +46,9 @@
 	let tooltipHeight;
 	let tooltipWidth;
 
-	let countries;
 	let graticules;
 	let countriesAll;
+	let countriesEurope;
 	let ukraine;
 	let countryBoundaries;
 
@@ -83,7 +81,7 @@
 			.then((response) => response.json())
 			.then(function (data) {
 				countriesAll = feature(data, data.objects.cntrg);
-				countries = feature(data, data.objects.nutsrg);
+				countriesEurope = feature(data, data.objects.nutsrg);
 				graticules = feature(data, data.objects.gra);
 				countryBoundaries = feature(data, data.objects.cntbn);
 
@@ -122,54 +120,14 @@
 						return a.properties.na.localeCompare(b.properties.na);
 					});
 
-				// schengenCountries = {
-				// 	type: 'FeatureCollection',
-				// 	features: schengenFiltered
-				// };
-
-				// console.log(countriesAll);
-				// console.log(countries);
-
-				let countryTest = countriesAll.features.map((item) => {
-					// console.log(item);
-					return {
-						id: item.properties.id,
-						na: item.properties.na
-					};
-				});
-
-				console.log('countryTest', countryTest);
-
-				// let unique = testNew.filter((value, index, self) => {
-				// 	return self.findIndex((v) => v.actor.id === value.actor.id) === index;
-				// });
-
-				// let unique = testNew.filter((e, i) => testNew.findIndex((a) => a['id'] === e['id']) === i);
-
-				// console.log('unique', unique);
-
-				// console.log('countriesAll', countriesAll);
-				// console.log('schengenCountries', schengenCountries);
-
-				// let list = schengenCountries.features.map((item) => {
-				// 	return {
-				// 		id: item.properties.id,
-				// 		na: item.properties.na
-				// 	};
-				// });
-
-				// console.log(list);
-
-				let test = countriesAll.features.filter((c) => {
+				let ukraineFeature = countriesAll.features.filter((c) => {
 					return c.properties.na == 'Ukraine';
 				});
 
 				ukraine = {
 					type: 'FeatureCollection',
-					features: test
+					features: ukraineFeature
 				};
-
-				// console.log('ukraine', ukraine);
 			});
 	}
 
@@ -295,9 +253,6 @@
 
 	$: handleMouseEnter = function (country) {
 		if (tooltipAvailable) {
-			// let countryName = countryNames[country.properties.id.toLowerCase()];
-			console.log(countryNames);
-
 			let countryName = countryNames.filter((c) => {
 				return c.id == country.properties.id;
 			})[0].na;
@@ -354,28 +309,6 @@
 					on:mouseleave={() => handleMouseLeave(feature)}
 				/>
 			{/each}
-
-			<!-- {#each countriesAll.features as feature, index}
-				<path
-					d={path(feature)}
-					stroke="white"
-					fill={'blue'}
-					class={getClass(feature)}
-					on:mouseenter={() => handleMouseEnter(feature)}
-					on:mouseleave={() => handleMouseLeave(feature)}
-				/>
-			{/each}
-
-			{#each countries.features as feature, index}
-				<path
-					d={path(feature)}
-					stroke="white"
-					fill={'red'}
-					class={getClass(feature)}
-					on:mouseenter={() => handleMouseEnter(feature)}
-					on:mouseleave={() => handleMouseLeave(feature)}
-				/>
-			{/each} -->
 
 			<!-- boundaries -->
 			<!-- {#each countryBoundaries.features as feature, index}
@@ -437,10 +370,10 @@
 			<div class="tooltip-body space-y-1">
 				<div class="absolute-values">
 					<span class="font-bold">{formatThousands($MOUSE.tooltip.value)}</span>
-					<span>refugees</span>
+					<span>{tooltip.label1}</span>
 				</div>
 				<div class="relative-values">
-					<span>Share of all refugees</span>
+					<span>{tooltip.label2}</span>
 					<span class="font-bold">{formatPercent($MOUSE.tooltip.valuePercent)}</span>
 				</div>
 			</div>
