@@ -97,8 +97,7 @@ export const languageNameTranslations = {
 			"label": "Шведски"
 		}
 	],
-	"cs": [
-		{
+	"cs": [{
 			"value": "bg",
 			"label": "Bulharský"
 		},
@@ -195,8 +194,7 @@ export const languageNameTranslations = {
 			"label": "Švédský"
 		}
 	],
-	"da": [
-		{
+	"da": [{
 			"value": "bg",
 			"label": "Bulgarsk"
 		},
@@ -293,8 +291,7 @@ export const languageNameTranslations = {
 			"label": "Svensk"
 		}
 	],
-	"de": [
-		{
+	"de": [{
 			"value": "bg",
 			"label": "Bulgarisch"
 		},
@@ -391,8 +388,7 @@ export const languageNameTranslations = {
 			"label": "Schwedisch"
 		}
 	],
-	"el": [
-		{
+	"el": [{
 			"value": "bg",
 			"label": "Βούλγαρος"
 		},
@@ -489,8 +485,7 @@ export const languageNameTranslations = {
 			"label": "Σουηδικά"
 		}
 	],
-	"en": [
-		{
+	"en": [{
 			"value": "bg",
 			"label": "Bulgarian"
 		},
@@ -587,8 +582,7 @@ export const languageNameTranslations = {
 			"label": "Swedish"
 		}
 	],
-	"es": [
-		{
+	"es": [{
 			"value": "bg",
 			"label": "Búlgaro"
 		},
@@ -685,8 +679,7 @@ export const languageNameTranslations = {
 			"label": "Sueco"
 		}
 	],
-	"et": [
-		{
+	"et": [{
 			"value": "bg",
 			"label": "Bulgaaria keel"
 		},
@@ -783,8 +776,7 @@ export const languageNameTranslations = {
 			"label": "Rootsi keel"
 		}
 	],
-	"fi": [
-		{
+	"fi": [{
 			"value": "bg",
 			"label": "Bulgarialainen"
 		},
@@ -881,8 +873,7 @@ export const languageNameTranslations = {
 			"label": "Ruotsin kieli"
 		}
 	],
-	"fr": [
-		{
+	"fr": [{
 			"value": "bg",
 			"label": "Bulgare"
 		},
@@ -979,8 +970,7 @@ export const languageNameTranslations = {
 			"label": "Suédois"
 		}
 	],
-	"ga": [
-		{
+	"ga": [{
 			"value": "bg",
 			"label": "Bulgáiris"
 		},
@@ -1077,8 +1067,7 @@ export const languageNameTranslations = {
 			"label": "Sualainnis"
 		}
 	],
-	"hr": [
-		{
+	"hr": [{
 			"value": "bg",
 			"label": "Bugarski"
 		},
@@ -1175,8 +1164,7 @@ export const languageNameTranslations = {
 			"label": "Švedski"
 		}
 	],
-	"hu": [
-		{
+	"hu": [{
 			"value": "bg",
 			"label": "Bolgár"
 		},
@@ -1273,8 +1261,7 @@ export const languageNameTranslations = {
 			"label": "Svéd"
 		}
 	],
-	"it": [
-		{
+	"it": [{
 			"value": "bg",
 			"label": "Bulgaro"
 		},
@@ -1371,8 +1358,7 @@ export const languageNameTranslations = {
 			"label": "Svedese"
 		}
 	],
-	"lt": [
-		{
+	"lt": [{
 			"value": "bg",
 			"label": "Bulgarų"
 		},
@@ -1469,8 +1455,7 @@ export const languageNameTranslations = {
 			"label": "Švedijos"
 		}
 	],
-	"lv": [
-		{
+	"lv": [{
 			"value": "bg",
 			"label": "Bulgāru valoda"
 		},
@@ -1567,8 +1552,7 @@ export const languageNameTranslations = {
 			"label": "Zviedru"
 		}
 	],
-	"mt": [
-		{
+	"mt": [{
 			"value": "bg",
 			"label": "Bulgaru"
 		},
@@ -1665,8 +1649,7 @@ export const languageNameTranslations = {
 			"label": "Svediż"
 		}
 	],
-	"nl": [
-		{
+	"nl": [{
 			"value": "bg",
 			"label": "Bulgaars"
 		},
@@ -1763,8 +1746,7 @@ export const languageNameTranslations = {
 			"label": "Zweeds"
 		}
 	],
-	"pl": [
-		{
+	"pl": [{
 			"value": "bg",
 			"label": "Bułgarski"
 		},
@@ -1861,8 +1843,7 @@ export const languageNameTranslations = {
 			"label": "Szwedzki"
 		}
 	],
-	"pt": [
-		{
+	"pt": [{
 			"value": "bg",
 			"label": "Búlgaro"
 		},
@@ -1959,8 +1940,7 @@ export const languageNameTranslations = {
 			"label": "Sueco"
 		}
 	],
-	"ro": [
-		{
+	"ro": [{
 			"value": "bg",
 			"label": "Bulgară"
 		},
@@ -2057,8 +2037,7 @@ export const languageNameTranslations = {
 			"label": "Suedez"
 		}
 	],
-	"sk": [
-		{
+	"sk": [{
 			"value": "bg",
 			"label": "Bulharčina"
 		},
@@ -2155,8 +2134,7 @@ export const languageNameTranslations = {
 			"label": "Švédsky"
 		}
 	],
-	"sl": [
-		{
+	"sl": [{
 			"value": "bg",
 			"label": "Bolgarščina"
 		},
@@ -2253,8 +2231,7 @@ export const languageNameTranslations = {
 			"label": "Švedski"
 		}
 	],
-	"sv": [
-		{
+	"sv": [{
 			"value": "bg",
 			"label": "Bulgariska"
 		},

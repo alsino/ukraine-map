@@ -1,40 +1,116 @@
 export const countryNameTranslations = {
 "bg": [
         {
+            "id": "AL",
+            "na": "Албания"
+        },
+        {
+            "id": "AM",
+            "na": "Армения"
+        },
+        {
             "id": "AT",
             "na": "Австрия"
         },
         {
-            "id": "BE",
-            "na": "Белгия"
+            "id": "AD",
+            "na": "Андора"
+        },
+        {
+            "id": "BY",
+            "na": "Беларус"
+        },
+        {
+            "id": "CY",
+            "na": "Кипър"
         },
         {
             "id": "CZ",
             "na": "Чехия"
         },
         {
-            "id": "DK",
-            "na": "Дания"
+            "id": "AZ",
+            "na": "Азербайджан"
         },
         {
-            "id": "EE",
-            "na": "Естония"
+            "id": "BA",
+            "na": "Босна и Херцеговина"
         },
         {
-            "id": "FI",
-            "na": "Финландия"
+            "id": "BE",
+            "na": "Белгия"
         },
         {
-            "id": "FR",
-            "na": "Франция"
+            "id": "BG",
+            "na": "България"
+        },
+        {
+            "id": "CH",
+            "na": "Швейцария"
         },
         {
             "id": "DE",
             "na": "Германия"
         },
         {
+            "id": "DK",
+            "na": "Дания"
+        },
+        {
+            "id": "DZ",
+            "na": "Алжир"
+        },
+        {
+            "id": "EE",
+            "na": "Естония"
+        },
+        {
+            "id": "EG",
+            "na": "Египет"
+        },
+        {
+            "id": "EH",
+            "na": "Западна Сахара"
+        },
+        {
+            "id": "GE",
+            "na": "Грузия"
+        },
+        {
             "id": "EL",
             "na": "Гърция"
+        },
+        {
+            "id": "ES",
+            "na": "Испания"
+        },
+        {
+            "id": "FI",
+            "na": "Финландия"
+        },
+        {
+            "id": "FO",
+            "na": "Фарьорски острови"
+        },
+        {
+            "id": "GG",
+            "na": "Гърнси"
+        },
+        {
+            "id": "GI",
+            "na": "Гибралтар"
+        },
+        {
+            "id": "GL",
+            "na": "Гренландия"
+        },
+        {
+            "id": "FR",
+            "na": "Франция"
+        },
+        {
+            "id": "HR",
+            "na": "Хърватия"
         },
         {
             "id": "HU",
@@ -49,12 +125,72 @@ export const countryNameTranslations = {
             "na": "Италия"
         },
         {
-            "id": "LV",
-            "na": "Латвия"
+            "id": "JE",
+            "na": "Джърси"
+        },
+        {
+            "id": "JO",
+            "na": "Йордания"
+        },
+        {
+            "id": "IE",
+            "na": "Ирландия"
+        },
+        {
+            "id": "IL",
+            "na": "Израел"
+        },
+        {
+            "id": "IM",
+            "na": "Остров Ман"
+        },
+        {
+            "id": "IQ",
+            "na": "Ирак"
+        },
+        {
+            "id": "IR",
+            "na": "Иран"
+        },
+        {
+            "id": "KW",
+            "na": "Кувейт"
+        },
+        {
+            "id": "KZ",
+            "na": "Казахстан"
+        },
+        {
+            "id": "LB",
+            "na": "Ливан"
         },
         {
             "id": "LI",
             "na": "Лихтенщайн"
+        },
+        {
+            "id": "NL",
+            "na": "Холандия"
+        },
+        {
+            "id": "MT",
+            "na": "Малта"
+        },
+        {
+            "id": "PS",
+            "na": "Палестина"
+        },
+        {
+            "id": "PT",
+            "na": "Португалия"
+        },
+        {
+            "id": "RO",
+            "na": "Румъния"
+        },
+        {
+            "id": "PL",
+            "na": "Полша"
         },
         {
             "id": "LT",
@@ -65,82 +201,214 @@ export const countryNameTranslations = {
             "na": "Люксембург"
         },
         {
-            "id": "MT",
-            "na": "Малта"
+            "id": "LV",
+            "na": "Латвия"
         },
         {
-            "id": "NL",
-            "na": "Холандия"
+            "id": "LY",
+            "na": "Либия"
         },
         {
-            "id": "NO",
-            "na": "Норвегия"
+            "id": "MA",
+            "na": "Мароко"
         },
         {
-            "id": "PL",
-            "na": "Полша"
+            "id": "MC",
+            "na": "Монако"
         },
         {
-            "id": "PT",
-            "na": "Португалия"
+            "id": "MD",
+            "na": "Молдова"
         },
         {
-            "id": "SK",
-            "na": "Словакия"
+            "id": "ME",
+            "na": "Черна гора"
         },
         {
-            "id": "SI",
-            "na": "Словения"
+            "id": "MK",
+            "na": "Северна Македония"
         },
         {
-            "id": "ES",
-            "na": "Испания"
+            "id": "UZ",
+            "na": "Узбекистан"
+        },
+        {
+            "id": "VA",
+            "na": "Ватикана"
+        },
+        {
+            "id": "RS",
+            "na": "Сърбия"
+        },
+        {
+            "id": "TM",
+            "na": "Туркменистан"
+        },
+        {
+            "id": "TN",
+            "na": "Тунис"
+        },
+        {
+            "id": "TR",
+            "na": "Турция"
+        },
+        {
+            "id": "UA",
+            "na": "Украйна"
+        },
+        {
+            "id": "SY",
+            "na": "Сирия"
+        },
+        {
+            "id": "UK",
+            "na": "Великобритания"
+        },
+        {
+            "id": "RU",
+            "na": "Русия"
+        },
+        {
+            "id": "SA",
+            "na": "Саудитска Арабия"
         },
         {
             "id": "SE",
             "na": "Швеция"
         },
         {
-            "id": "CH",
-            "na": "Швейцария"
+            "id": "SI",
+            "na": "Словения"
+        },
+        {
+            "id": "SJ",
+            "na": "Свалбард и Ян Майен"
+        },
+        {
+            "id": "SK",
+            "na": "Словакия"
+        },
+        {
+            "id": "SM",
+            "na": "Сан Марино"
+        },
+        {
+            "id": "NO",
+            "na": "Норвегия"
         }
-  ],
-  "cs": [
+	],
+	"cs": [
+        {
+            "id": "AL",
+            "na": "Albánie"
+        },
+        {
+            "id": "AM",
+            "na": "Arménie"
+        },
         {
             "id": "AT",
             "na": "Rakousko"
         },
         {
-            "id": "BE",
-            "na": "Belgie"
+            "id": "AD",
+            "na": "Andorra"
+        },
+        {
+            "id": "BY",
+            "na": "Bělorusko"
+        },
+        {
+            "id": "CY",
+            "na": "Kypr"
         },
         {
             "id": "CZ",
             "na": "Česko"
         },
         {
-            "id": "DK",
-            "na": "Dánsko"
+            "id": "AZ",
+            "na": "Ázerbajdžán"
         },
         {
-            "id": "EE",
-            "na": "Estonsko"
+            "id": "BA",
+            "na": "Bosna a Hercegovina"
         },
         {
-            "id": "FI",
-            "na": "Finsko"
+            "id": "BE",
+            "na": "Belgie"
         },
         {
-            "id": "FR",
-            "na": "Francie"
+            "id": "BG",
+            "na": "Bulharsko"
+        },
+        {
+            "id": "CH",
+            "na": "Švýcarsko"
         },
         {
             "id": "DE",
             "na": "Německo"
         },
         {
+            "id": "DK",
+            "na": "Dánsko"
+        },
+        {
+            "id": "DZ",
+            "na": "Alžírsko"
+        },
+        {
+            "id": "EE",
+            "na": "Estonsko"
+        },
+        {
+            "id": "EG",
+            "na": "Egypt"
+        },
+        {
+            "id": "EH",
+            "na": "Západní Sahara"
+        },
+        {
+            "id": "GE",
+            "na": "Gruzie"
+        },
+        {
             "id": "EL",
             "na": "Řecko"
+        },
+        {
+            "id": "ES",
+            "na": "Španělsko"
+        },
+        {
+            "id": "FI",
+            "na": "Finsko"
+        },
+        {
+            "id": "FO",
+            "na": "Faerské ostrovy"
+        },
+        {
+            "id": "GG",
+            "na": "Guernsey"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltar"
+        },
+        {
+            "id": "GL",
+            "na": "Grónsko"
+        },
+        {
+            "id": "FR",
+            "na": "Francie"
+        },
+        {
+            "id": "HR",
+            "na": "Chorvatsko"
         },
         {
             "id": "HU",
@@ -155,12 +423,72 @@ export const countryNameTranslations = {
             "na": "Itálie"
         },
         {
-            "id": "LV",
-            "na": "Lotyšsko"
+            "id": "JE",
+            "na": "Trikot"
+        },
+        {
+            "id": "JO",
+            "na": "Jordán"
+        },
+        {
+            "id": "IE",
+            "na": "Irsko"
+        },
+        {
+            "id": "IL",
+            "na": "Izrael"
+        },
+        {
+            "id": "IM",
+            "na": "Ostrov Man"
+        },
+        {
+            "id": "IQ",
+            "na": "Irák"
+        },
+        {
+            "id": "IR",
+            "na": "Írán"
+        },
+        {
+            "id": "KW",
+            "na": "Kuvajt"
+        },
+        {
+            "id": "KZ",
+            "na": "Kazachstán"
+        },
+        {
+            "id": "LB",
+            "na": "Libanon"
         },
         {
             "id": "LI",
             "na": "Lichtenštejnsko"
+        },
+        {
+            "id": "NL",
+            "na": "Holandsko"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palestina"
+        },
+        {
+            "id": "PT",
+            "na": "Portugalsko"
+        },
+        {
+            "id": "RO",
+            "na": "Rumunsko"
+        },
+        {
+            "id": "PL",
+            "na": "Polsko"
         },
         {
             "id": "LT",
@@ -171,82 +499,214 @@ export const countryNameTranslations = {
             "na": "Lucembursko"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Lotyšsko"
         },
         {
-            "id": "NL",
-            "na": "Holandsko"
+            "id": "LY",
+            "na": "Libye"
         },
         {
-            "id": "NO",
-            "na": "Norsko"
+            "id": "MA",
+            "na": "Maroko"
         },
         {
-            "id": "PL",
-            "na": "Polsko"
+            "id": "MC",
+            "na": "Monako"
         },
         {
-            "id": "PT",
-            "na": "Portugalsko"
+            "id": "MD",
+            "na": "Moldavsko"
         },
         {
-            "id": "SK",
-            "na": "Slovensko"
+            "id": "ME",
+            "na": "Černá Hora"
         },
         {
-            "id": "SI",
-            "na": "Slovinsko"
+            "id": "MK",
+            "na": "Severní Makedonie"
         },
         {
-            "id": "ES",
-            "na": "Španělsko"
+            "id": "UZ",
+            "na": "Uzbekistán"
+        },
+        {
+            "id": "VA",
+            "na": "Vatikán"
+        },
+        {
+            "id": "RS",
+            "na": "Srbsko"
+        },
+        {
+            "id": "TM",
+            "na": "Turkmenistán"
+        },
+        {
+            "id": "TN",
+            "na": "Tunisko"
+        },
+        {
+            "id": "TR",
+            "na": "Krocan"
+        },
+        {
+            "id": "UA",
+            "na": "Ukrajina"
+        },
+        {
+            "id": "SY",
+            "na": "Sýrie"
+        },
+        {
+            "id": "UK",
+            "na": "Spojené království"
+        },
+        {
+            "id": "RU",
+            "na": "Rusko"
+        },
+        {
+            "id": "SA",
+            "na": "Saudská arábie"
         },
         {
             "id": "SE",
             "na": "Švédsko"
         },
         {
-            "id": "CH",
-            "na": "Švýcarsko"
+            "id": "SI",
+            "na": "Slovinsko"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard a Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Slovensko"
+        },
+        {
+            "id": "SM",
+            "na": "San Marino"
+        },
+        {
+            "id": "NO",
+            "na": "Norsko"
         }
-  ],
-  "da": [
+	],
+	"da": [
+        {
+            "id": "AL",
+            "na": "Albanien"
+        },
+        {
+            "id": "AM",
+            "na": "Armenien"
+        },
         {
             "id": "AT",
             "na": "Østrig"
         },
         {
-            "id": "BE",
-            "na": "Belgien"
+            "id": "AD",
+            "na": "Andorra"
+        },
+        {
+            "id": "BY",
+            "na": "Hviderusland"
+        },
+        {
+            "id": "CY",
+            "na": "Cypern"
         },
         {
             "id": "CZ",
             "na": "Tjekkiet"
         },
         {
-            "id": "DK",
-            "na": "Danmark"
+            "id": "AZ",
+            "na": "Aserbajdsjan"
         },
         {
-            "id": "EE",
-            "na": "Estland"
+            "id": "BA",
+            "na": "Bosnien-Hercegovina"
         },
         {
-            "id": "FI",
-            "na": "Finland"
+            "id": "BE",
+            "na": "Belgien"
         },
         {
-            "id": "FR",
-            "na": "Frankrig"
+            "id": "BG",
+            "na": "Bulgarien"
+        },
+        {
+            "id": "CH",
+            "na": "Schweiz"
         },
         {
             "id": "DE",
             "na": "Tyskland"
         },
         {
+            "id": "DK",
+            "na": "Danmark"
+        },
+        {
+            "id": "DZ",
+            "na": "Algeriet"
+        },
+        {
+            "id": "EE",
+            "na": "Estland"
+        },
+        {
+            "id": "EG",
+            "na": "Egypten"
+        },
+        {
+            "id": "EH",
+            "na": "Vestsahara"
+        },
+        {
+            "id": "GE",
+            "na": "Georgien"
+        },
+        {
             "id": "EL",
             "na": "Grækenland"
+        },
+        {
+            "id": "ES",
+            "na": "Spanien"
+        },
+        {
+            "id": "FI",
+            "na": "Finland"
+        },
+        {
+            "id": "FO",
+            "na": "Færøerne"
+        },
+        {
+            "id": "GG",
+            "na": "Guernsey"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltar"
+        },
+        {
+            "id": "GL",
+            "na": "Grønland"
+        },
+        {
+            "id": "FR",
+            "na": "Frankrig"
+        },
+        {
+            "id": "HR",
+            "na": "Kroatien"
         },
         {
             "id": "HU",
@@ -261,12 +721,72 @@ export const countryNameTranslations = {
             "na": "Italien"
         },
         {
-            "id": "LV",
-            "na": "Letland"
+            "id": "JE",
+            "na": "Jersey"
+        },
+        {
+            "id": "JO",
+            "na": "Jordan"
+        },
+        {
+            "id": "IE",
+            "na": "Irland"
+        },
+        {
+            "id": "IL",
+            "na": "Israel"
+        },
+        {
+            "id": "IM",
+            "na": "Isle of Man"
+        },
+        {
+            "id": "IQ",
+            "na": "Irak"
+        },
+        {
+            "id": "IR",
+            "na": "Iran"
+        },
+        {
+            "id": "KW",
+            "na": "Kuwait"
+        },
+        {
+            "id": "KZ",
+            "na": "Kasakhstan"
+        },
+        {
+            "id": "LB",
+            "na": "Libanon"
         },
         {
             "id": "LI",
             "na": "Liechtenstein"
+        },
+        {
+            "id": "NL",
+            "na": "Holland"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palæstina"
+        },
+        {
+            "id": "PT",
+            "na": "Portugal"
+        },
+        {
+            "id": "RO",
+            "na": "Rumænien"
+        },
+        {
+            "id": "PL",
+            "na": "Polen"
         },
         {
             "id": "LT",
@@ -277,82 +797,214 @@ export const countryNameTranslations = {
             "na": "Luxembourg"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Letland"
         },
         {
-            "id": "NL",
-            "na": "Holland"
+            "id": "LY",
+            "na": "Libyen"
         },
         {
-            "id": "NO",
-            "na": "Norge"
+            "id": "MA",
+            "na": "Marokko"
         },
         {
-            "id": "PL",
-            "na": "Polen"
+            "id": "MC",
+            "na": "Monaco"
         },
         {
-            "id": "PT",
-            "na": "Portugal"
+            "id": "MD",
+            "na": "Moldavien"
         },
         {
-            "id": "SK",
-            "na": "Slovakiet"
+            "id": "ME",
+            "na": "Montenegro"
         },
         {
-            "id": "SI",
-            "na": "Slovenien"
+            "id": "MK",
+            "na": "Nordmakedonien"
         },
         {
-            "id": "ES",
-            "na": "Spanien"
+            "id": "UZ",
+            "na": "Usbekistan"
+        },
+        {
+            "id": "VA",
+            "na": "Vatikanet"
+        },
+        {
+            "id": "RS",
+            "na": "Serbien"
+        },
+        {
+            "id": "TM",
+            "na": "Turkmenistan"
+        },
+        {
+            "id": "TN",
+            "na": "Tunesien"
+        },
+        {
+            "id": "TR",
+            "na": "Kalkun"
+        },
+        {
+            "id": "UA",
+            "na": "Ukraine"
+        },
+        {
+            "id": "SY",
+            "na": "Syrien"
+        },
+        {
+            "id": "UK",
+            "na": "Det Forenede Kongerige"
+        },
+        {
+            "id": "RU",
+            "na": "Rusland"
+        },
+        {
+            "id": "SA",
+            "na": "Saudi Arabien"
         },
         {
             "id": "SE",
             "na": "Sverige"
         },
         {
-            "id": "CH",
-            "na": "Schweiz"
+            "id": "SI",
+            "na": "Slovenien"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard og Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Slovakiet"
+        },
+        {
+            "id": "SM",
+            "na": "San Marino"
+        },
+        {
+            "id": "NO",
+            "na": "Norge"
         }
-  ],
-  "de": [
+	],
+	"de": [
+        {
+            "id": "AL",
+            "na": "Albanien"
+        },
+        {
+            "id": "AM",
+            "na": "Armenien"
+        },
         {
             "id": "AT",
             "na": "Österreich"
         },
         {
-            "id": "BE",
-            "na": "Belgien"
+            "id": "AD",
+            "na": "Andorra"
+        },
+        {
+            "id": "BY",
+            "na": "Weißrussland"
+        },
+        {
+            "id": "CY",
+            "na": "Zypern"
         },
         {
             "id": "CZ",
             "na": "Tschechien"
         },
         {
-            "id": "DK",
-            "na": "Dänemark"
+            "id": "AZ",
+            "na": "Aserbaidschan"
         },
         {
-            "id": "EE",
-            "na": "Estland"
+            "id": "BA",
+            "na": "Bosnien und Herzegowina"
         },
         {
-            "id": "FI",
-            "na": "Finnland"
+            "id": "BE",
+            "na": "Belgien"
         },
         {
-            "id": "FR",
-            "na": "Frankreich"
+            "id": "BG",
+            "na": "Bulgarien"
+        },
+        {
+            "id": "CH",
+            "na": "Schweiz"
         },
         {
             "id": "DE",
             "na": "Deutschland"
         },
         {
+            "id": "DK",
+            "na": "Dänemark"
+        },
+        {
+            "id": "DZ",
+            "na": "Algerien"
+        },
+        {
+            "id": "EE",
+            "na": "Estland"
+        },
+        {
+            "id": "EG",
+            "na": "Ägypten"
+        },
+        {
+            "id": "EH",
+            "na": "Westsahara"
+        },
+        {
+            "id": "GE",
+            "na": "Georgia"
+        },
+        {
             "id": "EL",
             "na": "Griechenland"
+        },
+        {
+            "id": "ES",
+            "na": "Spanien"
+        },
+        {
+            "id": "FI",
+            "na": "Finnland"
+        },
+        {
+            "id": "FO",
+            "na": "Färöer"
+        },
+        {
+            "id": "GG",
+            "na": "Guernsey"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltar"
+        },
+        {
+            "id": "GL",
+            "na": "Grönland"
+        },
+        {
+            "id": "FR",
+            "na": "Frankreich"
+        },
+        {
+            "id": "HR",
+            "na": "Kroatien"
         },
         {
             "id": "HU",
@@ -367,12 +1019,72 @@ export const countryNameTranslations = {
             "na": "Italien"
         },
         {
-            "id": "LV",
-            "na": "Lettland"
+            "id": "JE",
+            "na": "Jersey"
+        },
+        {
+            "id": "JO",
+            "na": "Jordanien"
+        },
+        {
+            "id": "IE",
+            "na": "Irland"
+        },
+        {
+            "id": "IL",
+            "na": "Israel"
+        },
+        {
+            "id": "IM",
+            "na": "Isle of Man"
+        },
+        {
+            "id": "IQ",
+            "na": "Irak"
+        },
+        {
+            "id": "IR",
+            "na": "Iran"
+        },
+        {
+            "id": "KW",
+            "na": "Kuwait"
+        },
+        {
+            "id": "KZ",
+            "na": "Kasachstan"
+        },
+        {
+            "id": "LB",
+            "na": "Libanon"
         },
         {
             "id": "LI",
             "na": "Liechtenstein"
+        },
+        {
+            "id": "NL",
+            "na": "Niederlande"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palästina"
+        },
+        {
+            "id": "PT",
+            "na": "Portugal"
+        },
+        {
+            "id": "RO",
+            "na": "Rumänien"
+        },
+        {
+            "id": "PL",
+            "na": "Polen"
         },
         {
             "id": "LT",
@@ -383,82 +1095,214 @@ export const countryNameTranslations = {
             "na": "Luxemburg"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Lettland"
         },
         {
-            "id": "NL",
-            "na": "Niederlande"
+            "id": "LY",
+            "na": "Libyen"
         },
         {
-            "id": "NO",
-            "na": "Norwegen"
+            "id": "MA",
+            "na": "Marokko"
         },
         {
-            "id": "PL",
-            "na": "Polen"
+            "id": "MC",
+            "na": "Monaco"
         },
         {
-            "id": "PT",
-            "na": "Portugal"
+            "id": "MD",
+            "na": "Moldau"
         },
         {
-            "id": "SK",
-            "na": "Slowakei"
+            "id": "ME",
+            "na": "Montenegro"
         },
         {
-            "id": "SI",
-            "na": "Slowenien"
+            "id": "MK",
+            "na": "Nordmazedonien"
         },
         {
-            "id": "ES",
-            "na": "Spanien"
+            "id": "UZ",
+            "na": "Usbekistan"
+        },
+        {
+            "id": "VA",
+            "na": "Vatikanstadt"
+        },
+        {
+            "id": "RS",
+            "na": "Serbien"
+        },
+        {
+            "id": "TM",
+            "na": "Turkmenistan"
+        },
+        {
+            "id": "TN",
+            "na": "Tunesien"
+        },
+        {
+            "id": "TR",
+            "na": "Truthahn"
+        },
+        {
+            "id": "UA",
+            "na": "Ukraine"
+        },
+        {
+            "id": "SY",
+            "na": "Syrien"
+        },
+        {
+            "id": "UK",
+            "na": "Großbritannien"
+        },
+        {
+            "id": "RU",
+            "na": "Russland"
+        },
+        {
+            "id": "SA",
+            "na": "Saudi Arabien"
         },
         {
             "id": "SE",
             "na": "Schweden"
         },
         {
-            "id": "CH",
-            "na": "Schweiz"
+            "id": "SI",
+            "na": "Slowenien"
+        },
+        {
+            "id": "SJ",
+            "na": "Spitzbergen und Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Slowakei"
+        },
+        {
+            "id": "SM",
+            "na": "San Marino"
+        },
+        {
+            "id": "NO",
+            "na": "Norwegen"
         }
-  ],
-  "el": [
+	],
+	"el": [
+        {
+            "id": "AL",
+            "na": "Αλβανία"
+        },
+        {
+            "id": "AM",
+            "na": "Αρμενία"
+        },
         {
             "id": "AT",
             "na": "Αυστρία"
         },
         {
-            "id": "BE",
-            "na": "Βέλγιο"
+            "id": "AD",
+            "na": "Ανδόρα"
+        },
+        {
+            "id": "BY",
+            "na": "Λευκορωσία"
+        },
+        {
+            "id": "CY",
+            "na": "Κύπρος"
         },
         {
             "id": "CZ",
             "na": "Τσεχία"
         },
         {
-            "id": "DK",
-            "na": "Δανία"
+            "id": "AZ",
+            "na": "Αζερμπαϊτζάν"
         },
         {
-            "id": "EE",
-            "na": "Εσθονία"
+            "id": "BA",
+            "na": "Βοσνία και Ερζεγοβίνη"
         },
         {
-            "id": "FI",
-            "na": "Φινλανδία"
+            "id": "BE",
+            "na": "Βέλγιο"
         },
         {
-            "id": "FR",
-            "na": "Γαλλία"
+            "id": "BG",
+            "na": "Βουλγαρία"
+        },
+        {
+            "id": "CH",
+            "na": "Ελβετία"
         },
         {
             "id": "DE",
             "na": "Γερμανία"
         },
         {
+            "id": "DK",
+            "na": "Δανία"
+        },
+        {
+            "id": "DZ",
+            "na": "Αλγερία"
+        },
+        {
+            "id": "EE",
+            "na": "Εσθονία"
+        },
+        {
+            "id": "EG",
+            "na": "Αίγυπτος"
+        },
+        {
+            "id": "EH",
+            "na": "Δυτική Σαχάρα"
+        },
+        {
+            "id": "GE",
+            "na": "Γεωργία"
+        },
+        {
             "id": "EL",
             "na": "Ελλάδα"
+        },
+        {
+            "id": "ES",
+            "na": "Ισπανία"
+        },
+        {
+            "id": "FI",
+            "na": "Φινλανδία"
+        },
+        {
+            "id": "FO",
+            "na": "Φερόες"
+        },
+        {
+            "id": "GG",
+            "na": "Γκέρνσεϊ"
+        },
+        {
+            "id": "GI",
+            "na": "Γιβραλτάρ"
+        },
+        {
+            "id": "GL",
+            "na": "Γροιλανδία"
+        },
+        {
+            "id": "FR",
+            "na": "Γαλλία"
+        },
+        {
+            "id": "HR",
+            "na": "Την Κροατία"
         },
         {
             "id": "HU",
@@ -473,12 +1317,72 @@ export const countryNameTranslations = {
             "na": "Ιταλία"
         },
         {
-            "id": "LV",
-            "na": "Λετονία"
+            "id": "JE",
+            "na": "Φανέλα"
+        },
+        {
+            "id": "JO",
+            "na": "Ιορδανία"
+        },
+        {
+            "id": "IE",
+            "na": "Ιρλανδία"
+        },
+        {
+            "id": "IL",
+            "na": "Ισραήλ"
+        },
+        {
+            "id": "IM",
+            "na": "Isle of Man"
+        },
+        {
+            "id": "IQ",
+            "na": "Ιράκ"
+        },
+        {
+            "id": "IR",
+            "na": "Ιράν"
+        },
+        {
+            "id": "KW",
+            "na": "Κουβέιτ"
+        },
+        {
+            "id": "KZ",
+            "na": "Καζακστάν"
+        },
+        {
+            "id": "LB",
+            "na": "Λίβανος"
         },
         {
             "id": "LI",
             "na": "Λιχτενστάιν"
+        },
+        {
+            "id": "NL",
+            "na": "Ολλανδία"
+        },
+        {
+            "id": "MT",
+            "na": "Μάλτα"
+        },
+        {
+            "id": "PS",
+            "na": "Παλαιστίνη"
+        },
+        {
+            "id": "PT",
+            "na": "Πορτογαλία"
+        },
+        {
+            "id": "RO",
+            "na": "Ρουμανία"
+        },
+        {
+            "id": "PL",
+            "na": "Πολωνία"
         },
         {
             "id": "LT",
@@ -489,82 +1393,214 @@ export const countryNameTranslations = {
             "na": "Λουξεμβούργο"
         },
         {
-            "id": "MT",
-            "na": "Μάλτα"
+            "id": "LV",
+            "na": "Λετονία"
         },
         {
-            "id": "NL",
-            "na": "Ολλανδία"
+            "id": "LY",
+            "na": "Λιβύη"
         },
         {
-            "id": "NO",
-            "na": "Νορβηγία"
+            "id": "MA",
+            "na": "Μαρόκο"
         },
         {
-            "id": "PL",
-            "na": "Πολωνία"
+            "id": "MC",
+            "na": "Μονακό"
         },
         {
-            "id": "PT",
-            "na": "Πορτογαλία"
+            "id": "MD",
+            "na": "Μολδαβία"
         },
         {
-            "id": "SK",
-            "na": "Σλοβακία"
+            "id": "ME",
+            "na": "Μαυροβούνιο"
         },
         {
-            "id": "SI",
-            "na": "Σλοβενία"
+            "id": "MK",
+            "na": "Βόρεια Μακεδονία"
         },
         {
-            "id": "ES",
-            "na": "Ισπανία"
+            "id": "UZ",
+            "na": "Ουζμπεκιστάν"
+        },
+        {
+            "id": "VA",
+            "na": "Η πόλη του Βατικανού"
+        },
+        {
+            "id": "RS",
+            "na": "Σερβία"
+        },
+        {
+            "id": "TM",
+            "na": "Τουρκμενιστάν"
+        },
+        {
+            "id": "TN",
+            "na": "Τυνησία"
+        },
+        {
+            "id": "TR",
+            "na": "Τουρκία"
+        },
+        {
+            "id": "UA",
+            "na": "Ουκρανία"
+        },
+        {
+            "id": "SY",
+            "na": "Συρία"
+        },
+        {
+            "id": "UK",
+            "na": "Ηνωμένο Βασίλειο"
+        },
+        {
+            "id": "RU",
+            "na": "Ρωσία"
+        },
+        {
+            "id": "SA",
+            "na": "Σαουδική Αραβία"
         },
         {
             "id": "SE",
             "na": "Σουηδία"
         },
         {
-            "id": "CH",
-            "na": "Ελβετία"
+            "id": "SI",
+            "na": "Σλοβενία"
+        },
+        {
+            "id": "SJ",
+            "na": "Σβάλμπαρντ και Γιαν Μάγιεν"
+        },
+        {
+            "id": "SK",
+            "na": "Σλοβακία"
+        },
+        {
+            "id": "SM",
+            "na": "Σαν Μαρίνο"
+        },
+        {
+            "id": "NO",
+            "na": "Νορβηγία"
         }
-  ],
-  "en": [
+	],
+	"en": [
+        {
+            "id": "AL",
+            "na": "Albania"
+        },
+        {
+            "id": "AM",
+            "na": "Armenia"
+        },
         {
             "id": "AT",
             "na": "Austria"
         },
         {
-            "id": "BE",
-            "na": "Belgium"
+            "id": "AD",
+            "na": "Andorra"
+        },
+        {
+            "id": "BY",
+            "na": "Belarus"
+        },
+        {
+            "id": "CY",
+            "na": "Cyprus"
         },
         {
             "id": "CZ",
             "na": "Czechia"
         },
         {
-            "id": "DK",
-            "na": "Denmark"
+            "id": "AZ",
+            "na": "Azerbaijan"
         },
         {
-            "id": "EE",
-            "na": "Estonia"
+            "id": "BA",
+            "na": "Bosnia and Herzegovina"
         },
         {
-            "id": "FI",
-            "na": "Finland"
+            "id": "BE",
+            "na": "Belgium"
         },
         {
-            "id": "FR",
-            "na": "France"
+            "id": "BG",
+            "na": "Bulgaria"
+        },
+        {
+            "id": "CH",
+            "na": "Switzerland"
         },
         {
             "id": "DE",
             "na": "Germany"
         },
         {
+            "id": "DK",
+            "na": "Denmark"
+        },
+        {
+            "id": "DZ",
+            "na": "Algeria"
+        },
+        {
+            "id": "EE",
+            "na": "Estonia"
+        },
+        {
+            "id": "EG",
+            "na": "Egypt"
+        },
+        {
+            "id": "EH",
+            "na": "Western Sahara"
+        },
+        {
+            "id": "GE",
+            "na": "Georgia"
+        },
+        {
             "id": "EL",
             "na": "Greece"
+        },
+        {
+            "id": "ES",
+            "na": "Spain"
+        },
+        {
+            "id": "FI",
+            "na": "Finland"
+        },
+        {
+            "id": "FO",
+            "na": "Faroes"
+        },
+        {
+            "id": "GG",
+            "na": "Guernsey"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltar"
+        },
+        {
+            "id": "GL",
+            "na": "Greenland"
+        },
+        {
+            "id": "FR",
+            "na": "France"
+        },
+        {
+            "id": "HR",
+            "na": "Croatia"
         },
         {
             "id": "HU",
@@ -579,12 +1615,72 @@ export const countryNameTranslations = {
             "na": "Italy"
         },
         {
-            "id": "LV",
-            "na": "Latvia"
+            "id": "JE",
+            "na": "Jersey"
+        },
+        {
+            "id": "JO",
+            "na": "Jordan"
+        },
+        {
+            "id": "IE",
+            "na": "Ireland"
+        },
+        {
+            "id": "IL",
+            "na": "Israel"
+        },
+        {
+            "id": "IM",
+            "na": "Isle of Man"
+        },
+        {
+            "id": "IQ",
+            "na": "Iraq"
+        },
+        {
+            "id": "IR",
+            "na": "Iran"
+        },
+        {
+            "id": "KW",
+            "na": "Kuwait"
+        },
+        {
+            "id": "KZ",
+            "na": "Kazakhstan"
+        },
+        {
+            "id": "LB",
+            "na": "Lebanon"
         },
         {
             "id": "LI",
             "na": "Liechtenstein"
+        },
+        {
+            "id": "NL",
+            "na": "Netherlands"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palestine"
+        },
+        {
+            "id": "PT",
+            "na": "Portugal"
+        },
+        {
+            "id": "RO",
+            "na": "Romania"
+        },
+        {
+            "id": "PL",
+            "na": "Poland"
         },
         {
             "id": "LT",
@@ -595,82 +1691,214 @@ export const countryNameTranslations = {
             "na": "Luxembourg"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Latvia"
         },
         {
-            "id": "NL",
-            "na": "Netherlands"
+            "id": "LY",
+            "na": "Libya"
         },
         {
-            "id": "NO",
-            "na": "Norway"
+            "id": "MA",
+            "na": "Morocco"
         },
         {
-            "id": "PL",
-            "na": "Poland"
+            "id": "MC",
+            "na": "Monaco"
         },
         {
-            "id": "PT",
-            "na": "Portugal"
+            "id": "MD",
+            "na": "Moldavia"
         },
         {
-            "id": "SK",
-            "na": "Slovakia"
+            "id": "ME",
+            "na": "Montenegro"
         },
         {
-            "id": "SI",
-            "na": "Slovenia"
+            "id": "MK",
+            "na": "North Macedonia"
         },
         {
-            "id": "ES",
-            "na": "Spain"
+            "id": "UZ",
+            "na": "Uzbekistan"
+        },
+        {
+            "id": "VA",
+            "na": "Vatican City"
+        },
+        {
+            "id": "RS",
+            "na": "Serbia"
+        },
+        {
+            "id": "TM",
+            "na": "Turkmenistan"
+        },
+        {
+            "id": "TN",
+            "na": "Tunisia"
+        },
+        {
+            "id": "TR",
+            "na": "Turkey"
+        },
+        {
+            "id": "UA",
+            "na": "Ukraine"
+        },
+        {
+            "id": "SY",
+            "na": "Syria"
+        },
+        {
+            "id": "UK",
+            "na": "United Kingdom"
+        },
+        {
+            "id": "RU",
+            "na": "Russia"
+        },
+        {
+            "id": "SA",
+            "na": "Saudi Arabia"
         },
         {
             "id": "SE",
             "na": "Sweden"
         },
         {
-            "id": "CH",
-            "na": "Switzerland"
+            "id": "SI",
+            "na": "Slovenia"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard and Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Slovakia"
+        },
+        {
+            "id": "SM",
+            "na": "San Marino"
+        },
+        {
+            "id": "NO",
+            "na": "Norway"
         }
-  ],
-  "es": [
+	],
+	"es": [
+        {
+            "id": "AL",
+            "na": "Albania"
+        },
+        {
+            "id": "AM",
+            "na": "Armenia"
+        },
         {
             "id": "AT",
             "na": "Austria"
         },
         {
-            "id": "BE",
-            "na": "Bélgica"
+            "id": "AD",
+            "na": "Andorra"
+        },
+        {
+            "id": "BY",
+            "na": "Bielorrusia"
+        },
+        {
+            "id": "CY",
+            "na": "Chipre"
         },
         {
             "id": "CZ",
             "na": "Chequia"
         },
         {
-            "id": "DK",
-            "na": "Dinamarca"
+            "id": "AZ",
+            "na": "Azerbaiyán"
         },
         {
-            "id": "EE",
-            "na": "Estonia"
+            "id": "BA",
+            "na": "Bosnia y Herzegovina"
         },
         {
-            "id": "FI",
-            "na": "Finlandia"
+            "id": "BE",
+            "na": "Bélgica"
         },
         {
-            "id": "FR",
-            "na": "Francia"
+            "id": "BG",
+            "na": "Bulgaria"
+        },
+        {
+            "id": "CH",
+            "na": "Suiza"
         },
         {
             "id": "DE",
             "na": "Alemania"
         },
         {
+            "id": "DK",
+            "na": "Dinamarca"
+        },
+        {
+            "id": "DZ",
+            "na": "Argelia"
+        },
+        {
+            "id": "EE",
+            "na": "Estonia"
+        },
+        {
+            "id": "EG",
+            "na": "Egipto"
+        },
+        {
+            "id": "EH",
+            "na": "Sahara Occidental"
+        },
+        {
+            "id": "GE",
+            "na": "Georgia"
+        },
+        {
             "id": "EL",
             "na": "Grecia"
+        },
+        {
+            "id": "ES",
+            "na": "España"
+        },
+        {
+            "id": "FI",
+            "na": "Finlandia"
+        },
+        {
+            "id": "FO",
+            "na": "Faroes"
+        },
+        {
+            "id": "GG",
+            "na": "Guernesey"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltar"
+        },
+        {
+            "id": "GL",
+            "na": "Groenlandia"
+        },
+        {
+            "id": "FR",
+            "na": "Francia"
+        },
+        {
+            "id": "HR",
+            "na": "Croacia"
         },
         {
             "id": "HU",
@@ -685,12 +1913,72 @@ export const countryNameTranslations = {
             "na": "Italia"
         },
         {
-            "id": "LV",
-            "na": "Letonia"
+            "id": "JE",
+            "na": "Jersey"
+        },
+        {
+            "id": "JO",
+            "na": "Jordán"
+        },
+        {
+            "id": "IE",
+            "na": "Irlanda"
+        },
+        {
+            "id": "IL",
+            "na": "Israel"
+        },
+        {
+            "id": "IM",
+            "na": "Isla del hombre"
+        },
+        {
+            "id": "IQ",
+            "na": "Irak"
+        },
+        {
+            "id": "IR",
+            "na": "Irán"
+        },
+        {
+            "id": "KW",
+            "na": "Kuwait"
+        },
+        {
+            "id": "KZ",
+            "na": "Kazajstán"
+        },
+        {
+            "id": "LB",
+            "na": "Líbano"
         },
         {
             "id": "LI",
             "na": "Liechtenstein"
+        },
+        {
+            "id": "NL",
+            "na": "Países Bajos"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palestina"
+        },
+        {
+            "id": "PT",
+            "na": "Portugal"
+        },
+        {
+            "id": "RO",
+            "na": "Rumania"
+        },
+        {
+            "id": "PL",
+            "na": "Polonia"
         },
         {
             "id": "LT",
@@ -701,82 +1989,214 @@ export const countryNameTranslations = {
             "na": "Luxemburgo"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Letonia"
         },
         {
-            "id": "NL",
-            "na": "Países Bajos"
+            "id": "LY",
+            "na": "Libia"
         },
         {
-            "id": "NO",
-            "na": "Noruega"
+            "id": "MA",
+            "na": "Marruecos"
         },
         {
-            "id": "PL",
-            "na": "Polonia"
+            "id": "MC",
+            "na": "Mónaco"
         },
         {
-            "id": "PT",
-            "na": "Portugal"
+            "id": "MD",
+            "na": "Moldavia"
         },
         {
-            "id": "SK",
-            "na": "Eslovaquia"
+            "id": "ME",
+            "na": "Montenegro"
         },
         {
-            "id": "SI",
-            "na": "Eslovenia"
+            "id": "MK",
+            "na": "Macedonia del norte"
         },
         {
-            "id": "ES",
-            "na": "España"
+            "id": "UZ",
+            "na": "Uzbekistán"
+        },
+        {
+            "id": "VA",
+            "na": "Ciudad del Vaticano"
+        },
+        {
+            "id": "RS",
+            "na": "Serbia"
+        },
+        {
+            "id": "TM",
+            "na": "Turkmenistán"
+        },
+        {
+            "id": "TN",
+            "na": "Túnez"
+        },
+        {
+            "id": "TR",
+            "na": "Pavo"
+        },
+        {
+            "id": "UA",
+            "na": "Ucrania"
+        },
+        {
+            "id": "SY",
+            "na": "Siria"
+        },
+        {
+            "id": "UK",
+            "na": "Reino Unido"
+        },
+        {
+            "id": "RU",
+            "na": "Rusia"
+        },
+        {
+            "id": "SA",
+            "na": "Arabia Saudita"
         },
         {
             "id": "SE",
             "na": "Suecia"
         },
         {
-            "id": "CH",
-            "na": "Suiza"
+            "id": "SI",
+            "na": "Eslovenia"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard y Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Eslovaquia"
+        },
+        {
+            "id": "SM",
+            "na": "San Marino"
+        },
+        {
+            "id": "NO",
+            "na": "Noruega"
         }
-  ],
-  "et": [
+	],
+	"et": [
+        {
+            "id": "AL",
+            "na": "Albaania"
+        },
+        {
+            "id": "AM",
+            "na": "Armeenia"
+        },
         {
             "id": "AT",
             "na": "Austria"
         },
         {
-            "id": "BE",
-            "na": "Belgia"
+            "id": "AD",
+            "na": "Andorra"
+        },
+        {
+            "id": "BY",
+            "na": "Valgevene"
+        },
+        {
+            "id": "CY",
+            "na": "Küpros"
         },
         {
             "id": "CZ",
             "na": "Tšehhi"
         },
         {
-            "id": "DK",
-            "na": "Taani"
+            "id": "AZ",
+            "na": "Aserbaidžaan"
         },
         {
-            "id": "EE",
-            "na": "Eesti"
+            "id": "BA",
+            "na": "Bosnia ja Hertsegoviina"
         },
         {
-            "id": "FI",
-            "na": "Soome"
+            "id": "BE",
+            "na": "Belgia"
         },
         {
-            "id": "FR",
-            "na": "Prantsusmaa"
+            "id": "BG",
+            "na": "Bulgaaria"
+        },
+        {
+            "id": "CH",
+            "na": "Šveits"
         },
         {
             "id": "DE",
             "na": "Saksamaa"
         },
         {
+            "id": "DK",
+            "na": "Taani"
+        },
+        {
+            "id": "DZ",
+            "na": "Alžeeria"
+        },
+        {
+            "id": "EE",
+            "na": "Eesti"
+        },
+        {
+            "id": "EG",
+            "na": "Egiptus"
+        },
+        {
+            "id": "EH",
+            "na": "Lääne-Sahara"
+        },
+        {
+            "id": "GE",
+            "na": "Gruusia"
+        },
+        {
             "id": "EL",
             "na": "Kreeka"
+        },
+        {
+            "id": "ES",
+            "na": "Hispaania"
+        },
+        {
+            "id": "FI",
+            "na": "Soome"
+        },
+        {
+            "id": "FO",
+            "na": "Fäärid"
+        },
+        {
+            "id": "GG",
+            "na": "Guernsey"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltar"
+        },
+        {
+            "id": "GL",
+            "na": "Gröönimaa"
+        },
+        {
+            "id": "FR",
+            "na": "Prantsusmaa"
+        },
+        {
+            "id": "HR",
+            "na": "Horvaatia"
         },
         {
             "id": "HU",
@@ -791,12 +2211,72 @@ export const countryNameTranslations = {
             "na": "Itaalia"
         },
         {
-            "id": "LV",
-            "na": "Läti"
+            "id": "JE",
+            "na": "Jersey"
+        },
+        {
+            "id": "JO",
+            "na": "Jordaania"
+        },
+        {
+            "id": "IE",
+            "na": "Iirimaa"
+        },
+        {
+            "id": "IL",
+            "na": "Iisrael"
+        },
+        {
+            "id": "IM",
+            "na": "Mani saar"
+        },
+        {
+            "id": "IQ",
+            "na": "Iraak"
+        },
+        {
+            "id": "IR",
+            "na": "Iraan"
+        },
+        {
+            "id": "KW",
+            "na": "Kuveit"
+        },
+        {
+            "id": "KZ",
+            "na": "Kasahstan"
+        },
+        {
+            "id": "LB",
+            "na": "Liibanon"
         },
         {
             "id": "LI",
             "na": "Liechtenstein"
+        },
+        {
+            "id": "NL",
+            "na": "Holland"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palestiina"
+        },
+        {
+            "id": "PT",
+            "na": "Portugal"
+        },
+        {
+            "id": "RO",
+            "na": "Rumeenia"
+        },
+        {
+            "id": "PL",
+            "na": "Poola"
         },
         {
             "id": "LT",
@@ -807,82 +2287,214 @@ export const countryNameTranslations = {
             "na": "Luksemburg"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Läti"
         },
         {
-            "id": "NL",
-            "na": "Holland"
+            "id": "LY",
+            "na": "Liibüa"
         },
         {
-            "id": "NO",
-            "na": "Norra"
+            "id": "MA",
+            "na": "Maroko"
         },
         {
-            "id": "PL",
-            "na": "Poola"
+            "id": "MC",
+            "na": "Monaco"
         },
         {
-            "id": "PT",
-            "na": "Portugal"
+            "id": "MD",
+            "na": "Moldova"
         },
         {
-            "id": "SK",
-            "na": "Slovakkia"
+            "id": "ME",
+            "na": "Montenegro"
         },
         {
-            "id": "SI",
-            "na": "Sloveenia"
+            "id": "MK",
+            "na": "Põhja-Makedoonia"
         },
         {
-            "id": "ES",
-            "na": "Hispaania"
+            "id": "UZ",
+            "na": "Usbekistan"
+        },
+        {
+            "id": "VA",
+            "na": "Vatikan"
+        },
+        {
+            "id": "RS",
+            "na": "Serbia"
+        },
+        {
+            "id": "TM",
+            "na": "Türkmenistan"
+        },
+        {
+            "id": "TN",
+            "na": "Tuneesia"
+        },
+        {
+            "id": "TR",
+            "na": "Türgi"
+        },
+        {
+            "id": "UA",
+            "na": "Ukraina"
+        },
+        {
+            "id": "SY",
+            "na": "Süüria"
+        },
+        {
+            "id": "UK",
+            "na": "Ühendkuningriik"
+        },
+        {
+            "id": "RU",
+            "na": "Venemaa"
+        },
+        {
+            "id": "SA",
+            "na": "Saudi Araabia"
         },
         {
             "id": "SE",
             "na": "Rootsi"
         },
         {
-            "id": "CH",
-            "na": "Šveits"
+            "id": "SI",
+            "na": "Sloveenia"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard ja Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Slovakkia"
+        },
+        {
+            "id": "SM",
+            "na": "San Marino"
+        },
+        {
+            "id": "NO",
+            "na": "Norra"
         }
-  ],
-  "fi": [
+	],
+	"fi": [
+        {
+            "id": "AL",
+            "na": "Albania"
+        },
+        {
+            "id": "AM",
+            "na": "Armenia"
+        },
         {
             "id": "AT",
             "na": "Itävalta"
         },
         {
-            "id": "BE",
-            "na": "Belgia"
+            "id": "AD",
+            "na": "Andorra"
+        },
+        {
+            "id": "BY",
+            "na": "Valko-Venäjä"
+        },
+        {
+            "id": "CY",
+            "na": "Kypros"
         },
         {
             "id": "CZ",
             "na": "Tšekki"
         },
         {
-            "id": "DK",
-            "na": "Tanska"
+            "id": "AZ",
+            "na": "Azerbaidžan"
         },
         {
-            "id": "EE",
-            "na": "Viro"
+            "id": "BA",
+            "na": "Bosnia ja Hertsegovina"
         },
         {
-            "id": "FI",
-            "na": "Suomi"
+            "id": "BE",
+            "na": "Belgia"
         },
         {
-            "id": "FR",
-            "na": "Ranska"
+            "id": "BG",
+            "na": "Bulgaria"
+        },
+        {
+            "id": "CH",
+            "na": "Sveitsi"
         },
         {
             "id": "DE",
             "na": "Saksa"
         },
         {
+            "id": "DK",
+            "na": "Tanska"
+        },
+        {
+            "id": "DZ",
+            "na": "Algeria"
+        },
+        {
+            "id": "EE",
+            "na": "Viro"
+        },
+        {
+            "id": "EG",
+            "na": "Egypti"
+        },
+        {
+            "id": "EH",
+            "na": "Länsi-Sahara"
+        },
+        {
+            "id": "GE",
+            "na": "Georgia"
+        },
+        {
             "id": "EL",
             "na": "Kreikka"
+        },
+        {
+            "id": "ES",
+            "na": "Espanja"
+        },
+        {
+            "id": "FI",
+            "na": "Suomi"
+        },
+        {
+            "id": "FO",
+            "na": "Färsaaret"
+        },
+        {
+            "id": "GG",
+            "na": "Guernseyssä"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltar"
+        },
+        {
+            "id": "GL",
+            "na": "Grönlanti"
+        },
+        {
+            "id": "FR",
+            "na": "Ranska"
+        },
+        {
+            "id": "HR",
+            "na": "Kroatia"
         },
         {
             "id": "HU",
@@ -897,12 +2509,72 @@ export const countryNameTranslations = {
             "na": "Italia"
         },
         {
-            "id": "LV",
-            "na": "Latvia"
+            "id": "JE",
+            "na": "Jersey"
+        },
+        {
+            "id": "JO",
+            "na": "Jordania"
+        },
+        {
+            "id": "IE",
+            "na": "Irlanti"
+        },
+        {
+            "id": "IL",
+            "na": "Israel"
+        },
+        {
+            "id": "IM",
+            "na": "Mansaari"
+        },
+        {
+            "id": "IQ",
+            "na": "Irak"
+        },
+        {
+            "id": "IR",
+            "na": "Iran"
+        },
+        {
+            "id": "KW",
+            "na": "Kuwait"
+        },
+        {
+            "id": "KZ",
+            "na": "Kazakstan"
+        },
+        {
+            "id": "LB",
+            "na": "Libanon"
         },
         {
             "id": "LI",
             "na": "Liechtenstein"
+        },
+        {
+            "id": "NL",
+            "na": "Alankomaat"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palestiina"
+        },
+        {
+            "id": "PT",
+            "na": "Portugali"
+        },
+        {
+            "id": "RO",
+            "na": "Romania"
+        },
+        {
+            "id": "PL",
+            "na": "Puola"
         },
         {
             "id": "LT",
@@ -913,82 +2585,214 @@ export const countryNameTranslations = {
             "na": "Luxemburg"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Latvia"
         },
         {
-            "id": "NL",
-            "na": "Alankomaat"
+            "id": "LY",
+            "na": "Libya"
         },
         {
-            "id": "NO",
-            "na": "Norja"
+            "id": "MA",
+            "na": "Marokko"
         },
         {
-            "id": "PL",
-            "na": "Puola"
+            "id": "MC",
+            "na": "Monaco"
         },
         {
-            "id": "PT",
-            "na": "Portugali"
+            "id": "MD",
+            "na": "Moldova"
         },
         {
-            "id": "SK",
-            "na": "Slovakia"
+            "id": "ME",
+            "na": "Montenegro"
         },
         {
-            "id": "SI",
-            "na": "Slovenia"
+            "id": "MK",
+            "na": "Pohjois-Makedonia"
         },
         {
-            "id": "ES",
-            "na": "Espanja"
+            "id": "UZ",
+            "na": "Uzbekistan"
+        },
+        {
+            "id": "VA",
+            "na": "Vatikaanivaltio"
+        },
+        {
+            "id": "RS",
+            "na": "Serbia"
+        },
+        {
+            "id": "TM",
+            "na": "Turkmenistan"
+        },
+        {
+            "id": "TN",
+            "na": "Tunisia"
+        },
+        {
+            "id": "TR",
+            "na": "Turkki"
+        },
+        {
+            "id": "UA",
+            "na": "Ukraina"
+        },
+        {
+            "id": "SY",
+            "na": "Syyria"
+        },
+        {
+            "id": "UK",
+            "na": "Yhdistynyt kuningaskunta"
+        },
+        {
+            "id": "RU",
+            "na": "Venäjä"
+        },
+        {
+            "id": "SA",
+            "na": "Saudi-Arabia"
         },
         {
             "id": "SE",
             "na": "Ruotsi"
         },
         {
-            "id": "CH",
-            "na": "Sveitsi"
+            "id": "SI",
+            "na": "Slovenia"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard ja Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Slovakia"
+        },
+        {
+            "id": "SM",
+            "na": "San Marino"
+        },
+        {
+            "id": "NO",
+            "na": "Norja"
         }
-  ],
-  "fr": [
+	],
+	"fr": [
+        {
+            "id": "AL",
+            "na": "Albanie"
+        },
+        {
+            "id": "AM",
+            "na": "Arménie"
+        },
         {
             "id": "AT",
             "na": "L'Autriche"
         },
         {
-            "id": "BE",
-            "na": "Belgique"
+            "id": "AD",
+            "na": "Andorre"
+        },
+        {
+            "id": "BY",
+            "na": "Biélorussie"
+        },
+        {
+            "id": "CY",
+            "na": "Chypre"
         },
         {
             "id": "CZ",
             "na": "Tchéquie"
         },
         {
-            "id": "DK",
-            "na": "Danemark"
+            "id": "AZ",
+            "na": "Azerbaïdjan"
         },
         {
-            "id": "EE",
-            "na": "Estonie"
+            "id": "BA",
+            "na": "Bosnie Herzégovine"
         },
         {
-            "id": "FI",
-            "na": "Finlande"
+            "id": "BE",
+            "na": "Belgique"
         },
         {
-            "id": "FR",
-            "na": "France"
+            "id": "BG",
+            "na": "Bulgarie"
+        },
+        {
+            "id": "CH",
+            "na": "Suisse"
         },
         {
             "id": "DE",
             "na": "Allemagne"
         },
         {
+            "id": "DK",
+            "na": "Danemark"
+        },
+        {
+            "id": "DZ",
+            "na": "Algérie"
+        },
+        {
+            "id": "EE",
+            "na": "Estonie"
+        },
+        {
+            "id": "EG",
+            "na": "Egypte"
+        },
+        {
+            "id": "EH",
+            "na": "Sahara occidental"
+        },
+        {
+            "id": "GE",
+            "na": "Géorgie"
+        },
+        {
             "id": "EL",
             "na": "Grèce"
+        },
+        {
+            "id": "ES",
+            "na": "Espagne"
+        },
+        {
+            "id": "FI",
+            "na": "Finlande"
+        },
+        {
+            "id": "FO",
+            "na": "Féroé"
+        },
+        {
+            "id": "GG",
+            "na": "Guernesey"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltar"
+        },
+        {
+            "id": "GL",
+            "na": "Groenland"
+        },
+        {
+            "id": "FR",
+            "na": "France"
+        },
+        {
+            "id": "HR",
+            "na": "Croatie"
         },
         {
             "id": "HU",
@@ -1003,12 +2807,72 @@ export const countryNameTranslations = {
             "na": "Italie"
         },
         {
-            "id": "LV",
-            "na": "Lettonie"
+            "id": "JE",
+            "na": "Jersey"
+        },
+        {
+            "id": "JO",
+            "na": "Jordan"
+        },
+        {
+            "id": "IE",
+            "na": "Irlande"
+        },
+        {
+            "id": "IL",
+            "na": "Israël"
+        },
+        {
+            "id": "IM",
+            "na": "Île de Man"
+        },
+        {
+            "id": "IQ",
+            "na": "Irak"
+        },
+        {
+            "id": "IR",
+            "na": "L'Iran"
+        },
+        {
+            "id": "KW",
+            "na": "Koweit"
+        },
+        {
+            "id": "KZ",
+            "na": "Kazakhstan"
+        },
+        {
+            "id": "LB",
+            "na": "Liban"
         },
         {
             "id": "LI",
             "na": "Liechtenstein"
+        },
+        {
+            "id": "NL",
+            "na": "Pays-Bas"
+        },
+        {
+            "id": "MT",
+            "na": "Malte"
+        },
+        {
+            "id": "PS",
+            "na": "Palestine"
+        },
+        {
+            "id": "PT",
+            "na": "Le Portugal"
+        },
+        {
+            "id": "RO",
+            "na": "Roumanie"
+        },
+        {
+            "id": "PL",
+            "na": "Pologne"
         },
         {
             "id": "LT",
@@ -1019,82 +2883,214 @@ export const countryNameTranslations = {
             "na": "Luxembourg"
         },
         {
-            "id": "MT",
-            "na": "Malte"
+            "id": "LV",
+            "na": "Lettonie"
         },
         {
-            "id": "NL",
-            "na": "Pays-Bas"
+            "id": "LY",
+            "na": "Libye"
         },
         {
-            "id": "NO",
-            "na": "Norvège"
+            "id": "MA",
+            "na": "Maroc"
         },
         {
-            "id": "PL",
-            "na": "Pologne"
+            "id": "MC",
+            "na": "Monaco"
         },
         {
-            "id": "PT",
-            "na": "Le Portugal"
+            "id": "MD",
+            "na": "Moldavie"
         },
         {
-            "id": "SK",
-            "na": "Slovaquie"
+            "id": "ME",
+            "na": "Monténégro"
         },
         {
-            "id": "SI",
-            "na": "Slovénie"
+            "id": "MK",
+            "na": "Macédoine du Nord"
         },
         {
-            "id": "ES",
-            "na": "Espagne"
+            "id": "UZ",
+            "na": "Ouzbékistan"
+        },
+        {
+            "id": "VA",
+            "na": "Cité du Vatican"
+        },
+        {
+            "id": "RS",
+            "na": "Serbie"
+        },
+        {
+            "id": "TM",
+            "na": "Turkménistan"
+        },
+        {
+            "id": "TN",
+            "na": "Tunisie"
+        },
+        {
+            "id": "TR",
+            "na": "Turquie"
+        },
+        {
+            "id": "UA",
+            "na": "Ukraine"
+        },
+        {
+            "id": "SY",
+            "na": "Syrie"
+        },
+        {
+            "id": "UK",
+            "na": "Royaume-Uni"
+        },
+        {
+            "id": "RU",
+            "na": "Russie"
+        },
+        {
+            "id": "SA",
+            "na": "Arabie Saoudite"
         },
         {
             "id": "SE",
             "na": "Suède"
         },
         {
-            "id": "CH",
-            "na": "Suisse"
+            "id": "SI",
+            "na": "Slovénie"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard et Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Slovaquie"
+        },
+        {
+            "id": "SM",
+            "na": "Saint Marin"
+        },
+        {
+            "id": "NO",
+            "na": "Norvège"
         }
-  ],
-  "ga": [
+	],
+	"ga": [
+        {
+            "id": "AL",
+            "na": "An Albáin"
+        },
+        {
+            "id": "AM",
+            "na": "An Airméin"
+        },
         {
             "id": "AT",
             "na": "Ostair"
         },
         {
-            "id": "BE",
-            "na": "An Bheilg"
+            "id": "AD",
+            "na": "Andóra"
+        },
+        {
+            "id": "BY",
+            "na": "Bhealarúis"
+        },
+        {
+            "id": "CY",
+            "na": "An Chipir"
         },
         {
             "id": "CZ",
             "na": "An tSeicis"
         },
         {
-            "id": "DK",
-            "na": "An Danmhairg"
+            "id": "AZ",
+            "na": "Asarbaiseáin"
         },
         {
-            "id": "EE",
-            "na": "An Eastóin"
+            "id": "BA",
+            "na": "An Bhoisnia agus an Heirseagaivéin"
         },
         {
-            "id": "FI",
-            "na": "An Fhionlainn"
+            "id": "BE",
+            "na": "An Bheilg"
         },
         {
-            "id": "FR",
-            "na": "Fhrainc"
+            "id": "BG",
+            "na": "An Bhulgáir"
+        },
+        {
+            "id": "CH",
+            "na": "Eilvéis"
         },
         {
             "id": "DE",
             "na": "An Ghearmáin"
         },
         {
+            "id": "DK",
+            "na": "An Danmhairg"
+        },
+        {
+            "id": "DZ",
+            "na": "Ailgéir"
+        },
+        {
+            "id": "EE",
+            "na": "An Eastóin"
+        },
+        {
+            "id": "EG",
+            "na": "Éigipt"
+        },
+        {
+            "id": "EH",
+            "na": "Sahára Thiar"
+        },
+        {
+            "id": "GE",
+            "na": "Georgia"
+        },
+        {
             "id": "EL",
             "na": "An Ghréig"
+        },
+        {
+            "id": "ES",
+            "na": "An Spáinn"
+        },
+        {
+            "id": "FI",
+            "na": "An Fhionlainn"
+        },
+        {
+            "id": "FO",
+            "na": "Faróis"
+        },
+        {
+            "id": "GG",
+            "na": "Geansaí"
+        },
+        {
+            "id": "GI",
+            "na": "Giobráltar"
+        },
+        {
+            "id": "GL",
+            "na": "Ghraonlainn"
+        },
+        {
+            "id": "FR",
+            "na": "Fhrainc"
+        },
+        {
+            "id": "HR",
+            "na": "An Chróit"
         },
         {
             "id": "HU",
@@ -1109,12 +3105,72 @@ export const countryNameTranslations = {
             "na": "An Iodáil"
         },
         {
-            "id": "LV",
-            "na": "An Laitvia"
+            "id": "JE",
+            "na": "Geirsí"
+        },
+        {
+            "id": "JO",
+            "na": "An Iordáin"
+        },
+        {
+            "id": "IE",
+            "na": "Éireann"
+        },
+        {
+            "id": "IL",
+            "na": "Iosrael"
+        },
+        {
+            "id": "IM",
+            "na": "Oileán Mhanann"
+        },
+        {
+            "id": "IQ",
+            "na": "Iaráic"
+        },
+        {
+            "id": "IR",
+            "na": "Iaráin"
+        },
+        {
+            "id": "KW",
+            "na": "Cuáit"
+        },
+        {
+            "id": "KZ",
+            "na": "Chasacstáin"
+        },
+        {
+            "id": "LB",
+            "na": "Liobáin"
         },
         {
             "id": "LI",
             "na": "Lichtinstéin"
+        },
+        {
+            "id": "NL",
+            "na": "Ísiltír"
+        },
+        {
+            "id": "MT",
+            "na": "Málta"
+        },
+        {
+            "id": "PS",
+            "na": "Phalaistín"
+        },
+        {
+            "id": "PT",
+            "na": "An Phortaingéil"
+        },
+        {
+            "id": "RO",
+            "na": "An Rómáin"
+        },
+        {
+            "id": "PL",
+            "na": "An Pholainn"
         },
         {
             "id": "LT",
@@ -1125,82 +3181,214 @@ export const countryNameTranslations = {
             "na": "Lucsamburg"
         },
         {
-            "id": "MT",
-            "na": "Málta"
+            "id": "LV",
+            "na": "An Laitvia"
         },
         {
-            "id": "NL",
-            "na": "Ísiltír"
+            "id": "LY",
+            "na": "Libia"
         },
         {
-            "id": "NO",
-            "na": "An Iorua"
+            "id": "MA",
+            "na": "Maracó"
         },
         {
-            "id": "PL",
-            "na": "An Pholainn"
+            "id": "MC",
+            "na": "Monacó"
         },
         {
-            "id": "PT",
-            "na": "An Phortaingéil"
+            "id": "MD",
+            "na": "Mholdóiv"
         },
         {
-            "id": "SK",
-            "na": "An tSlóvaic"
+            "id": "ME",
+            "na": "Montainéagró"
         },
         {
-            "id": "SI",
-            "na": "An tSlóivéin"
+            "id": "MK",
+            "na": "An Mhacadóin Thuaidh"
         },
         {
-            "id": "ES",
-            "na": "An Spáinn"
+            "id": "UZ",
+            "na": "Úisbéiceastáin"
+        },
+        {
+            "id": "VA",
+            "na": "Cathair na Vatacáine"
+        },
+        {
+            "id": "RS",
+            "na": "Seirbia"
+        },
+        {
+            "id": "TM",
+            "na": "Tuircméanastáin"
+        },
+        {
+            "id": "TN",
+            "na": "An Túinéis"
+        },
+        {
+            "id": "TR",
+            "na": "Turcaí"
+        },
+        {
+            "id": "UA",
+            "na": "Úcráin"
+        },
+        {
+            "id": "SY",
+            "na": "TSiria"
+        },
+        {
+            "id": "UK",
+            "na": "An Ríocht Aontaithe"
+        },
+        {
+            "id": "RU",
+            "na": "Rúis"
+        },
+        {
+            "id": "SA",
+            "na": "An Araib Shádach"
         },
         {
             "id": "SE",
             "na": "An tSualainn"
         },
         {
-            "id": "CH",
-            "na": "Eilvéis"
+            "id": "SI",
+            "na": "An tSlóivéin"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard agus Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "An tSlóvaic"
+        },
+        {
+            "id": "SM",
+            "na": "San Mairíne"
+        },
+        {
+            "id": "NO",
+            "na": "An Iorua"
         }
-  ],
-  "hr": [
+	],
+	"hr": [
+        {
+            "id": "AL",
+            "na": "Albanija"
+        },
+        {
+            "id": "AM",
+            "na": "Armenija"
+        },
         {
             "id": "AT",
             "na": "Austrija"
         },
         {
-            "id": "BE",
-            "na": "Belgija"
+            "id": "AD",
+            "na": "Andora"
+        },
+        {
+            "id": "BY",
+            "na": "Bjelorusija"
+        },
+        {
+            "id": "CY",
+            "na": "Cipar"
         },
         {
             "id": "CZ",
             "na": "Češka"
         },
         {
-            "id": "DK",
-            "na": "Danska"
+            "id": "AZ",
+            "na": "Azerbejdžan"
         },
         {
-            "id": "EE",
-            "na": "Estonija"
+            "id": "BA",
+            "na": "Bosna i Hercegovina"
         },
         {
-            "id": "FI",
-            "na": "Finska"
+            "id": "BE",
+            "na": "Belgija"
         },
         {
-            "id": "FR",
-            "na": "Francuska"
+            "id": "BG",
+            "na": "Bugarska"
+        },
+        {
+            "id": "CH",
+            "na": "Švicarska"
         },
         {
             "id": "DE",
             "na": "Njemačka"
         },
         {
+            "id": "DK",
+            "na": "Danska"
+        },
+        {
+            "id": "DZ",
+            "na": "Alžir"
+        },
+        {
+            "id": "EE",
+            "na": "Estonija"
+        },
+        {
+            "id": "EG",
+            "na": "Egipat"
+        },
+        {
+            "id": "EH",
+            "na": "Zapadna Sahara"
+        },
+        {
+            "id": "GE",
+            "na": "Gruzija"
+        },
+        {
             "id": "EL",
             "na": "Grčka"
+        },
+        {
+            "id": "ES",
+            "na": "Španjolska"
+        },
+        {
+            "id": "FI",
+            "na": "Finska"
+        },
+        {
+            "id": "FO",
+            "na": "Faroes"
+        },
+        {
+            "id": "GG",
+            "na": "Guernsey"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltar"
+        },
+        {
+            "id": "GL",
+            "na": "Grenland"
+        },
+        {
+            "id": "FR",
+            "na": "Francuska"
+        },
+        {
+            "id": "HR",
+            "na": "Hrvatska"
         },
         {
             "id": "HU",
@@ -1215,12 +3403,72 @@ export const countryNameTranslations = {
             "na": "Italija"
         },
         {
-            "id": "LV",
-            "na": "Latvija"
+            "id": "JE",
+            "na": "Dres"
+        },
+        {
+            "id": "JO",
+            "na": "Jordan"
+        },
+        {
+            "id": "IE",
+            "na": "Irska"
+        },
+        {
+            "id": "IL",
+            "na": "Izrael"
+        },
+        {
+            "id": "IM",
+            "na": "Otok Man"
+        },
+        {
+            "id": "IQ",
+            "na": "Irak"
+        },
+        {
+            "id": "IR",
+            "na": "Iran"
+        },
+        {
+            "id": "KW",
+            "na": "Kuvajt"
+        },
+        {
+            "id": "KZ",
+            "na": "Kazahstan"
+        },
+        {
+            "id": "LB",
+            "na": "Libanon"
         },
         {
             "id": "LI",
             "na": "Lihtenštajn"
+        },
+        {
+            "id": "NL",
+            "na": "Nizozemska"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palestina"
+        },
+        {
+            "id": "PT",
+            "na": "Portugal"
+        },
+        {
+            "id": "RO",
+            "na": "Rumunjska"
+        },
+        {
+            "id": "PL",
+            "na": "Poljska"
         },
         {
             "id": "LT",
@@ -1231,82 +3479,214 @@ export const countryNameTranslations = {
             "na": "Luksemburg"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Latvija"
         },
         {
-            "id": "NL",
-            "na": "Nizozemska"
+            "id": "LY",
+            "na": "Libija"
         },
         {
-            "id": "NO",
-            "na": "Norveška"
+            "id": "MA",
+            "na": "Maroko"
         },
         {
-            "id": "PL",
-            "na": "Poljska"
+            "id": "MC",
+            "na": "Monako"
         },
         {
-            "id": "PT",
-            "na": "Portugal"
+            "id": "MD",
+            "na": "Moldavija"
         },
         {
-            "id": "SK",
-            "na": "Slovačka"
+            "id": "ME",
+            "na": "Crna Gora"
         },
         {
-            "id": "SI",
-            "na": "Slovenija"
+            "id": "MK",
+            "na": "Sjeverna Makedonija"
         },
         {
-            "id": "ES",
-            "na": "Španjolska"
+            "id": "UZ",
+            "na": "Uzbekistan"
+        },
+        {
+            "id": "VA",
+            "na": "Grad Vatikan"
+        },
+        {
+            "id": "RS",
+            "na": "Srbija"
+        },
+        {
+            "id": "TM",
+            "na": "Turkmenistan"
+        },
+        {
+            "id": "TN",
+            "na": "Tunis"
+        },
+        {
+            "id": "TR",
+            "na": "Purica"
+        },
+        {
+            "id": "UA",
+            "na": "Ukrajina"
+        },
+        {
+            "id": "SY",
+            "na": "Sirija"
+        },
+        {
+            "id": "UK",
+            "na": "Ujedinjeno Kraljevstvo"
+        },
+        {
+            "id": "RU",
+            "na": "Rusija"
+        },
+        {
+            "id": "SA",
+            "na": "Saudijska Arabija"
         },
         {
             "id": "SE",
             "na": "Švedska"
         },
         {
-            "id": "CH",
-            "na": "Švicarska"
+            "id": "SI",
+            "na": "Slovenija"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard i Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Slovačka"
+        },
+        {
+            "id": "SM",
+            "na": "San Marino"
+        },
+        {
+            "id": "NO",
+            "na": "Norveška"
         }
-  ],
-  "hu": [
+	],
+	"hu": [
+        {
+            "id": "AL",
+            "na": "Albánia"
+        },
+        {
+            "id": "AM",
+            "na": "Örményország"
+        },
         {
             "id": "AT",
             "na": "Ausztria"
         },
         {
-            "id": "BE",
-            "na": "Belgium"
+            "id": "AD",
+            "na": "Andorra"
+        },
+        {
+            "id": "BY",
+            "na": "Fehéroroszország"
+        },
+        {
+            "id": "CY",
+            "na": "Ciprus"
         },
         {
             "id": "CZ",
             "na": "Csehország"
         },
         {
-            "id": "DK",
-            "na": "Dánia"
+            "id": "AZ",
+            "na": "Azerbajdzsán"
         },
         {
-            "id": "EE",
-            "na": "Észtország"
+            "id": "BA",
+            "na": "Bosznia és Hercegovina"
         },
         {
-            "id": "FI",
-            "na": "Finnország"
+            "id": "BE",
+            "na": "Belgium"
         },
         {
-            "id": "FR",
-            "na": "Franciaország"
+            "id": "BG",
+            "na": "Bulgária"
+        },
+        {
+            "id": "CH",
+            "na": "Svájc"
         },
         {
             "id": "DE",
             "na": "Németország"
         },
         {
+            "id": "DK",
+            "na": "Dánia"
+        },
+        {
+            "id": "DZ",
+            "na": "Algéria"
+        },
+        {
+            "id": "EE",
+            "na": "Észtország"
+        },
+        {
+            "id": "EG",
+            "na": "Egyiptom"
+        },
+        {
+            "id": "EH",
+            "na": "Nyugat-Szahara"
+        },
+        {
+            "id": "GE",
+            "na": "Grúzia"
+        },
+        {
             "id": "EL",
             "na": "Görögország"
+        },
+        {
+            "id": "ES",
+            "na": "Spanyolország"
+        },
+        {
+            "id": "FI",
+            "na": "Finnország"
+        },
+        {
+            "id": "FO",
+            "na": "Feröer"
+        },
+        {
+            "id": "GG",
+            "na": "Guernsey"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltár"
+        },
+        {
+            "id": "GL",
+            "na": "Grönland"
+        },
+        {
+            "id": "FR",
+            "na": "Franciaország"
+        },
+        {
+            "id": "HR",
+            "na": "Horvátország"
         },
         {
             "id": "HU",
@@ -1321,12 +3701,72 @@ export const countryNameTranslations = {
             "na": "Olaszország"
         },
         {
-            "id": "LV",
-            "na": "Lettország"
+            "id": "JE",
+            "na": "Jersey"
+        },
+        {
+            "id": "JO",
+            "na": "Jordánia"
+        },
+        {
+            "id": "IE",
+            "na": "Írország"
+        },
+        {
+            "id": "IL",
+            "na": "Izrael"
+        },
+        {
+            "id": "IM",
+            "na": "Man-sziget"
+        },
+        {
+            "id": "IQ",
+            "na": "Irak"
+        },
+        {
+            "id": "IR",
+            "na": "Irán"
+        },
+        {
+            "id": "KW",
+            "na": "Kuvait"
+        },
+        {
+            "id": "KZ",
+            "na": "Kazahsztán"
+        },
+        {
+            "id": "LB",
+            "na": "Libanon"
         },
         {
             "id": "LI",
             "na": "Liechtenstein"
+        },
+        {
+            "id": "NL",
+            "na": "Hollandia"
+        },
+        {
+            "id": "MT",
+            "na": "Málta"
+        },
+        {
+            "id": "PS",
+            "na": "Palesztina"
+        },
+        {
+            "id": "PT",
+            "na": "Portugália"
+        },
+        {
+            "id": "RO",
+            "na": "Románia"
+        },
+        {
+            "id": "PL",
+            "na": "Lengyelország"
         },
         {
             "id": "LT",
@@ -1337,82 +3777,214 @@ export const countryNameTranslations = {
             "na": "Luxemburg"
         },
         {
-            "id": "MT",
-            "na": "Málta"
+            "id": "LV",
+            "na": "Lettország"
         },
         {
-            "id": "NL",
-            "na": "Hollandia"
+            "id": "LY",
+            "na": "Líbia"
         },
         {
-            "id": "NO",
-            "na": "Norvégia"
+            "id": "MA",
+            "na": "Marokkó"
         },
         {
-            "id": "PL",
-            "na": "Lengyelország"
+            "id": "MC",
+            "na": "Monaco"
         },
         {
-            "id": "PT",
-            "na": "Portugália"
+            "id": "MD",
+            "na": "Moldva"
         },
         {
-            "id": "SK",
-            "na": "Szlovákia"
+            "id": "ME",
+            "na": "Montenegró"
         },
         {
-            "id": "SI",
-            "na": "Szlovénia"
+            "id": "MK",
+            "na": "Észak-Macedónia"
         },
         {
-            "id": "ES",
-            "na": "Spanyolország"
+            "id": "UZ",
+            "na": "Üzbegisztán"
+        },
+        {
+            "id": "VA",
+            "na": "Vatikán város"
+        },
+        {
+            "id": "RS",
+            "na": "Szerbia"
+        },
+        {
+            "id": "TM",
+            "na": "Türkmenisztán"
+        },
+        {
+            "id": "TN",
+            "na": "Tunézia"
+        },
+        {
+            "id": "TR",
+            "na": "Pulyka"
+        },
+        {
+            "id": "UA",
+            "na": "Ukrajna"
+        },
+        {
+            "id": "SY",
+            "na": "Szíria"
+        },
+        {
+            "id": "UK",
+            "na": "Egyesült Királyság"
+        },
+        {
+            "id": "RU",
+            "na": "Oroszország"
+        },
+        {
+            "id": "SA",
+            "na": "Szaud-Arábia"
         },
         {
             "id": "SE",
             "na": "Svédország"
         },
         {
-            "id": "CH",
-            "na": "Svájc"
+            "id": "SI",
+            "na": "Szlovénia"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard és Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Szlovákia"
+        },
+        {
+            "id": "SM",
+            "na": "San Marino"
+        },
+        {
+            "id": "NO",
+            "na": "Norvégia"
         }
-  ],
-  "it": [
+	],
+	"it": [
+        {
+            "id": "AL",
+            "na": "Albania"
+        },
+        {
+            "id": "AM",
+            "na": "Armenia"
+        },
         {
             "id": "AT",
             "na": "Austria"
         },
         {
-            "id": "BE",
-            "na": "Belgio"
+            "id": "AD",
+            "na": "Andorra"
+        },
+        {
+            "id": "BY",
+            "na": "Bielorussia"
+        },
+        {
+            "id": "CY",
+            "na": "Cipro"
         },
         {
             "id": "CZ",
             "na": "Cechia"
         },
         {
-            "id": "DK",
-            "na": "Danimarca"
+            "id": "AZ",
+            "na": "Azerbaigian"
         },
         {
-            "id": "EE",
-            "na": "Estonia"
+            "id": "BA",
+            "na": "Bosnia Erzegovina"
         },
         {
-            "id": "FI",
-            "na": "Finlandia"
+            "id": "BE",
+            "na": "Belgio"
         },
         {
-            "id": "FR",
-            "na": "Francia"
+            "id": "BG",
+            "na": "Bulgaria"
+        },
+        {
+            "id": "CH",
+            "na": "Svizzera"
         },
         {
             "id": "DE",
             "na": "Germania"
         },
         {
+            "id": "DK",
+            "na": "Danimarca"
+        },
+        {
+            "id": "DZ",
+            "na": "Algeria"
+        },
+        {
+            "id": "EE",
+            "na": "Estonia"
+        },
+        {
+            "id": "EG",
+            "na": "Egitto"
+        },
+        {
+            "id": "EH",
+            "na": "Sahara occidentale"
+        },
+        {
+            "id": "GE",
+            "na": "Georgia"
+        },
+        {
             "id": "EL",
             "na": "Grecia"
+        },
+        {
+            "id": "ES",
+            "na": "Spagna"
+        },
+        {
+            "id": "FI",
+            "na": "Finlandia"
+        },
+        {
+            "id": "FO",
+            "na": "Faroe"
+        },
+        {
+            "id": "GG",
+            "na": "Guernsey"
+        },
+        {
+            "id": "GI",
+            "na": "Gibilterra"
+        },
+        {
+            "id": "GL",
+            "na": "Groenlandia"
+        },
+        {
+            "id": "FR",
+            "na": "Francia"
+        },
+        {
+            "id": "HR",
+            "na": "Croazia"
         },
         {
             "id": "HU",
@@ -1427,12 +3999,72 @@ export const countryNameTranslations = {
             "na": "Italia"
         },
         {
-            "id": "LV",
-            "na": "Lettonia"
+            "id": "JE",
+            "na": "Maglia"
+        },
+        {
+            "id": "JO",
+            "na": "Giordania"
+        },
+        {
+            "id": "IE",
+            "na": "Irlanda"
+        },
+        {
+            "id": "IL",
+            "na": "Israele"
+        },
+        {
+            "id": "IM",
+            "na": "Isola di Man"
+        },
+        {
+            "id": "IQ",
+            "na": "Iraq"
+        },
+        {
+            "id": "IR",
+            "na": "Iran"
+        },
+        {
+            "id": "KW",
+            "na": "Kuwait"
+        },
+        {
+            "id": "KZ",
+            "na": "Kazakistan"
+        },
+        {
+            "id": "LB",
+            "na": "Libano"
         },
         {
             "id": "LI",
             "na": "Liechtenstein"
+        },
+        {
+            "id": "NL",
+            "na": "Olanda"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palestina"
+        },
+        {
+            "id": "PT",
+            "na": "Portogallo"
+        },
+        {
+            "id": "RO",
+            "na": "Romania"
+        },
+        {
+            "id": "PL",
+            "na": "Polonia"
         },
         {
             "id": "LT",
@@ -1443,82 +4075,214 @@ export const countryNameTranslations = {
             "na": "Lussemburgo"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Lettonia"
         },
         {
-            "id": "NL",
-            "na": "Olanda"
+            "id": "LY",
+            "na": "Libia"
         },
         {
-            "id": "NO",
-            "na": "Norvegia"
+            "id": "MA",
+            "na": "Marocco"
         },
         {
-            "id": "PL",
-            "na": "Polonia"
+            "id": "MC",
+            "na": "Monaco"
         },
         {
-            "id": "PT",
-            "na": "Portogallo"
+            "id": "MD",
+            "na": "Moldavia"
         },
         {
-            "id": "SK",
-            "na": "Slovacchia"
+            "id": "ME",
+            "na": "Montenegro"
         },
         {
-            "id": "SI",
-            "na": "Slovenia"
+            "id": "MK",
+            "na": "Macedonia del Nord"
         },
         {
-            "id": "ES",
-            "na": "Spagna"
+            "id": "UZ",
+            "na": "Uzbekistan"
+        },
+        {
+            "id": "VA",
+            "na": "Città del Vaticano"
+        },
+        {
+            "id": "RS",
+            "na": "Serbia"
+        },
+        {
+            "id": "TM",
+            "na": "Turkmenistan"
+        },
+        {
+            "id": "TN",
+            "na": "Tunisia"
+        },
+        {
+            "id": "TR",
+            "na": "Tacchino"
+        },
+        {
+            "id": "UA",
+            "na": "Ucraina"
+        },
+        {
+            "id": "SY",
+            "na": "Siria"
+        },
+        {
+            "id": "UK",
+            "na": "Regno Unito"
+        },
+        {
+            "id": "RU",
+            "na": "Russia"
+        },
+        {
+            "id": "SA",
+            "na": "Saudi Arabia"
         },
         {
             "id": "SE",
             "na": "Svezia"
         },
         {
-            "id": "CH",
-            "na": "Svizzera"
+            "id": "SI",
+            "na": "Slovenia"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard e Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Slovacchia"
+        },
+        {
+            "id": "SM",
+            "na": "San Marino"
+        },
+        {
+            "id": "NO",
+            "na": "Norvegia"
         }
-  ],
-  "lt": [
+	],
+	"lt": [
+        {
+            "id": "AL",
+            "na": "Albanija"
+        },
+        {
+            "id": "AM",
+            "na": "Armėnija"
+        },
         {
             "id": "AT",
             "na": "Austrija"
         },
         {
-            "id": "BE",
-            "na": "Belgija"
+            "id": "AD",
+            "na": "Andora"
+        },
+        {
+            "id": "BY",
+            "na": "Baltarusija"
+        },
+        {
+            "id": "CY",
+            "na": "Kipras"
         },
         {
             "id": "CZ",
             "na": "Čekija"
         },
         {
-            "id": "DK",
-            "na": "Danija"
+            "id": "AZ",
+            "na": "Azerbaidžanas"
         },
         {
-            "id": "EE",
-            "na": "Estija"
+            "id": "BA",
+            "na": "Bosnija ir Hercegovina"
         },
         {
-            "id": "FI",
-            "na": "Suomija"
+            "id": "BE",
+            "na": "Belgija"
         },
         {
-            "id": "FR",
-            "na": "Prancūzija"
+            "id": "BG",
+            "na": "Bulgarija"
+        },
+        {
+            "id": "CH",
+            "na": "Šveicarija"
         },
         {
             "id": "DE",
             "na": "Vokietija"
         },
         {
+            "id": "DK",
+            "na": "Danija"
+        },
+        {
+            "id": "DZ",
+            "na": "Alžyras"
+        },
+        {
+            "id": "EE",
+            "na": "Estija"
+        },
+        {
+            "id": "EG",
+            "na": "Egiptas"
+        },
+        {
+            "id": "EH",
+            "na": "Vakarų Sachara"
+        },
+        {
+            "id": "GE",
+            "na": "Gruzija"
+        },
+        {
             "id": "EL",
             "na": "Graikija"
+        },
+        {
+            "id": "ES",
+            "na": "Ispanija"
+        },
+        {
+            "id": "FI",
+            "na": "Suomija"
+        },
+        {
+            "id": "FO",
+            "na": "Farerai"
+        },
+        {
+            "id": "GG",
+            "na": "Gernsis"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltaras"
+        },
+        {
+            "id": "GL",
+            "na": "Grenlandija"
+        },
+        {
+            "id": "FR",
+            "na": "Prancūzija"
+        },
+        {
+            "id": "HR",
+            "na": "Kroatija"
         },
         {
             "id": "HU",
@@ -1533,12 +4297,72 @@ export const countryNameTranslations = {
             "na": "Italija"
         },
         {
-            "id": "LV",
-            "na": "Latvija"
+            "id": "JE",
+            "na": "Džersis"
+        },
+        {
+            "id": "JO",
+            "na": "Jordanas"
+        },
+        {
+            "id": "IE",
+            "na": "Airija"
+        },
+        {
+            "id": "IL",
+            "na": "Izraelis"
+        },
+        {
+            "id": "IM",
+            "na": "Meno sala"
+        },
+        {
+            "id": "IQ",
+            "na": "Irakas"
+        },
+        {
+            "id": "IR",
+            "na": "Iranas"
+        },
+        {
+            "id": "KW",
+            "na": "Kuveitas"
+        },
+        {
+            "id": "KZ",
+            "na": "Kazachstanas"
+        },
+        {
+            "id": "LB",
+            "na": "Libanas"
         },
         {
             "id": "LI",
             "na": "Lichtenšteinas"
+        },
+        {
+            "id": "NL",
+            "na": "Nyderlandai"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palestina"
+        },
+        {
+            "id": "PT",
+            "na": "Portugalija"
+        },
+        {
+            "id": "RO",
+            "na": "Rumunija"
+        },
+        {
+            "id": "PL",
+            "na": "Lenkija"
         },
         {
             "id": "LT",
@@ -1549,82 +4373,214 @@ export const countryNameTranslations = {
             "na": "Liuksemburgas"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Latvija"
         },
         {
-            "id": "NL",
-            "na": "Nyderlandai"
+            "id": "LY",
+            "na": "Libija"
         },
         {
-            "id": "NO",
-            "na": "Norvegija"
+            "id": "MA",
+            "na": "Marokas"
         },
         {
-            "id": "PL",
-            "na": "Lenkija"
+            "id": "MC",
+            "na": "Monakas"
         },
         {
-            "id": "PT",
-            "na": "Portugalija"
+            "id": "MD",
+            "na": "Moldavija"
         },
         {
-            "id": "SK",
-            "na": "Slovakija"
+            "id": "ME",
+            "na": "Juodkalnija"
         },
         {
-            "id": "SI",
-            "na": "Slovėnija"
+            "id": "MK",
+            "na": "Šiaurės Makedonija"
         },
         {
-            "id": "ES",
-            "na": "Ispanija"
+            "id": "UZ",
+            "na": "Uzbekistanas"
+        },
+        {
+            "id": "VA",
+            "na": "Vatikano miestas"
+        },
+        {
+            "id": "RS",
+            "na": "Serbija"
+        },
+        {
+            "id": "TM",
+            "na": "Turkmėnistanas"
+        },
+        {
+            "id": "TN",
+            "na": "Tunisas"
+        },
+        {
+            "id": "TR",
+            "na": "Turkija"
+        },
+        {
+            "id": "UA",
+            "na": "Ukraina"
+        },
+        {
+            "id": "SY",
+            "na": "Sirija"
+        },
+        {
+            "id": "UK",
+            "na": "Jungtinė Karalystė"
+        },
+        {
+            "id": "RU",
+            "na": "Rusija"
+        },
+        {
+            "id": "SA",
+            "na": "Saudo Arabija"
         },
         {
             "id": "SE",
             "na": "Švedija"
         },
         {
-            "id": "CH",
-            "na": "Šveicarija"
+            "id": "SI",
+            "na": "Slovėnija"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbardas ir Janas Mayenas"
+        },
+        {
+            "id": "SK",
+            "na": "Slovakija"
+        },
+        {
+            "id": "SM",
+            "na": "San Marinas"
+        },
+        {
+            "id": "NO",
+            "na": "Norvegija"
         }
-  ],
-  "lv": [
+	],
+	"lv": [
+        {
+            "id": "AL",
+            "na": "Albānija"
+        },
+        {
+            "id": "AM",
+            "na": "Armēnija"
+        },
         {
             "id": "AT",
             "na": "Austrija"
         },
         {
-            "id": "BE",
-            "na": "Beļģija"
+            "id": "AD",
+            "na": "Andora"
+        },
+        {
+            "id": "BY",
+            "na": "Baltkrievija"
+        },
+        {
+            "id": "CY",
+            "na": "Kipra"
         },
         {
             "id": "CZ",
             "na": "Čehija"
         },
         {
-            "id": "DK",
-            "na": "Dānija"
+            "id": "AZ",
+            "na": "Azerbaidžāna"
         },
         {
-            "id": "EE",
-            "na": "Igaunija"
+            "id": "BA",
+            "na": "Bosnija un Hercegovina"
         },
         {
-            "id": "FI",
-            "na": "Somija"
+            "id": "BE",
+            "na": "Beļģija"
         },
         {
-            "id": "FR",
-            "na": "Francija"
+            "id": "BG",
+            "na": "Bulgārija"
+        },
+        {
+            "id": "CH",
+            "na": "Šveice"
         },
         {
             "id": "DE",
             "na": "Vācija"
         },
         {
+            "id": "DK",
+            "na": "Dānija"
+        },
+        {
+            "id": "DZ",
+            "na": "Alžīrija"
+        },
+        {
+            "id": "EE",
+            "na": "Igaunija"
+        },
+        {
+            "id": "EG",
+            "na": "Ēģipte"
+        },
+        {
+            "id": "EH",
+            "na": "Rietumsahāra"
+        },
+        {
+            "id": "GE",
+            "na": "Gruzija"
+        },
+        {
             "id": "EL",
             "na": "Grieķija"
+        },
+        {
+            "id": "ES",
+            "na": "Spānija"
+        },
+        {
+            "id": "FI",
+            "na": "Somija"
+        },
+        {
+            "id": "FO",
+            "na": "Fēru salas"
+        },
+        {
+            "id": "GG",
+            "na": "Gērnsija"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltārs"
+        },
+        {
+            "id": "GL",
+            "na": "Grenlande"
+        },
+        {
+            "id": "FR",
+            "na": "Francija"
+        },
+        {
+            "id": "HR",
+            "na": "Horvātija"
         },
         {
             "id": "HU",
@@ -1639,12 +4595,72 @@ export const countryNameTranslations = {
             "na": "Itālija"
         },
         {
-            "id": "LV",
-            "na": "Latvija"
+            "id": "JE",
+            "na": "Džērsija"
+        },
+        {
+            "id": "JO",
+            "na": "Jordānija"
+        },
+        {
+            "id": "IE",
+            "na": "Īrija"
+        },
+        {
+            "id": "IL",
+            "na": "Izraēla"
+        },
+        {
+            "id": "IM",
+            "na": "Cilvēka sala"
+        },
+        {
+            "id": "IQ",
+            "na": "Irāka"
+        },
+        {
+            "id": "IR",
+            "na": "Irāna"
+        },
+        {
+            "id": "KW",
+            "na": "Kuveita"
+        },
+        {
+            "id": "KZ",
+            "na": "Kazahstāna"
+        },
+        {
+            "id": "LB",
+            "na": "Libāna"
         },
         {
             "id": "LI",
             "na": "Lihtenšteina"
+        },
+        {
+            "id": "NL",
+            "na": "Nīderlande"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palestīna"
+        },
+        {
+            "id": "PT",
+            "na": "Portugāle"
+        },
+        {
+            "id": "RO",
+            "na": "Rumānija"
+        },
+        {
+            "id": "PL",
+            "na": "Polija"
         },
         {
             "id": "LT",
@@ -1655,82 +4671,214 @@ export const countryNameTranslations = {
             "na": "Luksemburga"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Latvija"
         },
         {
-            "id": "NL",
-            "na": "Nīderlande"
+            "id": "LY",
+            "na": "Lībija"
         },
         {
-            "id": "NO",
-            "na": "Norvēģija"
+            "id": "MA",
+            "na": "Maroka"
         },
         {
-            "id": "PL",
-            "na": "Polija"
+            "id": "MC",
+            "na": "Monako"
         },
         {
-            "id": "PT",
-            "na": "Portugāle"
+            "id": "MD",
+            "na": "Moldova"
         },
         {
-            "id": "SK",
-            "na": "Slovākija"
+            "id": "ME",
+            "na": "Melnkalne"
         },
         {
-            "id": "SI",
-            "na": "Slovēnija"
+            "id": "MK",
+            "na": "Ziemeļmaķedonija"
         },
         {
-            "id": "ES",
-            "na": "Spānija"
+            "id": "UZ",
+            "na": "Uzbekistāna"
+        },
+        {
+            "id": "VA",
+            "na": "Vatikāna pilsēta"
+        },
+        {
+            "id": "RS",
+            "na": "Serbija"
+        },
+        {
+            "id": "TM",
+            "na": "Turkmenistāna"
+        },
+        {
+            "id": "TN",
+            "na": "Tunisija"
+        },
+        {
+            "id": "TR",
+            "na": "Turcija"
+        },
+        {
+            "id": "UA",
+            "na": "Ukraina"
+        },
+        {
+            "id": "SY",
+            "na": "Sīrija"
+        },
+        {
+            "id": "UK",
+            "na": "Apvienotā Karaliste"
+        },
+        {
+            "id": "RU",
+            "na": "Krievija"
+        },
+        {
+            "id": "SA",
+            "na": "Saūda Arābija"
         },
         {
             "id": "SE",
             "na": "Zviedrija"
         },
         {
-            "id": "CH",
-            "na": "Šveice"
+            "id": "SI",
+            "na": "Slovēnija"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbāra un Jans Majens"
+        },
+        {
+            "id": "SK",
+            "na": "Slovākija"
+        },
+        {
+            "id": "SM",
+            "na": "Sanmarīno"
+        },
+        {
+            "id": "NO",
+            "na": "Norvēģija"
         }
-  ],
-  "mt": [
+	],
+	"mt": [
+        {
+            "id": "AL",
+            "na": "L-Albanija"
+        },
+        {
+            "id": "AM",
+            "na": "Armenja"
+        },
         {
             "id": "AT",
             "na": "L-Awstrija"
         },
         {
-            "id": "BE",
-            "na": "Il-Belġju"
+            "id": "AD",
+            "na": "Andorra"
+        },
+        {
+            "id": "BY",
+            "na": "Belarus"
+        },
+        {
+            "id": "CY",
+            "na": "Ċipru"
         },
         {
             "id": "CZ",
             "na": "Ċekja"
         },
         {
-            "id": "DK",
-            "na": "Id-Danimarka"
+            "id": "AZ",
+            "na": "Ażerbajġan"
         },
         {
-            "id": "EE",
-            "na": "Estonja"
+            "id": "BA",
+            "na": "Bosnja u Ħerzegovina"
         },
         {
-            "id": "FI",
-            "na": "Finlandja"
+            "id": "BE",
+            "na": "Il-Belġju"
         },
         {
-            "id": "FR",
-            "na": "Franza"
+            "id": "BG",
+            "na": "Bulgarija"
+        },
+        {
+            "id": "CH",
+            "na": "L-Isvizzera"
         },
         {
             "id": "DE",
             "na": "Il-Ġermanja"
         },
         {
+            "id": "DK",
+            "na": "Id-Danimarka"
+        },
+        {
+            "id": "DZ",
+            "na": "L-Alġerija"
+        },
+        {
+            "id": "EE",
+            "na": "Estonja"
+        },
+        {
+            "id": "EG",
+            "na": "Eġittu"
+        },
+        {
+            "id": "EH",
+            "na": "Saħara tal-Punent"
+        },
+        {
+            "id": "GE",
+            "na": "Ġeorġja"
+        },
+        {
             "id": "EL",
             "na": "Il-Greċja"
+        },
+        {
+            "id": "ES",
+            "na": "Spanja"
+        },
+        {
+            "id": "FI",
+            "na": "Finlandja"
+        },
+        {
+            "id": "FO",
+            "na": "Faroes"
+        },
+        {
+            "id": "GG",
+            "na": "Guernsey"
+        },
+        {
+            "id": "GI",
+            "na": "Ġibiltà"
+        },
+        {
+            "id": "GL",
+            "na": "Greenland"
+        },
+        {
+            "id": "FR",
+            "na": "Franza"
+        },
+        {
+            "id": "HR",
+            "na": "Il-Kroazja"
         },
         {
             "id": "HU",
@@ -1745,12 +4893,72 @@ export const countryNameTranslations = {
             "na": "L-Italja"
         },
         {
-            "id": "LV",
-            "na": "Il-Latvja"
+            "id": "JE",
+            "na": "Jersey"
+        },
+        {
+            "id": "JO",
+            "na": "Ġordan"
+        },
+        {
+            "id": "IE",
+            "na": "L-Irlanda"
+        },
+        {
+            "id": "IL",
+            "na": "Iżrael"
+        },
+        {
+            "id": "IM",
+            "na": "Isle of Man"
+        },
+        {
+            "id": "IQ",
+            "na": "Iraq"
+        },
+        {
+            "id": "IR",
+            "na": "Iran"
+        },
+        {
+            "id": "KW",
+            "na": "Kuwajt"
+        },
+        {
+            "id": "KZ",
+            "na": "Każakstan"
+        },
+        {
+            "id": "LB",
+            "na": "Il-Libanu"
         },
         {
             "id": "LI",
             "na": "Liechtenstein"
+        },
+        {
+            "id": "NL",
+            "na": "L-Olanda"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palestina"
+        },
+        {
+            "id": "PT",
+            "na": "Portugall"
+        },
+        {
+            "id": "RO",
+            "na": "Ir-Rumanija"
+        },
+        {
+            "id": "PL",
+            "na": "Polonja"
         },
         {
             "id": "LT",
@@ -1761,82 +4969,214 @@ export const countryNameTranslations = {
             "na": "Lussemburgu"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Il-Latvja"
         },
         {
-            "id": "NL",
-            "na": "L-Olanda"
+            "id": "LY",
+            "na": "Libja"
         },
         {
-            "id": "NO",
-            "na": "Norveġja"
+            "id": "MA",
+            "na": "Il-Marokk"
         },
         {
-            "id": "PL",
-            "na": "Polonja"
+            "id": "MC",
+            "na": "Monako"
         },
         {
-            "id": "PT",
-            "na": "Portugall"
+            "id": "MD",
+            "na": "Moldavia"
         },
         {
-            "id": "SK",
-            "na": "Is-Slovakkja"
+            "id": "ME",
+            "na": "Montenegro"
         },
         {
-            "id": "SI",
-            "na": "Is-Slovenja"
+            "id": "MK",
+            "na": "Maċedonja ta' Fuq"
         },
         {
-            "id": "ES",
-            "na": "Spanja"
+            "id": "UZ",
+            "na": "L-Użbekistan"
+        },
+        {
+            "id": "VA",
+            "na": "Belt tal-Vatikan"
+        },
+        {
+            "id": "RS",
+            "na": "Serbja"
+        },
+        {
+            "id": "TM",
+            "na": "Turkmenistan"
+        },
+        {
+            "id": "TN",
+            "na": "Tuneżija"
+        },
+        {
+            "id": "TR",
+            "na": "Turkija"
+        },
+        {
+            "id": "UA",
+            "na": "L-Ukrajna"
+        },
+        {
+            "id": "SY",
+            "na": "Is-Sirja"
+        },
+        {
+            "id": "UK",
+            "na": "Ir-Renju Unit"
+        },
+        {
+            "id": "RU",
+            "na": "Ir-Russja"
+        },
+        {
+            "id": "SA",
+            "na": "Għarabja Sawdija"
         },
         {
             "id": "SE",
             "na": "L-Isvezja"
         },
         {
-            "id": "CH",
-            "na": "L-Isvizzera"
+            "id": "SI",
+            "na": "Is-Slovenja"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard u Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Is-Slovakkja"
+        },
+        {
+            "id": "SM",
+            "na": "San Marino"
+        },
+        {
+            "id": "NO",
+            "na": "Norveġja"
         }
-  ],
-  "nl": [
+	],
+	"nl": [
+        {
+            "id": "AL",
+            "na": "Albanië"
+        },
+        {
+            "id": "AM",
+            "na": "Armenië"
+        },
         {
             "id": "AT",
             "na": "Oostenrijk"
         },
         {
-            "id": "BE",
-            "na": "België"
+            "id": "AD",
+            "na": "Andorra"
+        },
+        {
+            "id": "BY",
+            "na": "Wit-Rusland"
+        },
+        {
+            "id": "CY",
+            "na": "Cyprus"
         },
         {
             "id": "CZ",
             "na": "Tsjechië"
         },
         {
-            "id": "DK",
-            "na": "Denemarken"
+            "id": "AZ",
+            "na": "Azerbeidzjan"
         },
         {
-            "id": "EE",
-            "na": "Estland"
+            "id": "BA",
+            "na": "Bosnië-Herzegovina"
         },
         {
-            "id": "FI",
-            "na": "Finland"
+            "id": "BE",
+            "na": "België"
         },
         {
-            "id": "FR",
-            "na": "Frankrijk"
+            "id": "BG",
+            "na": "Bulgarije"
+        },
+        {
+            "id": "CH",
+            "na": "Zwitserland"
         },
         {
             "id": "DE",
             "na": "Duitsland"
         },
         {
+            "id": "DK",
+            "na": "Denemarken"
+        },
+        {
+            "id": "DZ",
+            "na": "Algerije"
+        },
+        {
+            "id": "EE",
+            "na": "Estland"
+        },
+        {
+            "id": "EG",
+            "na": "Egypte"
+        },
+        {
+            "id": "EH",
+            "na": "Westelijke Sahara"
+        },
+        {
+            "id": "GE",
+            "na": "Georgië"
+        },
+        {
             "id": "EL",
             "na": "Griekenland"
+        },
+        {
+            "id": "ES",
+            "na": "Spanje"
+        },
+        {
+            "id": "FI",
+            "na": "Finland"
+        },
+        {
+            "id": "FO",
+            "na": "Faeröer"
+        },
+        {
+            "id": "GG",
+            "na": "Guernsey"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltar"
+        },
+        {
+            "id": "GL",
+            "na": "Groenland"
+        },
+        {
+            "id": "FR",
+            "na": "Frankrijk"
+        },
+        {
+            "id": "HR",
+            "na": "Kroatië"
         },
         {
             "id": "HU",
@@ -1851,12 +5191,72 @@ export const countryNameTranslations = {
             "na": "Italië"
         },
         {
-            "id": "LV",
-            "na": "Letland"
+            "id": "JE",
+            "na": "Jersey"
+        },
+        {
+            "id": "JO",
+            "na": "Jordanië"
+        },
+        {
+            "id": "IE",
+            "na": "Ierland"
+        },
+        {
+            "id": "IL",
+            "na": "Israël"
+        },
+        {
+            "id": "IM",
+            "na": "Eiland Man"
+        },
+        {
+            "id": "IQ",
+            "na": "Irak"
+        },
+        {
+            "id": "IR",
+            "na": "Iran"
+        },
+        {
+            "id": "KW",
+            "na": "Koeweit"
+        },
+        {
+            "id": "KZ",
+            "na": "Kazachstan"
+        },
+        {
+            "id": "LB",
+            "na": "Libanon"
         },
         {
             "id": "LI",
             "na": "Liechtenstein"
+        },
+        {
+            "id": "NL",
+            "na": "Nederland"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palestina"
+        },
+        {
+            "id": "PT",
+            "na": "Portugal"
+        },
+        {
+            "id": "RO",
+            "na": "Roemenië"
+        },
+        {
+            "id": "PL",
+            "na": "Polen"
         },
         {
             "id": "LT",
@@ -1867,82 +5267,214 @@ export const countryNameTranslations = {
             "na": "Luxemburg"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Letland"
         },
         {
-            "id": "NL",
-            "na": "Nederland"
+            "id": "LY",
+            "na": "Libië"
         },
         {
-            "id": "NO",
-            "na": "Noorwegen"
+            "id": "MA",
+            "na": "Marokko"
         },
         {
-            "id": "PL",
-            "na": "Polen"
+            "id": "MC",
+            "na": "Monaco"
         },
         {
-            "id": "PT",
-            "na": "Portugal"
+            "id": "MD",
+            "na": "Moldavië"
         },
         {
-            "id": "SK",
-            "na": "Slowakije"
+            "id": "ME",
+            "na": "Montenegro"
         },
         {
-            "id": "SI",
-            "na": "Slovenië"
+            "id": "MK",
+            "na": "Noord-Macedonië"
         },
         {
-            "id": "ES",
-            "na": "Spanje"
+            "id": "UZ",
+            "na": "Oezbekistan"
+        },
+        {
+            "id": "VA",
+            "na": "Vaticaanstad"
+        },
+        {
+            "id": "RS",
+            "na": "Servië"
+        },
+        {
+            "id": "TM",
+            "na": "Turkmenistan"
+        },
+        {
+            "id": "TN",
+            "na": "Tunesië"
+        },
+        {
+            "id": "TR",
+            "na": "Kalkoen"
+        },
+        {
+            "id": "UA",
+            "na": "Oekraïne"
+        },
+        {
+            "id": "SY",
+            "na": "Syrië"
+        },
+        {
+            "id": "UK",
+            "na": "Verenigd Koninkrijk"
+        },
+        {
+            "id": "RU",
+            "na": "Rusland"
+        },
+        {
+            "id": "SA",
+            "na": "Saoedi-Arabië"
         },
         {
             "id": "SE",
             "na": "Zweden"
         },
         {
-            "id": "CH",
-            "na": "Zwitserland"
+            "id": "SI",
+            "na": "Slovenië"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard en Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Slowakije"
+        },
+        {
+            "id": "SM",
+            "na": "San Marino"
+        },
+        {
+            "id": "NO",
+            "na": "Noorwegen"
         }
-  ],
-  "pl": [
+	],
+	"pl": [
+        {
+            "id": "AL",
+            "na": "Albania"
+        },
+        {
+            "id": "AM",
+            "na": "Armenia"
+        },
         {
             "id": "AT",
             "na": "Austria"
         },
         {
-            "id": "BE",
-            "na": "Belgia"
+            "id": "AD",
+            "na": "Andora"
+        },
+        {
+            "id": "BY",
+            "na": "Białoruś"
+        },
+        {
+            "id": "CY",
+            "na": "Cypr"
         },
         {
             "id": "CZ",
             "na": "Czechy"
         },
         {
-            "id": "DK",
-            "na": "Dania"
+            "id": "AZ",
+            "na": "Azerbejdżan"
         },
         {
-            "id": "EE",
-            "na": "Estonia"
+            "id": "BA",
+            "na": "Bośnia i Hercegowina"
         },
         {
-            "id": "FI",
-            "na": "Finlandia"
+            "id": "BE",
+            "na": "Belgia"
         },
         {
-            "id": "FR",
-            "na": "Francja"
+            "id": "BG",
+            "na": "Bułgaria"
+        },
+        {
+            "id": "CH",
+            "na": "Szwajcaria"
         },
         {
             "id": "DE",
             "na": "Niemcy"
         },
         {
+            "id": "DK",
+            "na": "Dania"
+        },
+        {
+            "id": "DZ",
+            "na": "Algieria"
+        },
+        {
+            "id": "EE",
+            "na": "Estonia"
+        },
+        {
+            "id": "EG",
+            "na": "Egipt"
+        },
+        {
+            "id": "EH",
+            "na": "Sahara Zachodnia"
+        },
+        {
+            "id": "GE",
+            "na": "Gruzja"
+        },
+        {
             "id": "EL",
             "na": "Grecja"
+        },
+        {
+            "id": "ES",
+            "na": "Hiszpania"
+        },
+        {
+            "id": "FI",
+            "na": "Finlandia"
+        },
+        {
+            "id": "FO",
+            "na": "Wyspy Owcze"
+        },
+        {
+            "id": "GG",
+            "na": "Guernsey"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltar"
+        },
+        {
+            "id": "GL",
+            "na": "Grenlandia"
+        },
+        {
+            "id": "FR",
+            "na": "Francja"
+        },
+        {
+            "id": "HR",
+            "na": "Chorwacja"
         },
         {
             "id": "HU",
@@ -1957,12 +5489,72 @@ export const countryNameTranslations = {
             "na": "Włochy"
         },
         {
-            "id": "LV",
-            "na": "Łotwa"
+            "id": "JE",
+            "na": "Golf"
+        },
+        {
+            "id": "JO",
+            "na": "Jordania"
+        },
+        {
+            "id": "IE",
+            "na": "Irlandia"
+        },
+        {
+            "id": "IL",
+            "na": "Izrael"
+        },
+        {
+            "id": "IM",
+            "na": "Wyspa Man"
+        },
+        {
+            "id": "IQ",
+            "na": "Irak"
+        },
+        {
+            "id": "IR",
+            "na": "Iran"
+        },
+        {
+            "id": "KW",
+            "na": "Kuwejt"
+        },
+        {
+            "id": "KZ",
+            "na": "Kazachstan"
+        },
+        {
+            "id": "LB",
+            "na": "Liban"
         },
         {
             "id": "LI",
             "na": "Liechtenstein"
+        },
+        {
+            "id": "NL",
+            "na": "Holandia"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palestyna"
+        },
+        {
+            "id": "PT",
+            "na": "Portugalia"
+        },
+        {
+            "id": "RO",
+            "na": "Rumunia"
+        },
+        {
+            "id": "PL",
+            "na": "Polska"
         },
         {
             "id": "LT",
@@ -1973,82 +5565,214 @@ export const countryNameTranslations = {
             "na": "Luksemburg"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Łotwa"
         },
         {
-            "id": "NL",
-            "na": "Holandia"
+            "id": "LY",
+            "na": "Libia"
         },
         {
-            "id": "NO",
-            "na": "Norwegia"
+            "id": "MA",
+            "na": "Maroko"
         },
         {
-            "id": "PL",
-            "na": "Polska"
+            "id": "MC",
+            "na": "Monako"
         },
         {
-            "id": "PT",
-            "na": "Portugalia"
+            "id": "MD",
+            "na": "Mołdawia"
         },
         {
-            "id": "SK",
-            "na": "Słowacja"
+            "id": "ME",
+            "na": "Czarnogóra"
         },
         {
-            "id": "SI",
-            "na": "Słowenia"
+            "id": "MK",
+            "na": "Macedonia Północna"
         },
         {
-            "id": "ES",
-            "na": "Hiszpania"
+            "id": "UZ",
+            "na": "Uzbekistan"
+        },
+        {
+            "id": "VA",
+            "na": "Watykan"
+        },
+        {
+            "id": "RS",
+            "na": "Serbia"
+        },
+        {
+            "id": "TM",
+            "na": "Turkmenia"
+        },
+        {
+            "id": "TN",
+            "na": "Tunezja"
+        },
+        {
+            "id": "TR",
+            "na": "Indyk"
+        },
+        {
+            "id": "UA",
+            "na": "Ukraina"
+        },
+        {
+            "id": "SY",
+            "na": "Syria"
+        },
+        {
+            "id": "UK",
+            "na": "Zjednoczone Królestwo"
+        },
+        {
+            "id": "RU",
+            "na": "Rosja"
+        },
+        {
+            "id": "SA",
+            "na": "Arabia Saudyjska"
         },
         {
             "id": "SE",
             "na": "Szwecja"
         },
         {
-            "id": "CH",
-            "na": "Szwajcaria"
+            "id": "SI",
+            "na": "Słowenia"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard i Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Słowacja"
+        },
+        {
+            "id": "SM",
+            "na": "San Marino"
+        },
+        {
+            "id": "NO",
+            "na": "Norwegia"
         }
-  ],
-  "pt": [
+	],
+	"pt": [
+        {
+            "id": "AL",
+            "na": "Albânia"
+        },
+        {
+            "id": "AM",
+            "na": "Armênia"
+        },
         {
             "id": "AT",
             "na": "Áustria"
         },
         {
-            "id": "BE",
-            "na": "Bélgica"
+            "id": "AD",
+            "na": "Andorra"
+        },
+        {
+            "id": "BY",
+            "na": "Bielorrússia"
+        },
+        {
+            "id": "CY",
+            "na": "Chipre"
         },
         {
             "id": "CZ",
             "na": "República Tcheca"
         },
         {
-            "id": "DK",
-            "na": "Dinamarca"
+            "id": "AZ",
+            "na": "Azerbaijão"
         },
         {
-            "id": "EE",
-            "na": "Estônia"
+            "id": "BA",
+            "na": "Bósnia e Herzegovina"
         },
         {
-            "id": "FI",
-            "na": "Finlândia"
+            "id": "BE",
+            "na": "Bélgica"
         },
         {
-            "id": "FR",
-            "na": "França"
+            "id": "BG",
+            "na": "Bulgária"
+        },
+        {
+            "id": "CH",
+            "na": "Suíça"
         },
         {
             "id": "DE",
             "na": "Alemanha"
         },
         {
+            "id": "DK",
+            "na": "Dinamarca"
+        },
+        {
+            "id": "DZ",
+            "na": "Argélia"
+        },
+        {
+            "id": "EE",
+            "na": "Estônia"
+        },
+        {
+            "id": "EG",
+            "na": "Egito"
+        },
+        {
+            "id": "EH",
+            "na": "Saara Ocidental"
+        },
+        {
+            "id": "GE",
+            "na": "Geórgia"
+        },
+        {
             "id": "EL",
             "na": "Grécia"
+        },
+        {
+            "id": "ES",
+            "na": "Espanha"
+        },
+        {
+            "id": "FI",
+            "na": "Finlândia"
+        },
+        {
+            "id": "FO",
+            "na": "Ilhas Faroé"
+        },
+        {
+            "id": "GG",
+            "na": "Guernsey"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltar"
+        },
+        {
+            "id": "GL",
+            "na": "Groenlândia"
+        },
+        {
+            "id": "FR",
+            "na": "França"
+        },
+        {
+            "id": "HR",
+            "na": "Croácia"
         },
         {
             "id": "HU",
@@ -2063,12 +5787,72 @@ export const countryNameTranslations = {
             "na": "Itália"
         },
         {
-            "id": "LV",
-            "na": "Letônia"
+            "id": "JE",
+            "na": "Jersey"
+        },
+        {
+            "id": "JO",
+            "na": "Jordânia"
+        },
+        {
+            "id": "IE",
+            "na": "Irlanda"
+        },
+        {
+            "id": "IL",
+            "na": "Israel"
+        },
+        {
+            "id": "IM",
+            "na": "Ilha de Man"
+        },
+        {
+            "id": "IQ",
+            "na": "Iraque"
+        },
+        {
+            "id": "IR",
+            "na": "Irã"
+        },
+        {
+            "id": "KW",
+            "na": "Kuwait"
+        },
+        {
+            "id": "KZ",
+            "na": "Cazaquistão"
+        },
+        {
+            "id": "LB",
+            "na": "Líbano"
         },
         {
             "id": "LI",
             "na": "Listenstaine"
+        },
+        {
+            "id": "NL",
+            "na": "Holanda"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palestina"
+        },
+        {
+            "id": "PT",
+            "na": "Portugal"
+        },
+        {
+            "id": "RO",
+            "na": "Romênia"
+        },
+        {
+            "id": "PL",
+            "na": "Polônia"
         },
         {
             "id": "LT",
@@ -2079,82 +5863,214 @@ export const countryNameTranslations = {
             "na": "Luxemburgo"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Letônia"
         },
         {
-            "id": "NL",
-            "na": "Holanda"
+            "id": "LY",
+            "na": "Líbia"
         },
         {
-            "id": "NO",
-            "na": "Noruega"
+            "id": "MA",
+            "na": "Marrocos"
         },
         {
-            "id": "PL",
-            "na": "Polônia"
+            "id": "MC",
+            "na": "Mônaco"
         },
         {
-            "id": "PT",
-            "na": "Portugal"
+            "id": "MD",
+            "na": "Moldávia"
         },
         {
-            "id": "SK",
-            "na": "Eslováquia"
+            "id": "ME",
+            "na": "Montenegro"
         },
         {
-            "id": "SI",
-            "na": "Eslovênia"
+            "id": "MK",
+            "na": "Macedônia do Norte"
         },
         {
-            "id": "ES",
-            "na": "Espanha"
+            "id": "UZ",
+            "na": "Uzbequistão"
+        },
+        {
+            "id": "VA",
+            "na": "Cidade do Vaticano"
+        },
+        {
+            "id": "RS",
+            "na": "Sérvia"
+        },
+        {
+            "id": "TM",
+            "na": "Turcomenistão"
+        },
+        {
+            "id": "TN",
+            "na": "Tunísia"
+        },
+        {
+            "id": "TR",
+            "na": "Peru"
+        },
+        {
+            "id": "UA",
+            "na": "Ucrânia"
+        },
+        {
+            "id": "SY",
+            "na": "Síria"
+        },
+        {
+            "id": "UK",
+            "na": "Reino Unido"
+        },
+        {
+            "id": "RU",
+            "na": "Rússia"
+        },
+        {
+            "id": "SA",
+            "na": "Arábia Saudita"
         },
         {
             "id": "SE",
             "na": "Suécia"
         },
         {
-            "id": "CH",
-            "na": "Suíça"
+            "id": "SI",
+            "na": "Eslovênia"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard e Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Eslováquia"
+        },
+        {
+            "id": "SM",
+            "na": "São Marinho"
+        },
+        {
+            "id": "NO",
+            "na": "Noruega"
         }
-  ],
-  "ro": [
+	],
+	"ro": [
+        {
+            "id": "AL",
+            "na": "Albania"
+        },
+        {
+            "id": "AM",
+            "na": "Armenia"
+        },
         {
             "id": "AT",
             "na": "Austria"
         },
         {
-            "id": "BE",
-            "na": "Belgia"
+            "id": "AD",
+            "na": "Andorra"
+        },
+        {
+            "id": "BY",
+            "na": "Bielorusia"
+        },
+        {
+            "id": "CY",
+            "na": "Cipru"
         },
         {
             "id": "CZ",
             "na": "Cehia"
         },
         {
-            "id": "DK",
-            "na": "Danemarca"
+            "id": "AZ",
+            "na": "Azerbaidjan"
         },
         {
-            "id": "EE",
-            "na": "Estonia"
+            "id": "BA",
+            "na": "Bosnia si Hertegovina"
         },
         {
-            "id": "FI",
-            "na": "Finlanda"
+            "id": "BE",
+            "na": "Belgia"
         },
         {
-            "id": "FR",
-            "na": "Franţa"
+            "id": "BG",
+            "na": "Bulgaria"
+        },
+        {
+            "id": "CH",
+            "na": "Elveţia"
         },
         {
             "id": "DE",
             "na": "Germania"
         },
         {
+            "id": "DK",
+            "na": "Danemarca"
+        },
+        {
+            "id": "DZ",
+            "na": "Algeria"
+        },
+        {
+            "id": "EE",
+            "na": "Estonia"
+        },
+        {
+            "id": "EG",
+            "na": "Egipt"
+        },
+        {
+            "id": "EH",
+            "na": "Sahara de Vest"
+        },
+        {
+            "id": "GE",
+            "na": "Georgia"
+        },
+        {
             "id": "EL",
             "na": "Grecia"
+        },
+        {
+            "id": "ES",
+            "na": "Spania"
+        },
+        {
+            "id": "FI",
+            "na": "Finlanda"
+        },
+        {
+            "id": "FO",
+            "na": "Insulele Feroe"
+        },
+        {
+            "id": "GG",
+            "na": "Guernsey"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltar"
+        },
+        {
+            "id": "GL",
+            "na": "Groenlanda"
+        },
+        {
+            "id": "FR",
+            "na": "Franţa"
+        },
+        {
+            "id": "HR",
+            "na": "Croaţia"
         },
         {
             "id": "HU",
@@ -2169,12 +6085,72 @@ export const countryNameTranslations = {
             "na": "Italia"
         },
         {
-            "id": "LV",
-            "na": "Letonia"
+            "id": "JE",
+            "na": "Jersey"
+        },
+        {
+            "id": "JO",
+            "na": "Iordania"
+        },
+        {
+            "id": "IE",
+            "na": "Irlanda"
+        },
+        {
+            "id": "IL",
+            "na": "Israel"
+        },
+        {
+            "id": "IM",
+            "na": "Insula Barbatului"
+        },
+        {
+            "id": "IQ",
+            "na": "Irak"
+        },
+        {
+            "id": "IR",
+            "na": "Iranul"
+        },
+        {
+            "id": "KW",
+            "na": "Kuweit"
+        },
+        {
+            "id": "KZ",
+            "na": "Kazahstan"
+        },
+        {
+            "id": "LB",
+            "na": "Liban"
         },
         {
             "id": "LI",
             "na": "Liechtenstein"
+        },
+        {
+            "id": "NL",
+            "na": "Olanda"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palestina"
+        },
+        {
+            "id": "PT",
+            "na": "Portugalia"
+        },
+        {
+            "id": "RO",
+            "na": "Romania"
+        },
+        {
+            "id": "PL",
+            "na": "Polonia"
         },
         {
             "id": "LT",
@@ -2185,82 +6161,214 @@ export const countryNameTranslations = {
             "na": "Luxemburg"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Letonia"
         },
         {
-            "id": "NL",
-            "na": "Olanda"
+            "id": "LY",
+            "na": "Libia"
         },
         {
-            "id": "NO",
-            "na": "Norvegia"
+            "id": "MA",
+            "na": "Maroc"
         },
         {
-            "id": "PL",
-            "na": "Polonia"
+            "id": "MC",
+            "na": "Monaco"
         },
         {
-            "id": "PT",
-            "na": "Portugalia"
+            "id": "MD",
+            "na": "Moldova"
         },
         {
-            "id": "SK",
-            "na": "Slovacia"
+            "id": "ME",
+            "na": "Muntenegru"
         },
         {
-            "id": "SI",
-            "na": "Slovenia"
+            "id": "MK",
+            "na": "Macedonia de Nord"
         },
         {
-            "id": "ES",
-            "na": "Spania"
+            "id": "UZ",
+            "na": "Uzbekistan"
+        },
+        {
+            "id": "VA",
+            "na": "Orasul Vatican"
+        },
+        {
+            "id": "RS",
+            "na": "Serbia"
+        },
+        {
+            "id": "TM",
+            "na": "Turkmenistan"
+        },
+        {
+            "id": "TN",
+            "na": "Tunisia"
+        },
+        {
+            "id": "TR",
+            "na": "Curcan"
+        },
+        {
+            "id": "UA",
+            "na": "Ucraina"
+        },
+        {
+            "id": "SY",
+            "na": "Siria"
+        },
+        {
+            "id": "UK",
+            "na": "Regatul Unit"
+        },
+        {
+            "id": "RU",
+            "na": "Rusia"
+        },
+        {
+            "id": "SA",
+            "na": "Arabia Saudită"
         },
         {
             "id": "SE",
             "na": "Suedia"
         },
         {
-            "id": "CH",
-            "na": "Elveţia"
+            "id": "SI",
+            "na": "Slovenia"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard și Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Slovacia"
+        },
+        {
+            "id": "SM",
+            "na": "San Marino"
+        },
+        {
+            "id": "NO",
+            "na": "Norvegia"
         }
-  ],
-  "sk": [
+	],
+	"sk": [
+        {
+            "id": "AL",
+            "na": "Albánsko"
+        },
+        {
+            "id": "AM",
+            "na": "Arménsko"
+        },
         {
             "id": "AT",
             "na": "Rakúsko"
         },
         {
-            "id": "BE",
-            "na": "Belgicko"
+            "id": "AD",
+            "na": "Andorra"
+        },
+        {
+            "id": "BY",
+            "na": "Bielorusko"
+        },
+        {
+            "id": "CY",
+            "na": "Cyprus"
         },
         {
             "id": "CZ",
             "na": "Česko"
         },
         {
-            "id": "DK",
-            "na": "Dánsko"
+            "id": "AZ",
+            "na": "Azerbajdžan"
         },
         {
-            "id": "EE",
-            "na": "Estónsko"
+            "id": "BA",
+            "na": "Bosna a Hercegovina"
         },
         {
-            "id": "FI",
-            "na": "Fínsko"
+            "id": "BE",
+            "na": "Belgicko"
         },
         {
-            "id": "FR",
-            "na": "Francúzsko"
+            "id": "BG",
+            "na": "Bulharsko"
+        },
+        {
+            "id": "CH",
+            "na": "Švajčiarsko"
         },
         {
             "id": "DE",
             "na": "Nemecko"
         },
         {
+            "id": "DK",
+            "na": "Dánsko"
+        },
+        {
+            "id": "DZ",
+            "na": "Alžírsko"
+        },
+        {
+            "id": "EE",
+            "na": "Estónsko"
+        },
+        {
+            "id": "EG",
+            "na": "Egypt"
+        },
+        {
+            "id": "EH",
+            "na": "Západná Sahara"
+        },
+        {
+            "id": "GE",
+            "na": "Gruzínsko"
+        },
+        {
             "id": "EL",
             "na": "Grécko"
+        },
+        {
+            "id": "ES",
+            "na": "Španielsko"
+        },
+        {
+            "id": "FI",
+            "na": "Fínsko"
+        },
+        {
+            "id": "FO",
+            "na": "Faerské ostrovy"
+        },
+        {
+            "id": "GG",
+            "na": "Guernsey"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltár"
+        },
+        {
+            "id": "GL",
+            "na": "Grónsko"
+        },
+        {
+            "id": "FR",
+            "na": "Francúzsko"
+        },
+        {
+            "id": "HR",
+            "na": "Chorvátsko"
         },
         {
             "id": "HU",
@@ -2275,12 +6383,72 @@ export const countryNameTranslations = {
             "na": "Taliansko"
         },
         {
-            "id": "LV",
-            "na": "Lotyšsko"
+            "id": "JE",
+            "na": "Jersey"
+        },
+        {
+            "id": "JO",
+            "na": "Jordan"
+        },
+        {
+            "id": "IE",
+            "na": "Írsko"
+        },
+        {
+            "id": "IL",
+            "na": "Izrael"
+        },
+        {
+            "id": "IM",
+            "na": "Ostrov Man"
+        },
+        {
+            "id": "IQ",
+            "na": "Iraku"
+        },
+        {
+            "id": "IR",
+            "na": "Irán"
+        },
+        {
+            "id": "KW",
+            "na": "Kuvajt"
+        },
+        {
+            "id": "KZ",
+            "na": "Kazachstan"
+        },
+        {
+            "id": "LB",
+            "na": "Libanon"
         },
         {
             "id": "LI",
             "na": "Lichtenštajnsko"
+        },
+        {
+            "id": "NL",
+            "na": "Holandsko"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palestíne"
+        },
+        {
+            "id": "PT",
+            "na": "Portugalsko"
+        },
+        {
+            "id": "RO",
+            "na": "Rumunsko"
+        },
+        {
+            "id": "PL",
+            "na": "Poľsko"
         },
         {
             "id": "LT",
@@ -2291,82 +6459,214 @@ export const countryNameTranslations = {
             "na": "Luxembursko"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Lotyšsko"
         },
         {
-            "id": "NL",
-            "na": "Holandsko"
+            "id": "LY",
+            "na": "Líbya"
         },
         {
-            "id": "NO",
-            "na": "Nórsko"
+            "id": "MA",
+            "na": "Maroko"
         },
         {
-            "id": "PL",
-            "na": "Poľsko"
+            "id": "MC",
+            "na": "Monako"
         },
         {
-            "id": "PT",
-            "na": "Portugalsko"
+            "id": "MD",
+            "na": "Moldavsko"
         },
         {
-            "id": "SK",
-            "na": "Slovensko"
+            "id": "ME",
+            "na": "Čierna Hora"
         },
         {
-            "id": "SI",
-            "na": "Slovinsko"
+            "id": "MK",
+            "na": "Severné Macedónsko"
         },
         {
-            "id": "ES",
-            "na": "Španielsko"
+            "id": "UZ",
+            "na": "Uzbekistan"
+        },
+        {
+            "id": "VA",
+            "na": "Vatikán"
+        },
+        {
+            "id": "RS",
+            "na": "Srbsko"
+        },
+        {
+            "id": "TM",
+            "na": "Turkménsko"
+        },
+        {
+            "id": "TN",
+            "na": "Tunisko"
+        },
+        {
+            "id": "TR",
+            "na": "Turecko"
+        },
+        {
+            "id": "UA",
+            "na": "Ukrajina"
+        },
+        {
+            "id": "SY",
+            "na": "Sýria"
+        },
+        {
+            "id": "UK",
+            "na": "Spojene kralovstvo"
+        },
+        {
+            "id": "RU",
+            "na": "Rusko"
+        },
+        {
+            "id": "SA",
+            "na": "Saudská Arábia"
         },
         {
             "id": "SE",
             "na": "Švédsko"
         },
         {
-            "id": "CH",
-            "na": "Švajčiarsko"
+            "id": "SI",
+            "na": "Slovinsko"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard a Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Slovensko"
+        },
+        {
+            "id": "SM",
+            "na": "San Maríno"
+        },
+        {
+            "id": "NO",
+            "na": "Nórsko"
         }
-  ],
-  "sl": [
+	],
+	"sl": [
+        {
+            "id": "AL",
+            "na": "Albanija"
+        },
+        {
+            "id": "AM",
+            "na": "Armenija"
+        },
         {
             "id": "AT",
             "na": "Avstrija"
         },
         {
-            "id": "BE",
-            "na": "Belgija"
+            "id": "AD",
+            "na": "Andora"
+        },
+        {
+            "id": "BY",
+            "na": "Belorusija"
+        },
+        {
+            "id": "CY",
+            "na": "Ciper"
         },
         {
             "id": "CZ",
             "na": "Češka"
         },
         {
-            "id": "DK",
-            "na": "Danska"
+            "id": "AZ",
+            "na": "Azerbajdžan"
         },
         {
-            "id": "EE",
-            "na": "Estonija"
+            "id": "BA",
+            "na": "Bosna in Hercegovina"
         },
         {
-            "id": "FI",
-            "na": "Finska"
+            "id": "BE",
+            "na": "Belgija"
         },
         {
-            "id": "FR",
-            "na": "Francija"
+            "id": "BG",
+            "na": "Bolgarija"
+        },
+        {
+            "id": "CH",
+            "na": "Švica"
         },
         {
             "id": "DE",
             "na": "Nemčija"
         },
         {
+            "id": "DK",
+            "na": "Danska"
+        },
+        {
+            "id": "DZ",
+            "na": "Alžirija"
+        },
+        {
+            "id": "EE",
+            "na": "Estonija"
+        },
+        {
+            "id": "EG",
+            "na": "Egipt"
+        },
+        {
+            "id": "EH",
+            "na": "Zahodna Sahara"
+        },
+        {
+            "id": "GE",
+            "na": "Gruzija"
+        },
+        {
             "id": "EL",
             "na": "Grčija"
+        },
+        {
+            "id": "ES",
+            "na": "Španija"
+        },
+        {
+            "id": "FI",
+            "na": "Finska"
+        },
+        {
+            "id": "FO",
+            "na": "Ferski otoki"
+        },
+        {
+            "id": "GG",
+            "na": "Guernsey"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltar"
+        },
+        {
+            "id": "GL",
+            "na": "Grenlandija"
+        },
+        {
+            "id": "FR",
+            "na": "Francija"
+        },
+        {
+            "id": "HR",
+            "na": "Hrvaška"
         },
         {
             "id": "HU",
@@ -2381,12 +6681,72 @@ export const countryNameTranslations = {
             "na": "Italija"
         },
         {
-            "id": "LV",
-            "na": "Latvija"
+            "id": "JE",
+            "na": "Jersey"
+        },
+        {
+            "id": "JO",
+            "na": "Jordan"
+        },
+        {
+            "id": "IE",
+            "na": "Irska"
+        },
+        {
+            "id": "IL",
+            "na": "Izrael"
+        },
+        {
+            "id": "IM",
+            "na": "Otok Man"
+        },
+        {
+            "id": "IQ",
+            "na": "Irak"
+        },
+        {
+            "id": "IR",
+            "na": "Iran"
+        },
+        {
+            "id": "KW",
+            "na": "Kuvajt"
+        },
+        {
+            "id": "KZ",
+            "na": "Kazahstan"
+        },
+        {
+            "id": "LB",
+            "na": "Libanon"
         },
         {
             "id": "LI",
             "na": "Liechtenstein"
+        },
+        {
+            "id": "NL",
+            "na": "Nizozemska"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palestina"
+        },
+        {
+            "id": "PT",
+            "na": "Portugalska"
+        },
+        {
+            "id": "RO",
+            "na": "Romunija"
+        },
+        {
+            "id": "PL",
+            "na": "Poljska"
         },
         {
             "id": "LT",
@@ -2397,82 +6757,214 @@ export const countryNameTranslations = {
             "na": "Luksemburg"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Latvija"
         },
         {
-            "id": "NL",
-            "na": "Nizozemska"
+            "id": "LY",
+            "na": "Libija"
         },
         {
-            "id": "NO",
-            "na": "Norveška"
+            "id": "MA",
+            "na": "Maroko"
         },
         {
-            "id": "PL",
-            "na": "Poljska"
+            "id": "MC",
+            "na": "Monako"
         },
         {
-            "id": "PT",
-            "na": "Portugalska"
+            "id": "MD",
+            "na": "Moldavija"
         },
         {
-            "id": "SK",
-            "na": "Slovaška"
+            "id": "ME",
+            "na": "Črna gora"
         },
         {
-            "id": "SI",
-            "na": "Slovenija"
+            "id": "MK",
+            "na": "Severna Makedonija"
         },
         {
-            "id": "ES",
-            "na": "Španija"
+            "id": "UZ",
+            "na": "Uzbekistan"
+        },
+        {
+            "id": "VA",
+            "na": "Vatikan"
+        },
+        {
+            "id": "RS",
+            "na": "Srbija"
+        },
+        {
+            "id": "TM",
+            "na": "Turkmenistan"
+        },
+        {
+            "id": "TN",
+            "na": "Tunizija"
+        },
+        {
+            "id": "TR",
+            "na": "Puran"
+        },
+        {
+            "id": "UA",
+            "na": "Ukrajina"
+        },
+        {
+            "id": "SY",
+            "na": "Sirija"
+        },
+        {
+            "id": "UK",
+            "na": "Združeno kraljestvo"
+        },
+        {
+            "id": "RU",
+            "na": "Rusija"
+        },
+        {
+            "id": "SA",
+            "na": "Savdska Arabija"
         },
         {
             "id": "SE",
             "na": "Švedska"
         },
         {
-            "id": "CH",
-            "na": "Švica"
+            "id": "SI",
+            "na": "Slovenija"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard in Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Slovaška"
+        },
+        {
+            "id": "SM",
+            "na": "San Marino"
+        },
+        {
+            "id": "NO",
+            "na": "Norveška"
         }
-  ],
-  "sv": [
+	],
+	"sv": [
+        {
+            "id": "AL",
+            "na": "Albanien"
+        },
+        {
+            "id": "AM",
+            "na": "Armenien"
+        },
         {
             "id": "AT",
             "na": "Österrike"
         },
         {
-            "id": "BE",
-            "na": "Belgien"
+            "id": "AD",
+            "na": "Andorra"
+        },
+        {
+            "id": "BY",
+            "na": "Belarus"
+        },
+        {
+            "id": "CY",
+            "na": "Cypern"
         },
         {
             "id": "CZ",
             "na": "Tjeckien"
         },
         {
-            "id": "DK",
-            "na": "Danmark"
+            "id": "AZ",
+            "na": "Azerbajdzjan"
         },
         {
-            "id": "EE",
-            "na": "Estland"
+            "id": "BA",
+            "na": "Bosnien och Hercegovina"
         },
         {
-            "id": "FI",
-            "na": "Finland"
+            "id": "BE",
+            "na": "Belgien"
         },
         {
-            "id": "FR",
-            "na": "Frankrike"
+            "id": "BG",
+            "na": "Bulgarien"
+        },
+        {
+            "id": "CH",
+            "na": "Schweiz"
         },
         {
             "id": "DE",
             "na": "Tyskland"
         },
         {
+            "id": "DK",
+            "na": "Danmark"
+        },
+        {
+            "id": "DZ",
+            "na": "Algeriet"
+        },
+        {
+            "id": "EE",
+            "na": "Estland"
+        },
+        {
+            "id": "EG",
+            "na": "Egypten"
+        },
+        {
+            "id": "EH",
+            "na": "Västra Sahara"
+        },
+        {
+            "id": "GE",
+            "na": "Georgien"
+        },
+        {
             "id": "EL",
             "na": "Grekland"
+        },
+        {
+            "id": "ES",
+            "na": "Spanien"
+        },
+        {
+            "id": "FI",
+            "na": "Finland"
+        },
+        {
+            "id": "FO",
+            "na": "Färöarna"
+        },
+        {
+            "id": "GG",
+            "na": "Guernsey"
+        },
+        {
+            "id": "GI",
+            "na": "Gibraltar"
+        },
+        {
+            "id": "GL",
+            "na": "Grönland"
+        },
+        {
+            "id": "FR",
+            "na": "Frankrike"
+        },
+        {
+            "id": "HR",
+            "na": "Kroatien"
         },
         {
             "id": "HU",
@@ -2487,12 +6979,72 @@ export const countryNameTranslations = {
             "na": "Italien"
         },
         {
-            "id": "LV",
-            "na": "Lettland"
+            "id": "JE",
+            "na": "Jersey"
+        },
+        {
+            "id": "JO",
+            "na": "Jordanien"
+        },
+        {
+            "id": "IE",
+            "na": "Irland"
+        },
+        {
+            "id": "IL",
+            "na": "Israel"
+        },
+        {
+            "id": "IM",
+            "na": "Ö av man"
+        },
+        {
+            "id": "IQ",
+            "na": "Irak"
+        },
+        {
+            "id": "IR",
+            "na": "Iran"
+        },
+        {
+            "id": "KW",
+            "na": "Kuwait"
+        },
+        {
+            "id": "KZ",
+            "na": "Kazakstan"
+        },
+        {
+            "id": "LB",
+            "na": "Libanon"
         },
         {
             "id": "LI",
             "na": "Liechtenstein"
+        },
+        {
+            "id": "NL",
+            "na": "Nederländerna"
+        },
+        {
+            "id": "MT",
+            "na": "Malta"
+        },
+        {
+            "id": "PS",
+            "na": "Palestina"
+        },
+        {
+            "id": "PT",
+            "na": "Portugal"
+        },
+        {
+            "id": "RO",
+            "na": "Rumänien"
+        },
+        {
+            "id": "PL",
+            "na": "Polen"
         },
         {
             "id": "LT",
@@ -2503,44 +7055,100 @@ export const countryNameTranslations = {
             "na": "Luxemburg"
         },
         {
-            "id": "MT",
-            "na": "Malta"
+            "id": "LV",
+            "na": "Lettland"
         },
         {
-            "id": "NL",
-            "na": "Nederländerna"
+            "id": "LY",
+            "na": "Libyen"
         },
         {
-            "id": "NO",
-            "na": "Norge"
+            "id": "MA",
+            "na": "Marocko"
         },
         {
-            "id": "PL",
-            "na": "Polen"
+            "id": "MC",
+            "na": "Monaco"
         },
         {
-            "id": "PT",
-            "na": "Portugal"
+            "id": "MD",
+            "na": "Moldavien"
         },
         {
-            "id": "SK",
-            "na": "Slovakien"
+            "id": "ME",
+            "na": "Montenegro"
         },
         {
-            "id": "SI",
-            "na": "Slovenien"
+            "id": "MK",
+            "na": "Nordmakedonien"
         },
         {
-            "id": "ES",
-            "na": "Spanien"
+            "id": "UZ",
+            "na": "Uzbekistan"
+        },
+        {
+            "id": "VA",
+            "na": "Vatikanstaten"
+        },
+        {
+            "id": "RS",
+            "na": "Serbien"
+        },
+        {
+            "id": "TM",
+            "na": "Turkmenistan"
+        },
+        {
+            "id": "TN",
+            "na": "Tunisien"
+        },
+        {
+            "id": "TR",
+            "na": "Kalkon"
+        },
+        {
+            "id": "UA",
+            "na": "Ukraina"
+        },
+        {
+            "id": "SY",
+            "na": "Syrien"
+        },
+        {
+            "id": "UK",
+            "na": "Storbritannien"
+        },
+        {
+            "id": "RU",
+            "na": "Ryssland"
+        },
+        {
+            "id": "SA",
+            "na": "Saudiarabien"
         },
         {
             "id": "SE",
             "na": "Sverige"
         },
         {
-            "id": "CH",
-            "na": "Schweiz"
+            "id": "SI",
+            "na": "Slovenien"
+        },
+        {
+            "id": "SJ",
+            "na": "Svalbard och Jan Mayen"
+        },
+        {
+            "id": "SK",
+            "na": "Slovakien"
+        },
+        {
+            "id": "SM",
+            "na": "San Marino"
+        },
+        {
+            "id": "NO",
+            "na": "Norge"
         }
     ]
 }

@@ -37,7 +37,7 @@
 		center = ukraine;
 	} else if ($CENTER_ON === 'europe') {
 		paddingMap = -60;
-		center = bgCountries;
+		center = countriesAll;
 	}
 
 	$: tooltipPositionX = $MOUSE.x < $MAP_WIDTH / 2 ? $MOUSE.x : $MOUSE.x - tooltipWidth;
@@ -50,11 +50,9 @@
 
 	let countries;
 	let graticules;
-	let bgCountries;
+	let countriesAll;
 	let ukraine;
 	let countryBoundaries;
-	let schengenCountries;
-	let countriesAll;
 
 	let hoveredCountry;
 
@@ -84,7 +82,7 @@
 		const res = await fetch(`/data/geodata/europe-20m.json`)
 			.then((response) => response.json())
 			.then(function (data) {
-				bgCountries = feature(data, data.objects.cntrg);
+				countriesAll = feature(data, data.objects.cntrg);
 				countries = feature(data, data.objects.nutsrg);
 				graticules = feature(data, data.objects.gra);
 				countryBoundaries = feature(data, data.objects.cntbn);
@@ -116,7 +114,7 @@
 				};
 
 				// Extract Schengen countries
-				let schengenFiltered = bgCountries.features
+				let schengenFiltered = countriesAll.features
 					.filter((item) => {
 						return item.properties.isSchengen;
 					})
@@ -124,19 +122,34 @@
 						return a.properties.na.localeCompare(b.properties.na);
 					});
 
-				schengenCountries = {
-					type: 'FeatureCollection',
-					features: schengenFiltered
-				};
+				// schengenCountries = {
+				// 	type: 'FeatureCollection',
+				// 	features: schengenFiltered
+				// };
 
-				countriesAll = {
-					type: 'FeatureCollection',
-					features: [...schengenCountries.features, ...bgCountries.features]
-				};
+				// console.log(countriesAll);
+				// console.log(countries);
 
-				// console.log('bgCountries', bgCountries);
-				// console.log('schengenCountries', schengenCountries);
+				let countryTest = countriesAll.features.map((item) => {
+					// console.log(item);
+					return {
+						id: item.properties.id,
+						na: item.properties.na
+					};
+				});
+
+				console.log('countryTest', countryTest);
+
+				// let unique = testNew.filter((value, index, self) => {
+				// 	return self.findIndex((v) => v.actor.id === value.actor.id) === index;
+				// });
+
+				// let unique = testNew.filter((e, i) => testNew.findIndex((a) => a['id'] === e['id']) === i);
+
+				// console.log('unique', unique);
+
 				// console.log('countriesAll', countriesAll);
+				// console.log('schengenCountries', schengenCountries);
 
 				// let list = schengenCountries.features.map((item) => {
 				// 	return {
@@ -147,7 +160,7 @@
 
 				// console.log(list);
 
-				let test = bgCountries.features.filter((c) => {
+				let test = countriesAll.features.filter((c) => {
 					return c.properties.na == 'Ukraine';
 				});
 
@@ -217,11 +230,11 @@
 		delete csvTransformed['Other European countries'];
 
 		// // Add values from csv
-		bgCountries.features.map((item) => {
+		countriesAll.features.map((item) => {
 			item.value = csvTransformed[item.properties.na];
 		});
 		// console.log(csvTransformed);
-		// console.log(bgCountries);
+		// console.log(countriesAll);
 		$dataReady = true;
 	}
 
@@ -283,12 +296,13 @@
 	$: handleMouseEnter = function (country) {
 		if (tooltipAvailable) {
 			// let countryName = countryNames[country.properties.id.toLowerCase()];
+			console.log(countryNames);
 
 			let countryName = countryNames.filter((c) => {
 				return c.id == country.properties.id;
 			})[0].na;
 
-			console.log(countryName);
+			// console.log(countryName);
 			hoveredCountry = {
 				name: countryName,
 				value: country.value,
@@ -340,6 +354,28 @@
 					on:mouseleave={() => handleMouseLeave(feature)}
 				/>
 			{/each}
+
+			<!-- {#each countriesAll.features as feature, index}
+				<path
+					d={path(feature)}
+					stroke="white"
+					fill={'blue'}
+					class={getClass(feature)}
+					on:mouseenter={() => handleMouseEnter(feature)}
+					on:mouseleave={() => handleMouseLeave(feature)}
+				/>
+			{/each}
+
+			{#each countries.features as feature, index}
+				<path
+					d={path(feature)}
+					stroke="white"
+					fill={'red'}
+					class={getClass(feature)}
+					on:mouseenter={() => handleMouseEnter(feature)}
+					on:mouseleave={() => handleMouseLeave(feature)}
+				/>
+			{/each} -->
 
 			<!-- boundaries -->
 			<!-- {#each countryBoundaries.features as feature, index}

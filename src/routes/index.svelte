@@ -27,6 +27,10 @@
 		}
 	}
 
+	$: console.log($selectedLanguage.value);
+
+	// $: console.log(languageNameTranslations[$selectedLanguage.value]);
+
 	$: dropdownLanguages = languageNameTranslations[$selectedLanguage.value];
 
 	onMount(async () => {
