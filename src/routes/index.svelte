@@ -96,7 +96,12 @@
 <div id="euranet-map" bind:clientHeight={$APP_HEIGHT}>
 	<header>
 		<div class="logo">
-			<img src="./img/logo.png" alt="" />
+			<img
+				src="./img/logo.png"
+				srcset="./img/logo.png 1x, ./img/logo@2x.png 2x"
+				alt="Logo EuraNet"
+			/>
+			<!-- <img src="./img/logo.png" alt="" /> -->
 		</div>
 		<div class="select">
 			<Select items={dropdownLanguages} value={$selectedLanguage} on:select={handleSelect} />

@@ -1,9 +1,7 @@
 # ToDos
 
-- Add all EU countries to translated country list to make it work
-- Tooltip text translate
-- Change headline without number
-- Tooltip Ukraine info different
-- Color Legend
 - New EuraNet logo
-- Add iframe code for embedding
+- Tooltip Ukraine info different
+
+- Change headline without number
+- Color Legend
