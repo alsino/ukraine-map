@@ -278,9 +278,14 @@
 
 	$: handleMouseOverUkraine = function (country) {
 		if (tooltipAvailable && totalRefugees) {
+			let countryName = countryNames.filter((c) => {
+				return c.id == country.properties.id;
+			})[0].na;
+
 			hoveredCountry = {
-				name: country.properties.na,
-				value: totalRefugees
+				name: countryName,
+				value: totalRefugees,
+				valuePercent: totalRefugees / totalRefugees
 			};
 
 			if (country.properties.na) {
@@ -373,8 +378,10 @@
 					<span>{tooltip.label1}</span>
 				</div>
 				<div class="relative-values">
-					<span>{tooltip.label2}</span>
-					<span class="font-bold">{formatPercent($MOUSE.tooltip.valuePercent)}</span>
+					{#if $MOUSE.tooltip.valuePercent !== 1}
+						<span>{tooltip.label2}</span>
+						<span class="font-bold">{formatPercent($MOUSE.tooltip.valuePercent)}</span>
+					{/if}
 				</div>
 			</div>
 		</div>
