@@ -60,8 +60,6 @@
 
 	$: tooltip = { label1: tooltipLabel1, label2: tooltipLabel2 };
 
-	$: console.log(tooltip);
-
 	function handleSelect(event) {
 		$selectedLanguage = { value: event.detail.value, label: event.detail.label };
 		// $selectedLanguage = event.detail.value;

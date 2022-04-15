@@ -9,6 +9,7 @@
 	import { MAP_WIDTH } from '$lib/stores/shared';
 	import { selectedLanguage } from '$lib/stores/shared';
 	import { countryNameTranslations } from '$lib/stores/countries';
+	import Scale from './Scale.svelte';
 
 	import { scaleQuantile, scaleQuantize, scaleSequential, scaleSequentialQuantile } from 'd3-scale';
 	import { schemeBlues, schemeReds, interpolateBlues, interpolateReds } from 'd3-scale-chromatic';
@@ -17,7 +18,6 @@
 
 	import { formatThousands } from '$lib/utils/formatNumbers';
 	import { formatPercent } from '$lib/utils/formatNumbers';
-	import { each } from 'svelte/internal';
 
 	// Make square dimensions i.e. 600x600 to fill all space
 	let width = 600;
@@ -153,8 +153,9 @@
 				});
 
 				csvData.set(data);
-				// // Set color scale domain and range
+				// Set color scale domain and range
 				colorScale.domain(extentArray).range(schemeBlues[5]);
+				// console.log(schemeBlues[5]);
 			})
 			.catch((error) => console.error('error', error));
 
@@ -296,8 +297,10 @@
 </script>
 
 {#if $dataReady}
-	<div id="map" on:mousemove={handleMouseMove} bind:clientHeight={$MAP_WIDTH}>
-		<svg preserveAspectRatio="xMinYMid meet" viewbox="0 0 {width} {height}">
+	<div id="map" class="relative" on:mousemove={handleMouseMove} bind:clientHeight={$MAP_WIDTH}>
+		<Scale classes={schemeBlues[5]} />
+
+		<svg preserveAspectRatio="xMinYMid meet" class="" viewbox="0 0 {width} {height}">
 			<!-- graticules (lines) -->
 			{#each graticules.features as feature, index}
 				<path d={path(feature)} stroke="#cfcfcf" fill="transparent" class="noPointer" />
