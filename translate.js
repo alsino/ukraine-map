@@ -1,4 +1,5 @@
 import chalk from 'chalk';
+import fetch from 'node-fetch';
 import { createRequire } from "module";
 import dotenv from 'dotenv'
 import * as fs from 'fs';
@@ -22,6 +23,26 @@ console.log(chalk.yellow(`Getting translations from Google API for the following
 languages.languages.forEach((lang,i) => {
   console.log(chalk.yellow(i + 1, lang.label))
 })
+
+
+
+// Get dynamic headline for translation with up-to-date refugee count
+const response = await fetch('https://data2.unhcr.org/population/?widget_id=294522&sv_id=54&population_group=5460');
+const res = await response.json();
+const totalRefugees = await res.data[0].individuals;
+const headingLatest = `More than ${toFixed(totalRefugees / 1000000, 1)} million refugees have fled from Ukraine`;
+
+function toFixed(num, fixed) {
+    var re = new RegExp('^-?\\d+(?:\.\\d{0,' + (fixed || -1) + '})?');
+    return num.toString().match(re)[0];
+}
+
+sourceJSON.heading = headingLatest;
+console.log(sourceJSON);
+
+
+
+
 
 
 // Translate all contents of en.json file
