@@ -20,8 +20,8 @@
 
 <style lang="scss">
 	.swatch {
-		width: 3rem;
-		height: 1.5vh;
+		width: 2rem;
+		height: 1vh;
 	}
 
 	.swatch:first-of-type {
