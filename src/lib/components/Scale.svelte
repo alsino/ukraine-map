@@ -12,7 +12,7 @@
 	</div>
 	<div class="flex">
 		{#each classes as swatch}
-			<div class="swatch">1</div>
+			<div class="swatch text-sm">12</div>
 			<!-- <div class="swatch" style="background: {swatch};" /> -->
 		{/each}
 	</div>
