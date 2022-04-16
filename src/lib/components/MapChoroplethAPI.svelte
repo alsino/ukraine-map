@@ -11,8 +11,7 @@
 	import { countryNameTranslations } from '$lib/stores/countries';
 	import Scale from './Scale.svelte';
 
-	import { scaleQuantile, scaleQuantize, scaleSequential, scaleSequentialQuantile } from 'd3-scale';
-	import { schemeBlues, schemeReds, interpolateBlues, interpolateReds } from 'd3-scale-chromatic';
+	import { schemeBlues } from 'd3-scale-chromatic';
 
 	import scaleCluster from 'd3-scale-cluster';
 

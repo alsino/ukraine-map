@@ -5,7 +5,6 @@
 	export let clusters;
 
 	clusters.unshift(0);
-
 	console.log(clusters);
 </script>
 
@@ -17,7 +16,7 @@
 	</div>
 	<div class="flex">
 		{#each clusters as number}
-			<div class="swatch text-2xs">{formatThousands(number)}</div>
+			<div class="swatch text-xs">{formatThousands(number)}</div>
 		{/each}
 	</div>
 </div>
