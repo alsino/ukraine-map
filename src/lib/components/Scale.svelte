@@ -3,9 +3,16 @@
 
 	export let classes;
 	export let clusters;
-
 	clusters.unshift(0);
 	console.log(clusters);
+
+	function displayDigit(index, number) {
+		if (index == 0 || index == 4) {
+			return formatThousands(number);
+		} else {
+			return '';
+		}
+	}
 </script>
 
 <div class="text-sm absolute left-3 top-3 rounded bg-white p-3">
@@ -15,8 +22,8 @@
 		{/each}
 	</div>
 	<div class="flex">
-		{#each clusters as number}
-			<div class="swatch text-xs">{formatThousands(number)}</div>
+		{#each clusters as number, index}
+			<div class="swatch text-xs">{displayDigit(index, number)}</div>
 		{/each}
 	</div>
 </div>
