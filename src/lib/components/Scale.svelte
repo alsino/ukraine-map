@@ -4,7 +4,7 @@
 	export let classes;
 </script>
 
-<div class="text-sm absolute left-6 top-6 rounded bg-white p-3">
+<div class="text-sm absolute left-3 top-3 rounded bg-white p-3">
 	<div class="flex">
 		{#each classes as swatch}
 			<div class="swatch" style="background: {swatch};" />
@@ -12,7 +12,7 @@
 	</div>
 	<div class="flex">
 		{#each classes as swatch}
-			<div class="swatch text-sm">12</div>
+			<div class="swatch text-xs">12</div>
 			<!-- <div class="swatch" style="background: {swatch};" /> -->
 		{/each}
 	</div>
@@ -21,7 +21,7 @@
 <style lang="scss">
 	.swatch {
 		width: 2rem;
-		height: 1vh;
+		height: 1.5vh;
 	}
 
 	.swatch:first-of-type {
