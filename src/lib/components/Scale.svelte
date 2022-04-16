@@ -1,7 +1,12 @@
 <script>
-	import { each } from 'svelte/internal';
+	import { formatThousands } from '$lib/utils/formatNumbers';
 
 	export let classes;
+	export let clusters;
+
+	clusters.unshift(0);
+
+	console.log(clusters);
 </script>
 
 <div class="text-sm absolute left-3 top-3 rounded bg-white p-3">
@@ -11,16 +16,15 @@
 		{/each}
 	</div>
 	<div class="flex">
-		{#each classes as swatch}
-			<div class="swatch text-xs">12</div>
-			<!-- <div class="swatch" style="background: {swatch};" /> -->
+		{#each clusters as number}
+			<div class="swatch text-xs">{formatThousands(number)}</div>
 		{/each}
 	</div>
 </div>
 
 <style lang="scss">
 	.swatch {
-		width: 2rem;
+		width: 6vw;
 		height: 1.5vh;
 	}
 

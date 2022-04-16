@@ -60,6 +60,7 @@
 	const projection = geoIdentity().reflectY(true);
 	const path = geoPath().projection(projection);
 	const colorScale = scaleCluster();
+	let clusters;
 
 	// Yellow
 	const accentStroke = 'rgba(246, 207, 1, 1)';
@@ -155,7 +156,7 @@
 				csvData.set(data);
 				// Set color scale domain and range
 				colorScale.domain(extentArray).range(schemeBlues[5]);
-				// console.log(schemeBlues[5]);
+				clusters = colorScale.clusters();
 			})
 			.catch((error) => console.error('error', error));
 
@@ -298,7 +299,7 @@
 
 {#if $dataReady}
 	<div id="map" class="relative" on:mousemove={handleMouseMove} bind:clientHeight={$MAP_WIDTH}>
-		<Scale classes={schemeBlues[5]} />
+		<Scale classes={schemeBlues[5]} {clusters} />
 
 		<svg preserveAspectRatio="xMinYMid meet" class="" viewbox="0 0 {width} {height}">
 			<!-- graticules (lines) -->
