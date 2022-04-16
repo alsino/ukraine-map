@@ -1,6 +1,5 @@
 # ToDos
 
-- Color Legend
 - Text elements smaller on smaller screens
 
 --
