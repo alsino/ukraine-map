@@ -1,10 +1,12 @@
 <script>
 	import { formatThousands } from '$lib/utils/formatNumbers';
 
+	let width;
+
 	export let classes;
 	export let clusters;
 	clusters.unshift(0);
-	console.log(clusters);
+	// console.log(clusters);
 
 	function displayDigit(index, number) {
 		if (index == 0 || index == 4) {
@@ -15,7 +17,11 @@
 	}
 </script>
 
-<div class="text-sm absolute left-3 top-3 rounded bg-white p-3">
+<div
+	class="scale text-sm absolute top-3 rounded bg-white p-3"
+	bind:clientWidth={width}
+	style={`left: ${width};`}
+>
 	<div class="flex">
 		{#each classes as swatch}
 			<div class="swatch" style="background: {swatch};" />
@@ -29,6 +35,10 @@
 </div>
 
 <style lang="scss">
+	.scale {
+		width: 30%;
+	}
+
 	.swatch {
 		width: 10vw;
 		height: 1.5vh;
