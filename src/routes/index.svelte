@@ -127,13 +127,21 @@
 		</div>
 	</div>
 	{#if textUpdate && textSourceDescription && textSource && textDataAccess && lastUpdate}
-		<div class="text-sm"><span class="font-bold">{textUpdate}:</span> {lastUpdate}, 12:00 CET</div>
-		<div class="text-sm"><span class="font-bold">{textSourceDescription}:</span> {textSource}</div>
-		<div class="text-sm">
-			<span class="font-bold">{textNoteDescription}: </span><span>{textNote}</span>
-		</div>
-		<div class="text-sm underline">
-			<a target="_blank" href="https://data2.unhcr.org/en/situations/ukraine">{textDataAccess}</a>
+		<div class="text-xs mt-2">
+			<div>
+				<span class="font-bold">{textUpdate}:</span>
+				{lastUpdate}, 12:00 CET
+			</div>
+			<div>
+				<span class="font-bold">{textSourceDescription}:</span>
+				{textSource}
+			</div>
+			<div>
+				<span class="font-bold">{textNoteDescription}: </span><span>{textNote}</span>
+			</div>
+			<div class="underline">
+				<a target="_blank" href="https://data2.unhcr.org/en/situations/ukraine">{textDataAccess}</a>
+			</div>
 		</div>
 	{/if}
 </div>
