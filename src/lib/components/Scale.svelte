@@ -39,7 +39,7 @@
 <style lang="scss">
 	.swatch {
 		width: 15vw;
-		height: 1.5vh;
+		height: 1.2vh;
 	}
 
 	.swatch:first-of-type {
