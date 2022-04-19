@@ -487,7 +487,7 @@
 	.dot {
 		height: 10px;
 		width: 10px;
-		outline: 1px solid #cdcdcd;
+		border: 1px solid #cdcdcd;
 	}
 
 	@keyframes borderPulse {
