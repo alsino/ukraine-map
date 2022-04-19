@@ -12,8 +12,10 @@
 	import Scale from './Scale.svelte';
 	import Legend from './Legend.svelte';
 
-	import { schemeBlues } from 'd3-scale-chromatic';
+	import { extent } from 'd3-array';
+	import { min, max } from 'd3-array';
 
+	import { schemeBlues } from 'd3-scale-chromatic';
 	import scaleCluster from 'd3-scale-cluster';
 
 	import { formatThousands } from '$lib/utils/formatNumbers';
@@ -53,6 +55,8 @@
 	let countryBoundaries;
 
 	let hoveredCountry;
+
+	let scaleMin, scaleMax;
 
 	let lastUpdate;
 	let totalRefugees;
@@ -157,6 +161,9 @@
 				// Set color scale domain and range
 				colorScale.domain(extentArray).range(schemeBlues[5]);
 				clusters = colorScale.clusters();
+
+				scaleMin = min(extentArray);
+				scaleMax = max(extentArray);
 			})
 			.catch((error) => console.error('error', error));
 
@@ -299,7 +306,7 @@
 
 {#if $dataReady}
 	<div id="map" class="relative" on:mousemove={handleMouseMove} bind:clientHeight={$MAP_WIDTH}>
-		<Scale classes={schemeBlues[5]} {clusters} />
+		<Scale classes={schemeBlues[5]} {clusters} {scaleMin} {scaleMax} />
 		<Legend {legend} />
 
 		<svg preserveAspectRatio="xMinYMid meet" class="" viewbox="0 0 {width} {height}">
