@@ -18,7 +18,7 @@
 </script>
 
 <div
-	class="scale text-sm absolute top-3 rounded bg-white p-3"
+	class="scale text-sm absolute top-3 rounded bg-white p-3 border"
 	bind:clientWidth={width}
 	style={`left: calc(50% - ${width / 2}px);`}
 >
