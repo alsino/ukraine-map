@@ -30,7 +30,7 @@ languages.languages.forEach((lang,i) => {
 const response = await fetch('https://data2.unhcr.org/population/?widget_id=294522&sv_id=54&population_group=5460');
 const res = await response.json();
 const totalRefugees = await res.data[0].individuals;
-const headingLatest = `More than ${toFixed(totalRefugees / 1000000, 1)} million refugees have fled from Ukraine`;
+const headingLatest = `More than ${toFixed(totalRefugees / 1000000, 1)} million refugees have already fled from Ukraine`;
 
 function toFixed(num, fixed) {
     var re = new RegExp('^-?\\d+(?:\.\\d{0,' + (fixed || -1) + '})?');
