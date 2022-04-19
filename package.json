@@ -9,7 +9,8 @@
 		"prepare": "svelte-kit sync",
 		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
-		"translate": "node translate.js"
+		"translate": "node translate.js",
+		"test": "node test.js"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
