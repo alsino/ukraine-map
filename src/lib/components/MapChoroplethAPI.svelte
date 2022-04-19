@@ -10,6 +10,7 @@
 	import { selectedLanguage } from '$lib/stores/shared';
 	import { countryNameTranslations } from '$lib/stores/countries';
 	import Scale from './Scale.svelte';
+	import Legend from './Legend.svelte';
 
 	import { schemeBlues } from 'd3-scale-chromatic';
 
@@ -299,6 +300,7 @@
 {#if $dataReady}
 	<div id="map" class="relative" on:mousemove={handleMouseMove} bind:clientHeight={$MAP_WIDTH}>
 		<Scale classes={schemeBlues[5]} {clusters} />
+		<Legend {legend} />
 
 		<svg preserveAspectRatio="xMinYMid meet" class="" viewbox="0 0 {width} {height}">
 			<!-- graticules (lines) -->
@@ -388,17 +390,6 @@
 				</div>
 			</div>
 		</div>
-
-		<div class="legend absolute bg-white border rounded p-2 text-sm">
-			{#each legend as item}
-				<div>
-					<span
-						class="dot inline-block rounded-full mr-2"
-						style="background-color: {item.color}"
-					/>{item.label}
-				</div>
-			{/each}
-		</div>
 	</div>
 {/if}
 
@@ -477,17 +468,6 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse; */
-	}
-
-	.legend {
-		bottom: 3%;
-		right: 3%;
-	}
-
-	.dot {
-		height: 10px;
-		width: 10px;
-		border: 1px solid #cdcdcd;
 	}
 
 	@keyframes borderPulse {
