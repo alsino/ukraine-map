@@ -19,9 +19,7 @@ jobs:
         with:
           node-version: '16.14.0'
       - run: npm install
-      - name: Run node script
       - run: npm run test
-      - name: Commit json to repo
       - run: git add test.json
       - run: git commit -m "Added test.json"
       - run: git push origin main
