@@ -1,7 +1,5 @@
 <script>
 	export let legend;
-
-	console.log(legend);
 </script>
 
 <div class="legend absolute bg-white border rounded p-2 text-sm bottom-3 right-3">

@@ -107,7 +107,12 @@
 			/>
 		</div>
 		<div class="select">
-			<Select items={dropdownLanguages} value={$selectedLanguage} on:select={handleSelect} />
+			<Select
+				items={dropdownLanguages}
+				value={$selectedLanguage}
+				placeholder="Select a language …"
+				on:select={handleSelect}
+			/>
 		</div>
 	</header>
 	<div id="chart" class="mt-8">
