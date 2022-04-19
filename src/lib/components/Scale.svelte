@@ -37,10 +37,6 @@
 </div>
 
 <style lang="scss">
-	.scale {
-		width: 30%;
-	}
-
 	.swatch {
 		width: 10vw;
 		height: 1.5vh;
