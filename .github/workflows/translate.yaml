@@ -20,3 +20,4 @@ jobs:
       - run: npm run test
       - run: git add test.json
       - run: git commit -m "Added test.json"
+      - run: git push origin main
