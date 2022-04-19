@@ -7,6 +7,8 @@
     "tooltip2": "Dalis visų pabėgėlių",
     "textUpdate": "Paskutinį kartą atnaujinta",
     "textSourceDescription": "Šaltinis",
-    "textSource": "Jungtinių Tautų vyriausiasis pabėgėlių komisaras",
+    "textSource": "Jungtinių Tautų vyriausiasis pabėgėlių komisaras (UNHCR)",
+    "textNoteDescription": "Pastaba",
+    "textNote": "Teisė laisvai judėti Šengeno erdvėje reiškia, kad Europos Sąjungoje yra labai mažai sienų kontrolės. Todėl duomenys apie atvykimus į Šengeno šalis (Vengriją, Lenkiją, Slovakiją), besiribojančias su Ukraina, atspindi tik sienos kirtimus į šią šalį, tačiau UNHCR apskaičiavo, kad daug žmonių persikėlė į kitas šalis.",
     "textDataAccess": "Pasiekite duomenis"
 }

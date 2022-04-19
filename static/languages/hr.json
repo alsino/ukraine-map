@@ -7,6 +7,8 @@
     "tooltip2": "Udio svih izbjeglica",
     "textUpdate": "Posljednje ažurirano",
     "textSourceDescription": "Izvor",
-    "textSource": "Visoki povjerenik Ujedinjenih naroda za izbjeglice",
+    "textSource": "Visoki povjerenik Ujedinjenih naroda za izbjeglice (UNHCR)",
+    "textNoteDescription": "Bilješka",
+    "textNote": "Pravo na slobodno kretanje unutar schengenskog prostora znači da postoji vrlo malo graničnih kontrola unutar Europske unije. Podaci o dolascima u zemlje Schengena (Mađarska, Poljska, Slovačka) koje graniče s Ukrajinom dakle predstavljaju samo granične prijelaze u tu zemlju, no UNHCR procjenjuje da je velik broj ljudi odselio u druge zemlje.",
     "textDataAccess": "Pristup podacima"
 }

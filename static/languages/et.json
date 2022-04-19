@@ -7,6 +7,8 @@
     "tooltip2": "Kõigi pagulaste osakaal",
     "textUpdate": "Viimati värskendatud",
     "textSourceDescription": "Allikas",
-    "textSource": "ÜRO pagulaste ülemvolinik",
+    "textSource": "ÜRO pagulaste ülemvolinik (UNHCR)",
+    "textNoteDescription": "Märge",
+    "textNote": "Õigus Schengeni alal vabalt liikuda tähendab, et Euroopa Liidu piires on väga vähe piirikontrolli. Ukrainaga piirnevatesse Schengeni riikidesse (Ungari, Poola, Slovakkia) saabujate andmed kajastavad seega vaid piiriületusi sellesse riiki, kuid UNHCR hinnangul on suur hulk inimesi edasi kolinud teistesse riikidesse.",
     "textDataAccess": "Juurdepääs andmetele"
 }

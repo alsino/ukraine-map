@@ -7,6 +7,8 @@
     "tooltip2": "Visu bēgļu daļa",
     "textUpdate": "Pēdējoreiz atjaunots",
     "textSourceDescription": "Avots",
-    "textSource": "Apvienoto Nāciju Organizācijas Augstais komisārs bēgļu jautājumos",
+    "textSource": "Apvienoto Nāciju Organizācijas Augstais komisārs bēgļu jautājumos (UNHCR)",
+    "textNoteDescription": "Piezīme",
+    "textNote": "Tiesības brīvi pārvietoties Šengenas zonā nozīmē, ka Eiropas Savienībā ir ļoti maz robežkontroles. Tāpēc dati par ieceļotājiem Šengenas valstīs (Ungārija, Polija, Slovākija), kas robežojas ar Ukrainu, atspoguļo tikai robežas šķērsošanu šajā valstī, bet UNHCR lēš, ka liels skaits cilvēku ir pārcēlušies uz citām valstīm.",
     "textDataAccess": "Piekļūstiet datiem"
 }

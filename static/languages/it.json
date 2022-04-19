@@ -7,6 +7,8 @@
     "tooltip2": "Quota di tutti i rifugiati",
     "textUpdate": "Ultimo aggiornamento",
     "textSourceDescription": "Fonte",
-    "textSource": "Alto Commissariato delle Nazioni Unite per i rifugiati",
+    "textSource": "Alto Commissario delle Nazioni Unite per i Rifugiati (UNHCR)",
+    "textNoteDescription": "Nota",
+    "textNote": "Il diritto di circolare liberamente all'interno dell'area Schengen significa che ci sono pochissimi controlli alle frontiere all'interno dell'Unione europea. I dati sugli arrivi nei paesi Schengen (Ungheria, Polonia, Slovacchia) al confine con l'Ucraina rappresentano quindi solo i valichi di frontiera in quel paese, ma l'UNHCR stima che un gran numero di persone si sia spostato in altri paesi.",
     "textDataAccess": "Accedi ai dati"
 }

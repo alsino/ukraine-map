@@ -7,6 +7,8 @@
     "tooltip2": "Porcentaje de todos los refugiados",
     "textUpdate": "Última actualización",
     "textSourceDescription": "Fuente",
-    "textSource": "Alto Comisionado de las Naciones Unidas para los Refugiados",
+    "textSource": "Alto Comisionado de las Naciones Unidas para los Refugiados (ACNUR)",
+    "textNoteDescription": "Nota",
+    "textNote": "El derecho a moverse libremente dentro del espacio Schengen significa que hay muy pocos controles fronterizos dentro de la Unión Europea. Los datos de llegadas a los países Schengen (Hungría, Polonia, Eslovaquia) fronterizos con Ucrania, por lo tanto, solo representan los cruces fronterizos hacia ese país, pero ACNUR estima que una gran cantidad de personas se han trasladado a otros países.",
     "textDataAccess": "Accede a los datos"
 }
