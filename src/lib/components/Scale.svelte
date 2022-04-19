@@ -20,14 +20,14 @@
 <div
 	class="scale text-sm absolute top-3 rounded bg-white p-3"
 	bind:clientWidth={width}
-	style={`left: ${width};`}
+	style={`left: calc(50% - ${width / 2}px);`}
 >
-	<div class="flex">
+	<div class="flex justify-center">
 		{#each classes as swatch}
 			<div class="swatch" style="background: {swatch};" />
 		{/each}
 	</div>
-	<div class="flex">
+	<div class="flex justify-center">
 		{#each clusters as number, index}
 			<div class="swatch text-xs {index == 0 ? 'text-left' : 'text-right'}">
 				{displayDigit(index, number)}
@@ -38,7 +38,7 @@
 
 <style lang="scss">
 	.swatch {
-		width: 10vw;
+		width: 15vw;
 		height: 1.5vh;
 	}
 
