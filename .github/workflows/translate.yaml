@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: '16.14.0'
       - run: npm install
-      - run: npm run test
-      - run: git add test.json
-      - run: git commit -m "Added test.json"
+      - run: npm run translate
+      - run: git add *
+      - run: git commit -m "Updated language files"
       - run: git push origin main
