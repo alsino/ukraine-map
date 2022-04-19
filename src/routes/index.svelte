@@ -111,6 +111,7 @@
 				items={dropdownLanguages}
 				value={$selectedLanguage}
 				placeholder="Select a language …"
+				noOptionsMessage="No language found"
 				on:select={handleSelect}
 			/>
 		</div>
