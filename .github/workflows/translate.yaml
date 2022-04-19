@@ -27,6 +27,6 @@ jobs:
           super_secret: ${{ secrets.API_KEY }}
       - run: npm install
       - run: npm run translate
-      - run: git add *
+      - run: git add .
       - run: git commit -m "Updated language files"
       - run: git push origin main
