@@ -1,7 +1,7 @@
 name: Get translations
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/60 * * * *'
   workflow_dispatch: {}
   push:
     paths:
