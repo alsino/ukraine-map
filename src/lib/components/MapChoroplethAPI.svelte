@@ -389,7 +389,7 @@
 			</div>
 		</div>
 
-		<div class="legend absolute bg-white border rounded p-2 text-sm">
+		<div class="legend absolute bg-white border rounded p-2 text-xs">
 			{#each legend as item}
 				<div>
 					<span
