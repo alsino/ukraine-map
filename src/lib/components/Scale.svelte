@@ -29,7 +29,9 @@
 	</div>
 	<div class="flex">
 		{#each clusters as number, index}
-			<div class="swatch text-xs">{displayDigit(index, number)}</div>
+			<div class="swatch text-xs {index == 0 ? 'text-left' : 'text-right'}">
+				{displayDigit(index, number)}
+			</div>
 		{/each}
 	</div>
 </div>

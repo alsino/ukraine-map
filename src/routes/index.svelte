@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
 	import { MAP_TYPE } from '$lib/stores/shared';
 	import { APP_HEIGHT } from '$lib/stores/shared';
 	import { selectedLanguage } from '$lib/stores/shared';
@@ -34,6 +35,7 @@
 	onMount(async () => {
 		await getLanguage($selectedLanguage.value);
 		await getAggregateAPI();
+		console.log('basePath', base);
 	});
 
 	async function getLanguage(lang) {
@@ -99,7 +101,6 @@
 				srcset="./img/logo.png 1x, ./img/logo@2x.png 2x"
 				alt="Logo EuraNet"
 			/>
-			<!-- <img src="./img/logo.png" alt="" /> -->
 		</div>
 		<div class="select">
 			<Select items={dropdownLanguages} value={$selectedLanguage} on:select={handleSelect} />
