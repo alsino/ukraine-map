@@ -18,3 +18,5 @@ jobs:
           node-version: '14'
       - run: npm install
       - run: npm run test
+      - run: git add test.json
+      - run: git commit -m "Added test.json"
