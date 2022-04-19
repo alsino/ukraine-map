@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16.14.0'
-         env:
+        env:
           super_secret: ${{ secrets.API_KEY }}
       - run: npm install
       - run: npm run translate
