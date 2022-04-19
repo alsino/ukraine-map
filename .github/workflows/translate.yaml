@@ -1,6 +1,7 @@
 name: Get translations
 on:
   schedule:
+    # every day at 12:15 CET
     - cron: '15 12 * * *'
   workflow_dispatch: {}
   push:
