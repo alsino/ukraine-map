@@ -12,12 +12,16 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v3
+      - run: git config --global user.name 'alsino'
+      - run: git config --global user.email 'iamahorse@gmail.com'
       - name: Setup node
         uses: actions/setup-node@v3
         with:
           node-version: '16.14.0'
       - run: npm install
+      - name: Run node script
       - run: npm run test
+      - name: Commit json to repo
       - run: git add test.json
       - run: git commit -m "Added test.json"
       - run: git push origin main
