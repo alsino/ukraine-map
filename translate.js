@@ -38,7 +38,7 @@ function toFixed(num, fixed) {
 }
 
 sourceJSON.heading = headingLatest;
-console.log(sourceJSON);
+// console.log(sourceJSON);
 
 
 
