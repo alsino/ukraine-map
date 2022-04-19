@@ -1,4 +1,4 @@
-name: data
+name: Get translations
 on:
   schedule:
     - cron: '*/5 * * * *'
