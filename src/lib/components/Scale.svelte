@@ -9,8 +9,8 @@
 	export let scaleMin;
 	export let scaleMax;
 
-	console.log('scaleMin', scaleMin);
-	console.log('scaleMax', scaleMax);
+	// console.log('scaleMin', scaleMin);
+	// console.log('scaleMax', scaleMax);
 
 	clusters.unshift(0);
 

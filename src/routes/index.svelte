@@ -37,7 +37,7 @@
 	onMount(async () => {
 		await getLanguage($selectedLanguage.value);
 		await getAggregateAPI();
-		console.log('basePath', base);
+		// console.log('basePath', base);
 	});
 
 	async function getLanguage(lang) {

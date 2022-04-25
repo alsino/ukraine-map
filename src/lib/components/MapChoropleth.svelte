@@ -67,7 +67,7 @@
 					features: euFiltered
 				};
 
-				console.log(euCountries);
+				// console.log(euCountries);
 			})
 			.catch((error) => console.error('error', error));
 	}
