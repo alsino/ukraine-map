@@ -125,11 +125,7 @@
 		{/if}
 
 		<div id="chart-body" class="mt-4">
-			{#if $MAP_TYPE == 'choropleth-api'}
-				<MapChoroplethAPI {legend} {tooltip} />
-			{:else if $MAP_TYPE == 'choropleth'}
-				<MapChoropleth />
-			{/if}
+			<MapChoroplethAPI {legend} {tooltip} />
 		</div>
 	</div>
 	{#if textUpdate && textSourceDescription && textSource && textDataAccess && lastUpdate}
