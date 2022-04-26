@@ -328,36 +328,36 @@
 			{/each}
 
 			<!-- boundaries -->
-			<!-- {#each countryBoundaries.features as feature, index}
+			{#each countryBoundaries.features as feature, index}
 				<path
 					d={path(feature)}
-					class={'boundary boundary-' + feature.properties.name}
+					class={'boundary one boundary-' + feature.properties.name}
 					style="transform-origin: center; transform: scale(1.1, 1.1) translateX(-1.5%) translateY(-0.4%); stroke-width:1; opacity: 0.8;"
 				/>
-			{/each} -->
+			{/each}
 
 			<!-- boundaries -->
-			<!-- {#each countryBoundaries.features as feature, index}
+			{#each countryBoundaries.features as feature, index}
 				<path
 					d={path(feature)}
-					class={'boundary boundary-' + feature.properties.name}
+					class={'boundary two boundary-' + feature.properties.name}
 					style="transform-origin: center; transform: scale(1.2, 1.2) translateX(-3%) translateY(-0.8%); stroke-width:1; opacity: 0.6;"
 				/>
-			{/each} -->
+			{/each}
 
 			<!-- boundaries -->
-			<!-- {#each countryBoundaries.features as feature, index}
+			{#each countryBoundaries.features as feature, index}
 				<path
 					d={path(feature)}
-					class={'boundary boundary-' + feature.properties.name}
+					class={'boundary three boundary-' + feature.properties.name}
 					style="transform-origin: center; transform: scale(1.3, 1.3) translateX(-4.5%) translateY(-1.2%); stroke-width:0.5; opacity: 0.4;"
 				/>
-			{/each} -->
+			{/each}
 
 			<!-- {#each countryBoundaries.features as feature, index}
 				<path
 					d={path(feature)}
-					class={'boundary boundary-' + feature.properties.name}
+					class={'boundary four boundary-' + feature.properties.name}
 					style="transform-origin: center; transform: scale(1.4, 1.4) translateX(-6%) translateY(-1%); stroke-width:0.5; opacity: 0.2;"
 				/>
 			{/each} -->
@@ -366,15 +366,6 @@
 			{#each ukraine.features as feature, index}
 				<path d={path(feature)} class={'ukraine'} on:mouseover={handleMouseOverUkraine(feature)} />
 			{/each}
-
-			<!-- {#each countryBoundaries.features as feature, index}
-				<path
-					d={path(feature)}
-					class={'boundary boundary-' + feature.properties.name}
-					style={`filter: drop-shadow(${feature.properties.offset} 0px ${accentStroke});
-           -webkit-filter: drop-shadow(${feature.properties.offset} 0px ${accentStroke});`}
-				/>
-			{/each} -->
 		</svg>
 
 		<div
@@ -454,27 +445,42 @@
 		stroke-linecap: round;
 		fill: #f6e293;
 		stroke: rgba(246, 207, 1, 1);
-		/* stroke: red; */
 	}
 
 	.boundary {
 		stroke-width: 1;
 		stroke: rgba(246, 207, 1, 1);
 		fill: none;
-		/* fill: rgba(246, 207, 1, 1); */
-		/* stroke: #08519c; */
-		/* stroke: #fff; */
-		/* stroke: rgba(81, 166, 101, 0.2); green */
-
 		stroke-linejoin: round;
 		stroke-linecap: round;
 		transform-origin: center;
+	}
 
-		/* animation-name: borderPulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate-reverse; */
+	.one {
+		animation-name: borderPulse;
+		animation-delay: 500ms;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		animation-direction: alternate-reverse;
+	}
+
+	.two {
+		animation-name: borderPulse;
+		animation-delay: 1000ms;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		animation-direction: alternate-reverse;
+	}
+
+	.three {
+		animation-name: borderPulse;
+		animation-delay: 1500ms;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		animation-direction: alternate-reverse;
 	}
 
 	@keyframes borderPulse {
