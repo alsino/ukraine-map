@@ -6,7 +6,6 @@
 	import { selectedLanguage } from '$lib/stores/shared';
 	import { languageNameTranslations } from '$lib/stores/languages';
 	import MapChoroplethAPI from '$lib/components/MapChoroplethAPI.svelte';
-	import MapChoropleth from '$lib/components/MapChoropleth.svelte';
 	import Select from 'svelte-select';
 
 	let heading;
@@ -32,7 +31,9 @@
 		}
 	}
 
-	$: dropdownLanguages = languageNameTranslations[$selectedLanguage.value];
+	$: dropdownLanguages = languageNameTranslations['en'];
+
+	// $: console.log($selectedLanguage.value);
 
 	onMount(async () => {
 		await getLanguage($selectedLanguage.value);

@@ -71,7 +71,7 @@
 	const accentFill = 'rgba(246, 207, 1, 1)';
 
 	$: if ($dataReady) {
-		console.log('Country data for map loaded');
+		// console.log('Country data for map loaded');
 		projection.fitExtent(
 			[
 				[paddingMap, paddingMap],
