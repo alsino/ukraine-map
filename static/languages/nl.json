@@ -1,14 +1,14 @@
 {
-    "heading": "Meer dan 15,1 miljoen vluchtelingen zijn al gevlucht uit Oekraïne",
+    "heading": "Meer dan 15,1 miljoen vluchtelingen zijn al uit Oekraïne gevlucht",
     "subheading": "Deze kaart wordt dagelijks bijgewerkt met de laatste gegevens van UNHCR over vluchtelingen die sinds 24 februari 2022 vanuit Oekraïne naar buurlanden zijn gevlucht",
-    "legend1": "Schengenlanden",
+    "legend1": "Schengen-landen",
     "legend2": "Niet-Schengenlanden",
     "tooltip1": "vluchtelingen",
     "tooltip2": "Aandeel van alle vluchtelingen",
     "textUpdate": "Laatst bijgewerkt",
     "textSourceDescription": "Bron",
-    "textSource": "Hoge Commissaris voor de Vluchtelingen van de Verenigde Naties (UNHCR)",
+    "textSource": "Hoge Commissaris van de Verenigde Naties voor Vluchtelingen (UNHCR)",
     "textNoteDescription": "Opmerking",
-    "textNote": "Het recht om vrij te bewegen binnen het Schengengebied betekent dat er zeer weinig grenscontroles zijn binnen de Europese Unie. De gegevens van aankomsten in Schengenlanden (Hongarije, Polen, Slowakije) grenzend aan Oekraïne vertegenwoordigen daarom alleen grensoverschrijdingen naar dat land, maar UNHCR schat dat een groot aantal mensen is doorgereisd naar andere landen.",
+    "textNote": "Het recht om vrij te bewegen binnen het Schengengebied betekent dat er zeer weinig grenscontroles zijn binnen de Europese Unie. De gegevens van aankomsten in Schengenlanden (Hongarije, Polen, Slowakije) grenzend aan Oekraïne geven dus alleen grensoverschrijdingen naar dat land weer, maar UNHCR schat dat een groot aantal mensen is doorgereisd naar andere landen.",
     "textDataAccess": "Toegang tot de gegevens"
 }
