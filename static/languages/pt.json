@@ -5,10 +5,10 @@
     "legend2": "Países não Schengen",
     "tooltip1": "refugiados",
     "tooltip2": "Participação de todos os refugiados",
-    "textUpdate": "Ultima atualização",
+    "textUpdate": "Última atualização",
     "textSourceDescription": "Fonte",
-    "textSource": "Alto Comissariado das Nações Unidas para Refugiados (ACNUR)",
+    "textSource": "Alto Comissariado das Nações Unidas para os Refugiados (ACNUR)",
     "textNoteDescription": "Observação",
-    "textNote": "O direito de circular livremente no espaço Schengen significa que existem muito poucos controlos fronteiriços na União Europeia. Os dados de chegadas aos países Schengen (Hungria, Polónia, Eslováquia) que fazem fronteira com a Ucrânia representam, portanto, apenas passagens de fronteira para esse país, mas o ACNUR estima que um grande número de pessoas se mudou para outros países.",
+    "textNote": "O direito de se movimentar livremente dentro da área de Schengen significa que há muito poucos controles de fronteira dentro da União Europeia. Os dados de chegadas em países de Schengen (Hungria, Polônia, Eslováquia) que fazem fronteira com a Ucrânia, portanto, representam apenas travessias de fronteira para aquele país, mas o ACNUR estima que um grande número de pessoas se mudou para outros países.",
     "textDataAccess": "Acesse os dados"
 }

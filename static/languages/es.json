@@ -1,14 +1,14 @@
 {
     "heading": "Más de 38,1 millones de refugiados ya han huido de Ucrania",
-    "subheading": "Este mapa se actualiza diariamente con los últimos datos de ACNUR sobre refugiados que huyen de Ucrania a países vecinos desde el 24 de febrero de 2022.",
+    "subheading": "Este mapa se actualiza diariamente con los últimos datos del ACNUR sobre los refugiados que huyen de Ucrania a los países vecinos desde el 24 de febrero de 2022",
     "legend1": "países Schengen",
-    "legend2": "Países no Schengen",
+    "legend2": "Países no pertenecientes al espacio Schengen",
     "tooltip1": "refugiados",
-    "tooltip2": "Proporción de todos los refugiados",
+    "tooltip2": "Porcentaje de todos los refugiados",
     "textUpdate": "Última actualización",
     "textSourceDescription": "Fuente",
     "textSource": "Alto Comisionado de las Naciones Unidas para los Refugiados (ACNUR)",
     "textNoteDescription": "Nota",
-    "textNote": "El derecho a circular libremente dentro del espacio Schengen significa que hay muy pocos controles fronterizos dentro de la Unión Europea. Por lo tanto, los datos de llegadas a los países Schengen (Hungría, Polonia, Eslovaquia) fronterizos con Ucrania sólo representan los cruces fronterizos hacia ese país, pero ACNUR estima que un gran número de personas se han trasladado a otros países.",
-    "textDataAccess": "Accede a los datos"
+    "textNote": "El derecho a circular libremente dentro del espacio Schengen hace que en la Unión Europea haya muy pocos controles fronterizos. Por tanto, los datos de llegadas a los países Schengen (Hungría, Polonia, Eslovaquia) limítrofes con Ucrania solo representan los cruces de frontera hacia ese país, pero ACNUR estima que un gran número de personas se han trasladado a otros países.",
+    "textDataAccess": "Acceder a los datos"
 }
