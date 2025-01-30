@@ -1,8 +1,8 @@
 {
     "heading": "Más de 46,6 millones de refugiados ya han huido de Ucrania",
     "subheading": "Este mapa se actualiza diariamente con los últimos datos del ACNUR sobre los refugiados que huyen de Ucrania a los países vecinos desde el 24 de febrero de 2022",
-    "legend1": "países Schengen",
-    "legend2": "Países no Schengen",
+    "legend1": "Países Schengen",
+    "legend2": "Países no pertenecientes al espacio Schengen",
     "tooltip1": "refugiados",
     "tooltip2": "Porcentaje de todos los refugiados",
     "textUpdate": "Última actualización",
