@@ -1,6 +1,6 @@
 {
     "heading": "Oltre 47,2 milioni di rifugiati sono già fuggiti dall'Ucraina",
-    "subheading": "Questa mappa viene aggiornata quotidianamente con gli ultimi dati dell'UNHCR sui rifugiati in fuga dall'Ucraina nei paesi vicini dal 24 febbraio 2022",
+    "subheading": "Questa mappa viene aggiornata quotidianamente con gli ultimi dati dell'UNHCR sui rifugiati in fuga dall'Ucraina verso i paesi vicini dal 24 febbraio 2022",
     "legend1": "Paesi Schengen",
     "legend2": "Paesi non Schengen",
     "tooltip1": "rifugiati",
@@ -9,6 +9,6 @@
     "textSourceDescription": "Fonte",
     "textSource": "Alto Commissariato delle Nazioni Unite per i Rifugiati (UNHCR)",
     "textNoteDescription": "Nota",
-    "textNote": "Il diritto di muoversi liberamente all'interno dell'area Schengen implica che ci siano pochissimi controlli di frontiera all'interno dell'Unione Europea. I dati sugli arrivi nei paesi Schengen (Ungheria, Polonia, Slovacchia) confinanti con l'Ucraina rappresentano quindi solo gli attraversamenti di frontiera in quel paese, ma l'UNHCR stima che un gran numero di persone si sia spostato in altri paesi.",
+    "textNote": "Il diritto di circolare liberamente all'interno dell'area Schengen implica pochissimi controlli alle frontiere all'interno dell'Unione Europea. I dati sugli arrivi nei paesi Schengen (Ungheria, Polonia, Slovacchia) confinanti con l'Ucraina rappresentano quindi solo gli attraversamenti delle frontiere verso quel paese, ma l'UNHCR stima che un gran numero di persone si sia spostato in altri paesi.",
     "textDataAccess": "Accedi ai dati"
 }
