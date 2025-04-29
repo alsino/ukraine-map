@@ -1,14 +1,14 @@
 {
     "heading": "Ukrainast on põgenenud juba üle 47,2 miljoni põgeniku",
-    "subheading": "Seda kaarti uuendatakse iga päev UNHCRi viimaste andmetega Ukrainast naaberriikidesse põgenevate põgenike kohta alates 24. veebruarist 2022.",
+    "subheading": "Seda kaarti uuendatakse iga päev UNHCR-i uusimate andmetega Ukrainast naaberriikidesse põgenenud pagulaste kohta alates 24. veebruarist 2022.",
     "legend1": "Schengeni riigid",
     "legend2": "Mitte-Schengeni riigid",
     "tooltip1": "pagulased",
     "tooltip2": "Kõigi pagulaste osakaal",
-    "textUpdate": "Viimati värskendatud",
+    "textUpdate": "Viimati uuendatud",
     "textSourceDescription": "Allikas",
-    "textSource": "ÜRO pagulaste ülemvolinik (UNHCR)",
+    "textSource": "ÜRO Pagulaste Ülemvolinik (UNHCR)",
     "textNoteDescription": "Märkus",
-    "textNote": "Õigus Schengeni alal vabalt liikuda tähendab, et Euroopa Liidu piires on väga vähe piirikontrolli. Ukrainaga piirnevatesse Schengeni riikidesse (Ungari, Poola, Slovakkia) saabujate andmed kajastavad seega vaid piiriületusi sellesse riiki, kuid UNHCR hinnangul on suur hulk inimesi edasi kolinud teistesse riikidesse.",
+    "textNote": "Õigus vabalt liikuda Schengeni alal tähendab, et Euroopa Liidus on väga vähe piirikontrolli. Seega kajastavad Ukrainaga piirnevate Schengeni riikide (Ungari, Poola, Slovakkia) saabujate andmed ainult piiriületusi sellesse riiki, kuid UNHCR-i hinnangul on suur hulk inimesi edasi liikunud teistesse riikidesse.",
     "textDataAccess": "Juurdepääs andmetele"
 }

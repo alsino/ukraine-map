@@ -1,14 +1,14 @@
 {
-    "heading": "Tá breis agus 47.2 milliún teifeach tar éis teitheadh ón Úcráin cheana féin",
-    "subheading": "Déantar an léarscáil seo a nuashonrú go laethúil leis na sonraí is déanaí ó UNHCR ar dhídeanaithe atá ag teitheadh ón Úcráin isteach i dtíortha comharsanachta ón 24 Feabhra 2022",
-    "legend1": "tíortha Schengen",
+    "heading": "Tá níos mó ná 47.2 milliún dídeanaí teitheadh ón Úcráin cheana féin.",
+    "subheading": "Nuashonraítear an léarscáil seo go laethúil leis na sonraí is déanaí ó UNHCR maidir le dídeanaithe atá ag teitheadh ón Úcráin isteach i dtíortha comharsanacha ó 24 Feabhra 2022 i leith.",
+    "legend1": "Tíortha Schengen",
     "legend2": "Tíortha neamh-Schengen",
-    "tooltip1": "teifigh",
-    "tooltip2": "Sciar na ndídeanaithe go léir",
-    "textUpdate": "Nuashonraithe is déanaí",
+    "tooltip1": "dídeanaithe",
+    "tooltip2": "Sciar de na dídeanaithe uile",
+    "textUpdate": "Nuashonraithe go deireanach",
     "textSourceDescription": "Foinse",
-    "textSource": "Ard-Choimisinéir na Náisiún Aontaithe le haghaidh Dídeanaithe (UNHCR)",
+    "textSource": "Ard-Choimisinéir na Náisiún Aontaithe do Dhídeanaithe (UNHCR)",
     "textNoteDescription": "Nóta",
-    "textNote": "Ciallaíonn an ceart chun gluaiseacht faoi shaoirse laistigh de limistéar Schengen nach bhfuil ach fíorbheagán rialuithe teorann laistigh den Aontas Eorpach. Dá bhrí sin ní léiríonn na sonraí maidir le teacht isteach i dtíortha Schengen (An Ungáir, an Pholainn, an tSlóvaic) atá ar an teorainn leis an Úcráin ach trasnú teorann isteach sa tír sin, ach measann UNHCR go bhfuil líon mór daoine tar éis bogadh ar aghaidh go tíortha eile.",
-    "textDataAccess": "Faigh rochtain ar na sonraí"
+    "textNote": "Ciallaíonn an ceart chun bogadh go saor laistigh de limistéar Schengen nach bhfuil mórán rialuithe teorann laistigh den Aontas Eorpach. Dá bhrí sin, ní léiríonn sonraí na ndaoine a tháinig isteach i dtíortha Schengen (an Ungáir, an Pholainn, an tSlóvaic) atá ar theorainn leis an Úcráin ach trasnú teorann isteach sa tír sin, ach meastar ag UNHCR gur bhog líon mór daoine ar aghaidh go tíortha eile.",
+    "textDataAccess": "Rochtain ar na sonraí"
 }

@@ -1,14 +1,14 @@
 {
     "heading": "Z Ukrajiny už utieklo viac ako 47,2 milióna utečencov",
-    "subheading": "Táto mapa sa denne aktualizuje o najnovšie údaje UNHCR o utečencoch utekajúcich z Ukrajiny do susedných krajín od 24. februára 2022",
-    "legend1": "krajiny schengenského priestoru",
-    "legend2": "Krajiny mimo Schengenu",
-    "tooltip1": "utečencov",
+    "subheading": "Táto mapa sa denne aktualizuje najnovšími údajmi UNHCR o utečencoch utekajúcich z Ukrajiny do susedných krajín od 24. februára 2022.",
+    "legend1": "Krajiny schengenského priestoru",
+    "legend2": "Krajiny mimo schengenského priestoru",
+    "tooltip1": "utečenci",
     "tooltip2": "Podiel všetkých utečencov",
-    "textUpdate": "Posledná aktualizácia",
+    "textUpdate": "Naposledy aktualizované",
     "textSourceDescription": "Zdroj",
     "textSource": "Vysoký komisár OSN pre utečencov (UNHCR)",
     "textNoteDescription": "Poznámka",
-    "textNote": "Právo na voľný pohyb v rámci schengenského priestoru znamená, že v rámci Európskej únie je len veľmi málo hraničných kontrol. Údaje o príchodoch do krajín schengenského priestoru (Maďarsko, Poľsko, Slovensko) hraničiacich s Ukrajinou teda predstavujú len hraničné prechody do tejto krajiny, no UNHCR odhaduje, že veľký počet ľudí sa presťahoval do iných krajín.",
+    "textNote": "Právo na voľný pohyb v rámci schengenského priestoru znamená, že v Európskej únii je len veľmi málo hraničných kontrol. Údaje o príchodoch do krajín schengenského priestoru (Maďarsko, Poľsko, Slovensko) hraničiacich s Ukrajinou preto predstavujú iba prekročenie hraníc do tejto krajiny, ale UNHCR odhaduje, že veľký počet ľudí sa presunul do iných krajín.",
     "textDataAccess": "Prístup k údajom"
 }

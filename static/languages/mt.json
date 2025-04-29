@@ -1,14 +1,14 @@
 {
     "heading": "Aktar minn 47.2 miljun refuġjat diġà ħarbu mill-Ukrajna",
-    "subheading": "Din il-mappa tiġi aġġornata kuljum bl-aħħar dejta mill-UNHCR dwar refuġjati li qed jaħarbu mill-Ukrajna lejn pajjiżi ġirien mill-24 ta’ Frar 2022",
-    "legend1": "pajjiżi Schengen",
-    "legend2": "Pajjiżi mhux Schengen",
+    "subheading": "Din il-mappa tiġi aġġornata kuljum bl-aħħar dejta mill-UNHCR dwar ir-refuġjati li qed jaħarbu mill-Ukrajna lejn pajjiżi ġirien mill-24 ta' Frar 2022 'l hawn.",
+    "legend1": "Pajjiżi ta' Schengen",
+    "legend2": "Pajjiżi mhux ta' Schengen",
     "tooltip1": "refuġjati",
-    "tooltip2": "Sehem tar-refuġjati kollha",
-    "textUpdate": "Aġġornata l-aħħar",
+    "tooltip2": "Is-sehem tar-refuġjati kollha",
+    "textUpdate": "Aġġornat l-aħħar",
     "textSourceDescription": "Sors",
-    "textSource": "Il-Kummissarju Għoli tan-Nazzjonijiet Uniti għar-Refuġjati (UNHCR)",
+    "textSource": "Kummissarju Għoli tan-Nazzjonijiet Uniti għar-Refuġjati (UNHCR)",
     "textNoteDescription": "Nota",
-    "textNote": "Id-dritt li wieħed jiċċaqlaq liberament fiż-żona Schengen ifisser li hemm ftit li xejn kontrolli fuq il-fruntieri fl-Unjoni Ewropea. Id-dejta tal-wasliet fil-pajjiżi ta’ Schengen (l-Ungerija, il-Polonja, is-Slovakkja) li jmissu mal-Ukrajna għalhekk tirrappreżenta biss qsim tal-fruntieri lejn dak il-pajjiż, iżda l-UNHCR jikkalkula li numru kbir ta’ nies imxiet 'il quddiem lejn pajjiżi oħra.",
-    "textDataAccess": "Aċċessa għad-data"
+    "textNote": "Id-dritt li wieħed jiċċaqlaq liberament fiż-żona Schengen ifisser li hemm ftit kontrolli fuq il-fruntieri fl-Unjoni Ewropea. Għalhekk, id-dejta tal-wasliet fil-pajjiżi ta’ Schengen (l-Ungerija, il-Polonja, is-Slovakkja) li jmissu mal-Ukrajna tirrappreżenta biss il-qsim tal-fruntieri f’dak il-pajjiż, iżda l-UNHCR tistma li numru kbir ta’ nies komplew imorru lejn pajjiżi oħra.",
+    "textDataAccess": "Aċċessa d-dejta"
 }
