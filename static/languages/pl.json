@@ -1,6 +1,6 @@
 {
-    "heading": "Ponad 47,2 miliona uchodźców opuściło już Ukrainę",
-    "subheading": "Ta mapa jest codziennie aktualizowana o najnowsze dane UNHCR dotyczące uchodźców uciekających z Ukrainy do sąsiednich krajów od 24 lutego 2022 r.",
+    "heading": "Ponad 47,2 miliona uchodźców uciekło już z Ukrainy",
+    "subheading": "Mapa ta jest codziennie aktualizowana o najnowsze dane UNHCR dotyczące uchodźców uciekających z Ukrainy do krajów sąsiednich od 24 lutego 2022 r.",
     "legend1": "Kraje Schengen",
     "legend2": "Kraje spoza strefy Schengen",
     "tooltip1": "uchodźcy",
@@ -9,6 +9,6 @@
     "textSourceDescription": "Źródło",
     "textSource": "Wysoki Komisarz Narodów Zjednoczonych ds. Uchodźców (UNHCR)",
     "textNoteDescription": "Notatka",
-    "textNote": "Prawo do swobodnego przemieszczania się w obrębie strefy Schengen oznacza, że w Unii Europejskiej jest bardzo mało kontroli granicznych. Dane dotyczące przyjazdów do krajów strefy Schengen (Węgry, Polska, Słowacja) graniczących z Ukrainą przedstawiają zatem jedynie przekroczenia granicy w tym kraju, ale UNHCR szacuje, że duża liczba osób przeniosła się dalej do innych krajów.",
-    "textDataAccess": "Uzyskaj dostęp do danych"
+    "textNote": "Prawo do swobodnego przemieszczania się w strefie Schengen oznacza, że w Unii Europejskiej istnieje bardzo niewiele kontroli granicznych. Dane dotyczące przyjazdów do krajów strefy Schengen (Węgry, Polska, Słowacja) graniczących z Ukrainą odzwierciedlają zatem jedynie przekroczenia granicy z tym krajem, ale UNHCR szacuje, że duża liczba osób przedostała się dalej do innych krajów.",
+    "textDataAccess": "Dostęp do danych"
 }
