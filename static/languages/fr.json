@@ -1,14 +1,14 @@
 {
-    "heading": "Plus de 47,2 millions de réfugiés ont déjà fui l’Ukraine",
+    "heading": "Plus de 47,2 millions de réfugiés ont déjà fui l'Ukraine.",
     "subheading": "Cette carte est mise à jour quotidiennement avec les dernières données du HCR sur les réfugiés fuyant l'Ukraine vers les pays voisins depuis le 24 février 2022.",
     "legend1": "pays Schengen",
-    "legend2": "Pays hors Schengen",
+    "legend2": "Pays non Schengen",
     "tooltip1": "réfugiés",
     "tooltip2": "Part de tous les réfugiés",
     "textUpdate": "Dernière mise à jour",
     "textSourceDescription": "Source",
     "textSource": "Haut-Commissariat des Nations Unies pour les réfugiés (HCR)",
     "textNoteDescription": "Note",
-    "textNote": "La libre circulation au sein de l'espace Schengen implique très peu de contrôles aux frontières au sein de l'Union européenne. Les données relatives aux arrivées dans les pays Schengen (Hongrie, Pologne, Slovaquie) limitrophes de l'Ukraine ne représentent donc que les passages frontaliers vers ce pays, mais le HCR estime qu'un grand nombre de personnes ont ensuite migré vers d'autres pays.",
+    "textNote": "Le droit de circuler librement dans l'espace Schengen implique un nombre très limité de contrôles aux frontières au sein de l'Union européenne. Les données relatives aux arrivées dans les pays Schengen (Hongrie, Pologne, Slovaquie) limitrophes de l'Ukraine ne concernent donc que les passages de frontière vers ce pays. Le HCR estime cependant qu'un grand nombre de personnes ont poursuivi leur route vers d'autres pays.",
     "textDataAccess": "Accéder aux données"
 }
